@@ -42,7 +42,7 @@ module.exports = {
             { test: /\.handlebars/, loader: "handlebars-loader" },
 
             {
-                test: /\.(svg|eot|woff|woff2|ttf)$/,
+                test: /\.(eot|woff|woff2|ttf)$/,
                 exclude: /node_modules/,
                 loader: 'url-loader',
                 options:{
@@ -69,7 +69,7 @@ module.exports = {
                 ],
             },
             {
-                test: /\.(png|jpe?g|gif)$/,
+                test: /\.(png|jpe?g|gif|svg)$/,
                 use: [
                     {
                         loader: 'file-loader',

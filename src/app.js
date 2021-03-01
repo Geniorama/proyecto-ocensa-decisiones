@@ -16,3 +16,6 @@ import "./fonts/Roboto-Regular.ttf";
 
 // Styles
 import "./styles/app.sass";
+
+// Images
+import "./img/logo-ocensa.svg";
