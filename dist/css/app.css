@@ -10756,33 +10756,30 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
 /*ROBOTO*/
 @font-face {
   font-family: "roboto-light";
-  src: url(css/fonts/Roboto-Light.ttf);
+  src: url(../fonts/Roboto-Light.ttf);
 }
 @font-face {
   font-family: "roboto-regular";
-  src: url(css/fonts/Roboto-Regular.ttf);
+  src: url(../fonts/Roboto-Regular.ttf);
 }
 @font-face {
   font-family: "roboto-medium";
-  src: url(css/fonts/Roboto-Medium.ttf);
+  src: url(../fonts/Roboto-Medium.ttf);
 }
 @font-face {
   font-family: "roboto-medium-italic";
-  src: url(css/fonts/Roboto-MediumItalic.ttf);
+  src: url(../fonts/Roboto-MediumItalic.ttf);
 }
 @font-face {
   font-family: "roboto-bold";
-  src: url(css/fonts/Roboto-Bold.ttf);
+  src: url(../fonts/Roboto-Bold.ttf);
 }
 @font-face {
   font-family: "roboto-bold-italic";
-  src: url(css/fonts/Roboto-BoldItalic.ttf);
+  src: url(../fonts/Roboto-BoldItalic.ttf);
 }
 /*CABIN*/
 @font-face {
   font-family: "cabin-regular";
-  src: url(css/fonts/Cabin-Regular.ttf);
-}
-h2 {
-  font-family: "roboto-bold";
+  src: url(../fonts/Cabin-Regular.ttf);
 }

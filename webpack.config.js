@@ -43,10 +43,12 @@ module.exports = {
 
             {
                 test: /\.(svg|eot|woff|woff2|ttf)$/,
-                loader: 'file-loader',
+                exclude: /node_modules/,
+                loader: 'url-loader',
                 options:{
-                    name: '[name].[ext]',
-                    outputPath: 'fonts'
+                    publicPath: '../',
+                    name: 'fonts/[name].[ext]',
+                    limit: 1000
                 }
             },
 
@@ -62,7 +64,8 @@ module.exports = {
                             implementation: require('sass'),
                         },
                     },
-                    'postcss-loader'
+                    'postcss-loader',
+                    'resolve-url-loader'
                 ],
             },
             {
