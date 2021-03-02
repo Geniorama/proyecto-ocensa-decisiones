@@ -9,12 +9,14 @@
     background-color: #19A501
     z-index: 3
     position: relative
+    transition: all .4s
     &__link-brand
         transition: all .4s
         &:hover
             opacity: .7
     &__brand
         width: 200px
+        transition: all .4s
     .oc-input-search
         height: 40px !important
         border-radius: 50px
@@ -136,8 +138,14 @@
     &__isotipo
         width: 40%
 
+// Sticky header
+.sticky-header
+    .oc-header
+        padding: 7px 0 !important
+        &__brand
+            width: 100px
 // Header Laptop
-@media screen and ( max-width: 1366px )
+@media ( min-width: 768px ) and (max-width: 1440px)
     .oc-header
         .oc-input-search
             width: 60%
