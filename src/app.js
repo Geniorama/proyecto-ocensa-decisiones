@@ -29,5 +29,8 @@ import "./img/icon_footer_2_instagram.svg";
 import "./img/icon_footer_3_youtube.svg";
 import "./img/icon_footer_4_twitter.svg";
 import "./img/isotipo-ocensa.svg";
+import "./img/icon_subir_azul.svg";
+import "./img/icon-flecha-izq-blanca.svg";
+import "./img/pictograma_ocensa_inversionistas_accionistas_inversionistas.svg";
 
 menuToggle();
