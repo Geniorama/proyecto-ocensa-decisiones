@@ -172,7 +172,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos */ \"./node_modules/aos/dist/aos.js\");\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../node_modules/slick-carousel */ \"./node_modules/slick-carousel/slick/slick.js\");\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! smooth-scroll */ \"./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js\");\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(smooth_scroll__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/MenuEffects.js */ \"./src/modules/MenuEffects.js\");\n/* harmony import */ var _fonts_Cabin_Regular_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./fonts/Cabin-Regular.ttf */ \"./src/fonts/Cabin-Regular.ttf\");\n/* harmony import */ var _fonts_Roboto_Bold_ttf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./fonts/Roboto-Bold.ttf */ \"./src/fonts/Roboto-Bold.ttf\");\n/* harmony import */ var _fonts_Roboto_BoldItalic_ttf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fonts/Roboto-BoldItalic.ttf */ \"./src/fonts/Roboto-BoldItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Light_ttf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./fonts/Roboto-Light.ttf */ \"./src/fonts/Roboto-Light.ttf\");\n/* harmony import */ var _fonts_Roboto_Medium_ttf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./fonts/Roboto-Medium.ttf */ \"./src/fonts/Roboto-Medium.ttf\");\n/* harmony import */ var _fonts_Roboto_MediumItalic_ttf__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fonts/Roboto-MediumItalic.ttf */ \"./src/fonts/Roboto-MediumItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Regular_ttf__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./fonts/Roboto-Regular.ttf */ \"./src/fonts/Roboto-Regular.ttf\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./styles/app.sass */ \"./src/styles/app.sass\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_styles_app_sass__WEBPACK_IMPORTED_MODULE_13__);\n/* harmony import */ var _img_left_arrow_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./img/left-arrow.svg */ \"./src/img/left-arrow.svg\");\n/* harmony import */ var _img_right_arrow_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./img/right-arrow.svg */ \"./src/img/right-arrow.svg\");\n/* harmony import */ var _img_logo_ocensa_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./img/logo-ocensa.svg */ \"./src/img/logo-ocensa.svg\");\n/* harmony import */ var _img_icon_menu_buscador_1_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./img/icon_menu_buscador_1.svg */ \"./src/img/icon_menu_buscador_1.svg\");\n/* harmony import */ var _img_sprite_01_menu_blanco_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./img/sprite-01-menu-blanco.svg */ \"./src/img/sprite-01-menu-blanco.svg\");\n/* harmony import */ var _img_icon_footer_1_facebook_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./img/icon_footer_1_facebook.svg */ \"./src/img/icon_footer_1_facebook.svg\");\n/* harmony import */ var _img_icon_footer_2_instagram_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./img/icon_footer_2_instagram.svg */ \"./src/img/icon_footer_2_instagram.svg\");\n/* harmony import */ var _img_icon_footer_3_youtube_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./img/icon_footer_3_youtube.svg */ \"./src/img/icon_footer_3_youtube.svg\");\n/* harmony import */ var _img_icon_footer_4_twitter_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./img/icon_footer_4_twitter.svg */ \"./src/img/icon_footer_4_twitter.svg\");\n/* harmony import */ var _img_isotipo_ocensa_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./img/isotipo-ocensa.svg */ \"./src/img/isotipo-ocensa.svg\");\n/* harmony import */ var _img_icon_subir_azul_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./img/icon_subir_azul.svg */ \"./src/img/icon_subir_azul.svg\");\n/* harmony import */ var _img_icon_flecha_izq_blanca_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./img/icon-flecha-izq-blanca.svg */ \"./src/img/icon-flecha-izq-blanca.svg\");\n/* harmony import */ var _img_pictograma_ocensa_inversionistas_accionistas_inversionistas_svg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./img/pictograma_ocensa_inversionistas_accionistas_inversionistas.svg */ \"./src/img/pictograma_ocensa_inversionistas_accionistas_inversionistas.svg\");\n/* harmony import */ var _img_slider_home_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./img/slider-home.jpg */ \"./src/img/slider-home.jpg\");\n/* harmony import */ var _img_retos_img_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./img/retos-img.jpg */ \"./src/img/retos-img.jpg\");\n/* harmony import */ var _img_icon_ocenza_home_retos_que_nos_impulsan_svg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./img/icon_ocenza_home_retos_que_nos_impulsan.svg */ \"./src/img/icon_ocenza_home_retos_que_nos_impulsan.svg\");\n/* harmony import */ var _img_imag_3_jpg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./img/imag-3.jpg */ \"./src/img/imag-3.jpg\");\n/* harmony import */ var _img_imag_4_jpg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./img/imag-4.jpg */ \"./src/img/imag-4.jpg\");\n/* harmony import */ var _img_imag_5_jpg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./img/imag-5.jpg */ \"./src/img/imag-5.jpg\");\n/* harmony import */ var _img_imag_6_jpg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./img/imag-6.jpg */ \"./src/img/imag-6.jpg\");\n/* harmony import */ var _img_imag_7_jpg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./img/imag-7.jpg */ \"./src/img/imag-7.jpg\");\n/* harmony import */ var _img_imag_8_jpg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./img/imag-8.jpg */ \"./src/img/imag-8.jpg\");\n/* harmony import */ var _img_icon_ocenza_home_linea_de_tiempo_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./img/icon_ocenza_home_linea_de_tiempo.svg */ \"./src/img/icon_ocenza_home_linea_de_tiempo.svg\");\n/* harmony import */ var _img_icon_ocenza_home_componente_ambiental_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./img/icon_ocenza_home_componente_ambiental.svg */ \"./src/img/icon_ocenza_home_componente_ambiental.svg\");\n/* harmony import */ var _img_imag_10_jpg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./img/imag-10.jpg */ \"./src/img/imag-10.jpg\");\n/* harmony import */ var _img_plus_1_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./img/plus_1.svg */ \"./src/img/plus_1.svg\");\n// Libs\n\n\n\n\n //Modules\n\n // Fonts\n\n\n\n\n\n\n\n // Styles\n\n // Images\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nObject(_modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_5__[\"menuToggle\"])(); // Jquery\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scroll(function () {\n    if (jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scrollTop() > 300) {\n      jquery__WEBPACK_IMPORTED_MODULE_0___default()('#mast-header').addClass('sticky-header');\n    } else {\n      jquery__WEBPACK_IMPORTED_MODULE_0___default()('#mast-header').removeClass('sticky-header');\n    }\n  });\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.ts-slick').slick({\n    prevArrow: \"<button class='nav-left'><img src='\".concat(_img_left_arrow_svg__WEBPACK_IMPORTED_MODULE_14__[\"default\"], \"'></button>\"),\n    nextArrow: \"<button class='nav-right'><img src='\".concat(_img_right_arrow_svg__WEBPACK_IMPORTED_MODULE_15__[\"default\"], \"'></button>\")\n  });\n});\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos */ \"./node_modules/aos/dist/aos.js\");\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../node_modules/slick-carousel */ \"./node_modules/slick-carousel/slick/slick.js\");\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! smooth-scroll */ \"./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js\");\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(smooth_scroll__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/MenuEffects.js */ \"./src/modules/MenuEffects.js\");\n/* harmony import */ var _fonts_Cabin_Regular_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./fonts/Cabin-Regular.ttf */ \"./src/fonts/Cabin-Regular.ttf\");\n/* harmony import */ var _fonts_Roboto_Bold_ttf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./fonts/Roboto-Bold.ttf */ \"./src/fonts/Roboto-Bold.ttf\");\n/* harmony import */ var _fonts_Roboto_BoldItalic_ttf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fonts/Roboto-BoldItalic.ttf */ \"./src/fonts/Roboto-BoldItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Light_ttf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./fonts/Roboto-Light.ttf */ \"./src/fonts/Roboto-Light.ttf\");\n/* harmony import */ var _fonts_Roboto_Medium_ttf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./fonts/Roboto-Medium.ttf */ \"./src/fonts/Roboto-Medium.ttf\");\n/* harmony import */ var _fonts_Roboto_MediumItalic_ttf__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fonts/Roboto-MediumItalic.ttf */ \"./src/fonts/Roboto-MediumItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Regular_ttf__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./fonts/Roboto-Regular.ttf */ \"./src/fonts/Roboto-Regular.ttf\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./styles/app.sass */ \"./src/styles/app.sass\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_styles_app_sass__WEBPACK_IMPORTED_MODULE_13__);\n/* harmony import */ var _img_left_arrow_1_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./img/left-arrow-1.svg */ \"./src/img/left-arrow-1.svg\");\n/* harmony import */ var _img_right_arrow_1_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./img/right-arrow-1.svg */ \"./src/img/right-arrow-1.svg\");\n/* harmony import */ var _img_logo_ocensa_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./img/logo-ocensa.svg */ \"./src/img/logo-ocensa.svg\");\n/* harmony import */ var _img_icon_menu_buscador_1_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./img/icon_menu_buscador_1.svg */ \"./src/img/icon_menu_buscador_1.svg\");\n/* harmony import */ var _img_sprite_01_menu_blanco_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./img/sprite-01-menu-blanco.svg */ \"./src/img/sprite-01-menu-blanco.svg\");\n/* harmony import */ var _img_icon_footer_1_facebook_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./img/icon_footer_1_facebook.svg */ \"./src/img/icon_footer_1_facebook.svg\");\n/* harmony import */ var _img_icon_footer_2_instagram_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./img/icon_footer_2_instagram.svg */ \"./src/img/icon_footer_2_instagram.svg\");\n/* harmony import */ var _img_icon_footer_3_youtube_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./img/icon_footer_3_youtube.svg */ \"./src/img/icon_footer_3_youtube.svg\");\n/* harmony import */ var _img_icon_footer_4_twitter_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./img/icon_footer_4_twitter.svg */ \"./src/img/icon_footer_4_twitter.svg\");\n/* harmony import */ var _img_isotipo_ocensa_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./img/isotipo-ocensa.svg */ \"./src/img/isotipo-ocensa.svg\");\n/* harmony import */ var _img_icon_subir_azul_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./img/icon_subir_azul.svg */ \"./src/img/icon_subir_azul.svg\");\n/* harmony import */ var _img_icon_flecha_izq_blanca_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./img/icon-flecha-izq-blanca.svg */ \"./src/img/icon-flecha-izq-blanca.svg\");\n/* harmony import */ var _img_pictograma_ocensa_inversionistas_accionistas_inversionistas_svg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./img/pictograma_ocensa_inversionistas_accionistas_inversionistas.svg */ \"./src/img/pictograma_ocensa_inversionistas_accionistas_inversionistas.svg\");\n/* harmony import */ var _img_slider_home_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./img/slider-home.jpg */ \"./src/img/slider-home.jpg\");\n/* harmony import */ var _img_retos_img_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./img/retos-img.jpg */ \"./src/img/retos-img.jpg\");\n/* harmony import */ var _img_icon_ocenza_home_retos_que_nos_impulsan_svg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./img/icon_ocenza_home_retos_que_nos_impulsan.svg */ \"./src/img/icon_ocenza_home_retos_que_nos_impulsan.svg\");\n/* harmony import */ var _img_imag_3_jpg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./img/imag-3.jpg */ \"./src/img/imag-3.jpg\");\n/* harmony import */ var _img_imag_4_jpg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./img/imag-4.jpg */ \"./src/img/imag-4.jpg\");\n/* harmony import */ var _img_imag_5_jpg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./img/imag-5.jpg */ \"./src/img/imag-5.jpg\");\n/* harmony import */ var _img_imag_6_jpg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./img/imag-6.jpg */ \"./src/img/imag-6.jpg\");\n/* harmony import */ var _img_imag_7_jpg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./img/imag-7.jpg */ \"./src/img/imag-7.jpg\");\n/* harmony import */ var _img_imag_8_jpg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./img/imag-8.jpg */ \"./src/img/imag-8.jpg\");\n/* harmony import */ var _img_icon_ocenza_home_linea_de_tiempo_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./img/icon_ocenza_home_linea_de_tiempo.svg */ \"./src/img/icon_ocenza_home_linea_de_tiempo.svg\");\n/* harmony import */ var _img_icon_ocenza_home_componente_ambiental_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./img/icon_ocenza_home_componente_ambiental.svg */ \"./src/img/icon_ocenza_home_componente_ambiental.svg\");\n/* harmony import */ var _img_imag_10_jpg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./img/imag-10.jpg */ \"./src/img/imag-10.jpg\");\n/* harmony import */ var _img_plus_1_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./img/plus_1.svg */ \"./src/img/plus_1.svg\");\n/* harmony import */ var _img_imag_1_jpg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./img/imag_1.jpg */ \"./src/img/imag_1.jpg\");\n/* harmony import */ var _img_imag_2_jpg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./img/imag_2.jpg */ \"./src/img/imag_2.jpg\");\n/* harmony import */ var _img_imag_3_jpg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./img/imag_3.jpg */ \"./src/img/imag_3.jpg\");\n/* harmony import */ var _img_imag_4_jpg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./img/imag_4.jpg */ \"./src/img/imag_4.jpg\");\n/* harmony import */ var _img_05_icon_ocenza_con_potuaria_que_es_informacion_financiera_reportes_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./img/05-icon_ocenza_con_potuaria_que_es_informacion_financiera_reportes.svg */ \"./src/img/05-icon_ocenza_con_potuaria_que_es_informacion_financiera_reportes.svg\");\n/* harmony import */ var _img_06_icon_ocenza_con_potuaria_ani_informacion_financiera_reportes_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./img/06-icon_ocenza_con_potuaria_ani_informacion_financiera_reportes.svg */ \"./src/img/06-icon_ocenza_con_potuaria_ani_informacion_financiera_reportes.svg\");\n/* harmony import */ var _img_07_icon_ocenza_con_potuaria_ocensayani_informacion_financiera_reportes_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./img/07-icon_ocenza_con_potuaria_ocensayani_informacion_financiera_reportes.svg */ \"./src/img/07-icon_ocenza_con_potuaria_ocensayani_informacion_financiera_reportes.svg\");\n/* harmony import */ var _img_08_icon_ocenza_con_potuaria_que_es_comport_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./img/08-icon_ocenza_con_potuaria_que_es_comport_informacion_financiera_reportes copia.svg */ \"./src/img/08-icon_ocenza_con_potuaria_que_es_comport_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_09_icon_ocenza_con_potuaria_componente_ambiental_informacion_financiera_reportes_svg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./img/09-icon_ocenza_con_potuaria_componente_ambiental_informacion_financiera_reportes.svg */ \"./src/img/09-icon_ocenza_con_potuaria_componente_ambiental_informacion_financiera_reportes.svg\");\n/* harmony import */ var _img_10_icon_ocenza_con_potuaria_componente_los_requerimientos_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./img/10-icon_ocenza_con_potuaria_componente_los_requerimientos_informacion_financiera_reportes copia.svg */ \"./src/img/10-icon_ocenza_con_potuaria_componente_los_requerimientos_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_11_icon_ocenza_con_potuaria_componente_una_licencia_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./img/11-icon_ocenza_con_potuaria_componente_una_licencia_informacion_financiera_reportes copia.svg */ \"./src/img/11-icon_ocenza_con_potuaria_componente_una_licencia_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_12_icon_ocenza_con_potuaria_componente_el_cambio_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./img/12-icon_ocenza_con_potuaria_componente_el_cambio_informacion_financiera_reportes copia.svg */ \"./src/img/12-icon_ocenza_con_potuaria_componente_el_cambio_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_13_icon_ocenza_con_potuaria_componente_el_impacto_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./img/13-icon_ocenza_con_potuaria_componente_el_impacto_informacion_financiera_reportes copia.svg */ \"./src/img/13-icon_ocenza_con_potuaria_componente_el_impacto_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_14_icon_ocenza_con_potuaria_componente_aunque_reemplazo_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./img/14-icon_ocenza_con_potuaria_componente_aunque_reemplazo_informacion_financiera_reportes copia.svg */ \"./src/img/14-icon_ocenza_con_potuaria_componente_aunque_reemplazo_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_15_icon_ocenza_con_potuaria_componente_que_se_haria_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./img/15-icon_ocenza_con_potuaria_componente_que_se_haria_informacion_financiera_reportes copia.svg */ \"./src/img/15-icon_ocenza_con_potuaria_componente_que_se_haria_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_16_icon_ocenza_con_potuaria_componente_el_agua_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./img/16-icon_ocenza_con_potuaria_componente_el_agua_informacion_financiera_reportes copia.svg */ \"./src/img/16-icon_ocenza_con_potuaria_componente_el_agua_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_17_icon_ocenza_con_potuaria_componente_el_26_noviembre_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./img/17-icon_ocenza_con_potuaria_componente_el_26_noviembre_informacion_financiera_reportes copia.svg */ \"./src/img/17-icon_ocenza_con_potuaria_componente_el_26_noviembre_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_18_icon_ocenza_con_potuaria_componente_con_el_tendido_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./img/18-icon_ocenza_con_potuaria_componente_con_el_tendido_informacion_financiera_reportes copia.svg */ \"./src/img/18-icon_ocenza_con_potuaria_componente_con_el_tendido_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_19_icon_ocenza_con_potuaria_componente_en_la_planeacion_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ./img/19-icon_ocenza_con_potuaria_componente_en_la_planeacion_informacion_financiera_reportes copia.svg */ \"./src/img/19-icon_ocenza_con_potuaria_componente_en_la_planeacion_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_20_icon_ocenza_con_potuaria_componente_por_cultura_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ./img/20-icon_ocenza_con_potuaria_componente_por_cultura_informacion_financiera_reportes copia.svg */ \"./src/img/20-icon_ocenza_con_potuaria_componente_por_cultura_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_21_icon_ocenza_con_potuaria_componente_la_operacion_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ./img/21-icon_ocenza_con_potuaria_componente_la_operacion_informacion_financiera_reportes copia.svg */ \"./src/img/21-icon_ocenza_con_potuaria_componente_la_operacion_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_22_icon_ocenza_con_potuaria_componente_si_un_eventual_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ./img/22-icon_ocenza_con_potuaria_componente_si_un_eventual_informacion_financiera_reportes copia.svg */ \"./src/img/22-icon_ocenza_con_potuaria_componente_si_un_eventual_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_23_icon_ocenza_con_potuaria_componente_la_intervencion_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ./img/23-icon_ocenza_con_potuaria_componente_la_intervencion_informacion_financiera_reportes copia.svg */ \"./src/img/23-icon_ocenza_con_potuaria_componente_la_intervencion_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_24_icon_ocenza_con_potuaria_componente_a_las_enbarcaciones_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ./img/24-icon_ocenza_con_potuaria_componente_a_las_enbarcaciones_informacion_financiera_reportes copia.svg */ \"./src/img/24-icon_ocenza_con_potuaria_componente_a_las_enbarcaciones_informacion_financiera_reportes copia.svg\");\n/* harmony import */ var _img_25_icon_ocenza_con_potuaria_componente_al_final_ocensa_informacion_financiera_reportes_copia_svg__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ./img/25-icon_ocenza_con_potuaria_componente_al-final_ocensa_informacion_financiera_reportes copia.svg */ \"./src/img/25-icon_ocenza_con_potuaria_componente_al-final_ocensa_informacion_financiera_reportes copia.svg\");\n// Libs\n\n\n\n\n //Modules\n\n // Fonts\n\n\n\n\n\n\n\n // Styles\n\n // Images\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nObject(_modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_5__[\"menuToggle\"])(); // Jquery\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scroll(function () {\n    if (jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scrollTop() > 300) {\n      jquery__WEBPACK_IMPORTED_MODULE_0___default()('#mast-header').addClass('sticky-header');\n    } else {\n      jquery__WEBPACK_IMPORTED_MODULE_0___default()('#mast-header').removeClass('sticky-header');\n    }\n  });\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.ts-slick').slick({\n    prevArrow: \"<button class='nav-left'><img src='\".concat(_img_left_arrow_1_svg__WEBPACK_IMPORTED_MODULE_14__[\"default\"], \"'></button>\"),\n    nextArrow: \"<button class='nav-right'><img src='\".concat(_img_right_arrow_1_svg__WEBPACK_IMPORTED_MODULE_15__[\"default\"], \"'></button>\")\n  });\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.slick-oc').slick({\n    prevArrow: \"<button class='nav-arrow nav-left'><img src=\".concat(ArrayLeft, \"></button>\"),\n    nextArrow: \"<button class='nav-arrow nav-right'><img src=\".concat(ArrayRight, \"></button>\")\n  });\n});\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -257,6 +257,258 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../fonts/Roboto-Regular.ttf\");\n\n//# sourceURL=webpack:///./src/fonts/Roboto-Regular.ttf?");
+
+/***/ }),
+
+/***/ "./src/img/05-icon_ocenza_con_potuaria_que_es_informacion_financiera_reportes.svg":
+/*!****************************************************************************************!*\
+  !*** ./src/img/05-icon_ocenza_con_potuaria_que_es_informacion_financiera_reportes.svg ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/05-icon_ocenza_con_potuaria_que_es_informacion_financiera_reportes.svg\");\n\n//# sourceURL=webpack:///./src/img/05-icon_ocenza_con_potuaria_que_es_informacion_financiera_reportes.svg?");
+
+/***/ }),
+
+/***/ "./src/img/06-icon_ocenza_con_potuaria_ani_informacion_financiera_reportes.svg":
+/*!*************************************************************************************!*\
+  !*** ./src/img/06-icon_ocenza_con_potuaria_ani_informacion_financiera_reportes.svg ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/06-icon_ocenza_con_potuaria_ani_informacion_financiera_reportes.svg\");\n\n//# sourceURL=webpack:///./src/img/06-icon_ocenza_con_potuaria_ani_informacion_financiera_reportes.svg?");
+
+/***/ }),
+
+/***/ "./src/img/07-icon_ocenza_con_potuaria_ocensayani_informacion_financiera_reportes.svg":
+/*!********************************************************************************************!*\
+  !*** ./src/img/07-icon_ocenza_con_potuaria_ocensayani_informacion_financiera_reportes.svg ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/07-icon_ocenza_con_potuaria_ocensayani_informacion_financiera_reportes.svg\");\n\n//# sourceURL=webpack:///./src/img/07-icon_ocenza_con_potuaria_ocensayani_informacion_financiera_reportes.svg?");
+
+/***/ }),
+
+/***/ "./src/img/08-icon_ocenza_con_potuaria_que_es_comport_informacion_financiera_reportes copia.svg":
+/*!******************************************************************************************************!*\
+  !*** ./src/img/08-icon_ocenza_con_potuaria_que_es_comport_informacion_financiera_reportes copia.svg ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/08-icon_ocenza_con_potuaria_que_es_comport_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/08-icon_ocenza_con_potuaria_que_es_comport_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/09-icon_ocenza_con_potuaria_componente_ambiental_informacion_financiera_reportes.svg":
+/*!******************************************************************************************************!*\
+  !*** ./src/img/09-icon_ocenza_con_potuaria_componente_ambiental_informacion_financiera_reportes.svg ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/09-icon_ocenza_con_potuaria_componente_ambiental_informacion_financiera_reportes.svg\");\n\n//# sourceURL=webpack:///./src/img/09-icon_ocenza_con_potuaria_componente_ambiental_informacion_financiera_reportes.svg?");
+
+/***/ }),
+
+/***/ "./src/img/10-icon_ocenza_con_potuaria_componente_los_requerimientos_informacion_financiera_reportes copia.svg":
+/*!*********************************************************************************************************************!*\
+  !*** ./src/img/10-icon_ocenza_con_potuaria_componente_los_requerimientos_informacion_financiera_reportes copia.svg ***!
+  \*********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/10-icon_ocenza_con_potuaria_componente_los_requerimientos_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/10-icon_ocenza_con_potuaria_componente_los_requerimientos_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/11-icon_ocenza_con_potuaria_componente_una_licencia_informacion_financiera_reportes copia.svg":
+/*!***************************************************************************************************************!*\
+  !*** ./src/img/11-icon_ocenza_con_potuaria_componente_una_licencia_informacion_financiera_reportes copia.svg ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/11-icon_ocenza_con_potuaria_componente_una_licencia_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/11-icon_ocenza_con_potuaria_componente_una_licencia_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/12-icon_ocenza_con_potuaria_componente_el_cambio_informacion_financiera_reportes copia.svg":
+/*!************************************************************************************************************!*\
+  !*** ./src/img/12-icon_ocenza_con_potuaria_componente_el_cambio_informacion_financiera_reportes copia.svg ***!
+  \************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/12-icon_ocenza_con_potuaria_componente_el_cambio_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/12-icon_ocenza_con_potuaria_componente_el_cambio_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/13-icon_ocenza_con_potuaria_componente_el_impacto_informacion_financiera_reportes copia.svg":
+/*!*************************************************************************************************************!*\
+  !*** ./src/img/13-icon_ocenza_con_potuaria_componente_el_impacto_informacion_financiera_reportes copia.svg ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/13-icon_ocenza_con_potuaria_componente_el_impacto_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/13-icon_ocenza_con_potuaria_componente_el_impacto_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/14-icon_ocenza_con_potuaria_componente_aunque_reemplazo_informacion_financiera_reportes copia.svg":
+/*!*******************************************************************************************************************!*\
+  !*** ./src/img/14-icon_ocenza_con_potuaria_componente_aunque_reemplazo_informacion_financiera_reportes copia.svg ***!
+  \*******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/14-icon_ocenza_con_potuaria_componente_aunque_reemplazo_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/14-icon_ocenza_con_potuaria_componente_aunque_reemplazo_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/15-icon_ocenza_con_potuaria_componente_que_se_haria_informacion_financiera_reportes copia.svg":
+/*!***************************************************************************************************************!*\
+  !*** ./src/img/15-icon_ocenza_con_potuaria_componente_que_se_haria_informacion_financiera_reportes copia.svg ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/15-icon_ocenza_con_potuaria_componente_que_se_haria_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/15-icon_ocenza_con_potuaria_componente_que_se_haria_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/16-icon_ocenza_con_potuaria_componente_el_agua_informacion_financiera_reportes copia.svg":
+/*!**********************************************************************************************************!*\
+  !*** ./src/img/16-icon_ocenza_con_potuaria_componente_el_agua_informacion_financiera_reportes copia.svg ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/16-icon_ocenza_con_potuaria_componente_el_agua_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/16-icon_ocenza_con_potuaria_componente_el_agua_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/17-icon_ocenza_con_potuaria_componente_el_26_noviembre_informacion_financiera_reportes copia.svg":
+/*!******************************************************************************************************************!*\
+  !*** ./src/img/17-icon_ocenza_con_potuaria_componente_el_26_noviembre_informacion_financiera_reportes copia.svg ***!
+  \******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/17-icon_ocenza_con_potuaria_componente_el_26_noviembre_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/17-icon_ocenza_con_potuaria_componente_el_26_noviembre_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/18-icon_ocenza_con_potuaria_componente_con_el_tendido_informacion_financiera_reportes copia.svg":
+/*!*****************************************************************************************************************!*\
+  !*** ./src/img/18-icon_ocenza_con_potuaria_componente_con_el_tendido_informacion_financiera_reportes copia.svg ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/18-icon_ocenza_con_potuaria_componente_con_el_tendido_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/18-icon_ocenza_con_potuaria_componente_con_el_tendido_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/19-icon_ocenza_con_potuaria_componente_en_la_planeacion_informacion_financiera_reportes copia.svg":
+/*!*******************************************************************************************************************!*\
+  !*** ./src/img/19-icon_ocenza_con_potuaria_componente_en_la_planeacion_informacion_financiera_reportes copia.svg ***!
+  \*******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/19-icon_ocenza_con_potuaria_componente_en_la_planeacion_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/19-icon_ocenza_con_potuaria_componente_en_la_planeacion_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/20-icon_ocenza_con_potuaria_componente_por_cultura_informacion_financiera_reportes copia.svg":
+/*!**************************************************************************************************************!*\
+  !*** ./src/img/20-icon_ocenza_con_potuaria_componente_por_cultura_informacion_financiera_reportes copia.svg ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/20-icon_ocenza_con_potuaria_componente_por_cultura_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/20-icon_ocenza_con_potuaria_componente_por_cultura_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/21-icon_ocenza_con_potuaria_componente_la_operacion_informacion_financiera_reportes copia.svg":
+/*!***************************************************************************************************************!*\
+  !*** ./src/img/21-icon_ocenza_con_potuaria_componente_la_operacion_informacion_financiera_reportes copia.svg ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/21-icon_ocenza_con_potuaria_componente_la_operacion_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/21-icon_ocenza_con_potuaria_componente_la_operacion_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/22-icon_ocenza_con_potuaria_componente_si_un_eventual_informacion_financiera_reportes copia.svg":
+/*!*****************************************************************************************************************!*\
+  !*** ./src/img/22-icon_ocenza_con_potuaria_componente_si_un_eventual_informacion_financiera_reportes copia.svg ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/22-icon_ocenza_con_potuaria_componente_si_un_eventual_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/22-icon_ocenza_con_potuaria_componente_si_un_eventual_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/23-icon_ocenza_con_potuaria_componente_la_intervencion_informacion_financiera_reportes copia.svg":
+/*!******************************************************************************************************************!*\
+  !*** ./src/img/23-icon_ocenza_con_potuaria_componente_la_intervencion_informacion_financiera_reportes copia.svg ***!
+  \******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/23-icon_ocenza_con_potuaria_componente_la_intervencion_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/23-icon_ocenza_con_potuaria_componente_la_intervencion_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/24-icon_ocenza_con_potuaria_componente_a_las_enbarcaciones_informacion_financiera_reportes copia.svg":
+/*!**********************************************************************************************************************!*\
+  !*** ./src/img/24-icon_ocenza_con_potuaria_componente_a_las_enbarcaciones_informacion_financiera_reportes copia.svg ***!
+  \**********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/24-icon_ocenza_con_potuaria_componente_a_las_enbarcaciones_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/24-icon_ocenza_con_potuaria_componente_a_las_enbarcaciones_informacion_financiera_reportes_copia.svg?");
+
+/***/ }),
+
+/***/ "./src/img/25-icon_ocenza_con_potuaria_componente_al-final_ocensa_informacion_financiera_reportes copia.svg":
+/*!******************************************************************************************************************!*\
+  !*** ./src/img/25-icon_ocenza_con_potuaria_componente_al-final_ocensa_informacion_financiera_reportes copia.svg ***!
+  \******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/25-icon_ocenza_con_potuaria_componente_al-final_ocensa_informacion_financiera_reportes copia.svg\");\n\n//# sourceURL=webpack:///./src/img/25-icon_ocenza_con_potuaria_componente_al-final_ocensa_informacion_financiera_reportes_copia.svg?");
 
 /***/ }),
 
@@ -464,6 +716,54 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/imag_1.jpg":
+/*!****************************!*\
+  !*** ./src/img/imag_1.jpg ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/imag_1.jpg\");\n\n//# sourceURL=webpack:///./src/img/imag_1.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/imag_2.jpg":
+/*!****************************!*\
+  !*** ./src/img/imag_2.jpg ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/imag_2.jpg\");\n\n//# sourceURL=webpack:///./src/img/imag_2.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/imag_3.jpg":
+/*!****************************!*\
+  !*** ./src/img/imag_3.jpg ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/imag_3.jpg\");\n\n//# sourceURL=webpack:///./src/img/imag_3.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/imag_4.jpg":
+/*!****************************!*\
+  !*** ./src/img/imag_4.jpg ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/imag_4.jpg\");\n\n//# sourceURL=webpack:///./src/img/imag_4.jpg?");
+
+/***/ }),
+
 /***/ "./src/img/isotipo-ocensa.svg":
 /*!************************************!*\
   !*** ./src/img/isotipo-ocensa.svg ***!
@@ -476,15 +776,15 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./src/img/left-arrow.svg":
-/*!********************************!*\
-  !*** ./src/img/left-arrow.svg ***!
-  \********************************/
+/***/ "./src/img/left-arrow-1.svg":
+/*!**********************************!*\
+  !*** ./src/img/left-arrow-1.svg ***!
+  \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/left-arrow.svg\");\n\n//# sourceURL=webpack:///./src/img/left-arrow.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/left-arrow-1.svg\");\n\n//# sourceURL=webpack:///./src/img/left-arrow-1.svg?");
 
 /***/ }),
 
@@ -536,15 +836,15 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./src/img/right-arrow.svg":
-/*!*********************************!*\
-  !*** ./src/img/right-arrow.svg ***!
-  \*********************************/
+/***/ "./src/img/right-arrow-1.svg":
+/*!***********************************!*\
+  !*** ./src/img/right-arrow-1.svg ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/right-arrow.svg\");\n\n//# sourceURL=webpack:///./src/img/right-arrow.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/right-arrow-1.svg\");\n\n//# sourceURL=webpack:///./src/img/right-arrow-1.svg?");
 
 /***/ }),
 
