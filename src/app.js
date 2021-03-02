@@ -5,6 +5,9 @@ import AOS from 'aos';
 import "./../node_modules/slick-carousel";
 import SmoothScroll from "smooth-scroll";
 
+//Modules
+import {menuToggle} from "./modules/MenuEffects.js";
+
 // Fonts
 import "./fonts/Cabin-Regular.ttf";
 import "./fonts/Roboto-Bold.ttf";
@@ -19,3 +22,12 @@ import "./styles/app.sass";
 
 // Images
 import "./img/logo-ocensa.svg";
+import "./img/icon_menu_buscador_1.svg";
+import "./img/sprite-01-menu-blanco.svg";
+import "./img/icon_footer_1_facebook.svg";
+import "./img/icon_footer_2_instagram.svg";
+import "./img/icon_footer_3_youtube.svg";
+import "./img/icon_footer_4_twitter.svg";
+import "./img/isotipo-ocensa.svg";
+
+menuToggle();

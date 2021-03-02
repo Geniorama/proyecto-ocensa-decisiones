@@ -8,24 +8,75 @@
     <title>{{title}}</title>
 </head>
 <body class="page-{{body-class}}">
-    <header class="oc-header py-3">
-        <div class="container-fluid">
-            <div class="row justify-content-between text-center align-items-center">
-                {{!-- Box button menu toggle --}}
-                <div class="col">1</div>
-                
-                {{!-- Box Brand --}}
-                <div class="col col-md-10">
-                    <a href="#"><img src="./../img/logo-ocensa.svg" alt="" class="oc-header__brand"></a>
-                </div>
+    <div class="oc-mast-header">
+        <header class="oc-header py-3">
+            <div class="container-fluid">
+                <div class="row justify-content-between text-center align-items-center">
+                    {{!-- Box button menu toggle --}}
+                    <div class="col col-md-2">
+                        <button class="oc-header__box-button-menu text-left" id="btn-menu-lateral">
+                            <div class="oc-header__button-menu-lateral m-auto" style="background-image: url('./../img/sprite-01-menu-blanco.svg');"></div>
+                            <p class="oc-header__title-menu-lateral m-0 text-center" id="title-button-menu">Menú</p>
+                        </button>
+                    </div>
+                    
+                    {{!-- Box Brand --}}
+                    <div class="col col-md-8">
+                        <a href="#" class="oc-header__link-brand"><img src="./../img/logo-ocensa.svg" alt="" class="oc-header__brand"></a>
+                    </div>
 
-                {{!-- Box search menu --}}
-                <div class="col">
-                    <form action="">
-                        <input type="text">
-                    </form>
+                    {{!-- Box search menu --}}
+                    <div class="col col-md-2">
+                        <form action="" class="d-flex justify-content-end">
+                            <input type="text" placeholder="Buscar" class="form-control oc-input-search" style="background-image: url('../img/icon_menu_buscador_1.svg');">
+                        </form>
+                    </div>
                 </div>
             </div>
+        </header>
+        <div class="oc-subheader pt-2 pb-0">
+            <div class="container-fluid">
+                <nav>
+                    <ul class="nav justify-content-between scrollbar">
+                        <li class="nav-item"><a href="#" class="nav-link active">Proyecto CONPORT</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Concesión Portuaria</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">TLU2</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Integridad</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Mangueras</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Terminal marítimo de Coveñas</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </header>
+
+        <div class="oc-menu-lateral scrollbar-vertical scrollbar" id="menu-lateral">
+            <nav>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="#" class="nav-link">Nuestra compañía</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Nuestra actividad</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Accionistas e inversionistas</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Ética y cumplimiento</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Compromiso con el ciudadano</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Trabaje con nosotros</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contáctenos</a></li>
+                </ul>
+
+                <ul class="social-nav">
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="./../img/icon_footer_1_facebook.svg" alt=""></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="./../img/icon_footer_2_instagram.svg" alt=""></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="./../img/icon_footer_3_youtube.svg" alt=""></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="./../img/icon_footer_4_twitter.svg" alt=""></a></li>
+                </ul>
+
+                <ul class="nav flex-column nav-secondary">
+                    <li class="nav-item"><a href="#" class="nav-link">Mapa del sitio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Términos y condiciones</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Política de protección de datos</a></li>
+                </ul>
+
+                <img src="./../img/isotipo-ocensa.svg" alt="" class="oc-menu-lateral__isotipo px-3 mt-4">
+            </nav>
+        </div>  
+    </div>
+
     

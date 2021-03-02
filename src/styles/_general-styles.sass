@@ -1,3 +1,6 @@
+body, html
+    overflow-x: hidden
+    
 h1, h2, h3
     font-family: "roboto-regular", sans-serif
 
@@ -6,3 +9,15 @@ h5, h6
 
 p
     font-family: "roboto-bold", sans-serif
+
+.scrollbar
+    &::-webkit-scrollbar
+        height: 4px
+    &::-webkit-scrollbar-track 
+        border-radius: 10px
+    &::-webkit-scrollbar-thumb 
+        border-radius: 10px
+        background: #19A501
+    &-vertical
+        &::-webkit-scrollbar
+            width: 5px

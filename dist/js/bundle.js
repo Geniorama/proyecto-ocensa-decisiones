@@ -172,7 +172,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos */ \"./node_modules/aos/dist/aos.js\");\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../node_modules/slick-carousel */ \"./node_modules/slick-carousel/slick/slick.js\");\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! smooth-scroll */ \"./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js\");\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(smooth_scroll__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _fonts_Cabin_Regular_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./fonts/Cabin-Regular.ttf */ \"./src/fonts/Cabin-Regular.ttf\");\n/* harmony import */ var _fonts_Roboto_Bold_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./fonts/Roboto-Bold.ttf */ \"./src/fonts/Roboto-Bold.ttf\");\n/* harmony import */ var _fonts_Roboto_BoldItalic_ttf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./fonts/Roboto-BoldItalic.ttf */ \"./src/fonts/Roboto-BoldItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Light_ttf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fonts/Roboto-Light.ttf */ \"./src/fonts/Roboto-Light.ttf\");\n/* harmony import */ var _fonts_Roboto_Medium_ttf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./fonts/Roboto-Medium.ttf */ \"./src/fonts/Roboto-Medium.ttf\");\n/* harmony import */ var _fonts_Roboto_MediumItalic_ttf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./fonts/Roboto-MediumItalic.ttf */ \"./src/fonts/Roboto-MediumItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Regular_ttf__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fonts/Roboto-Regular.ttf */ \"./src/fonts/Roboto-Regular.ttf\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./styles/app.sass */ \"./src/styles/app.sass\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_styles_app_sass__WEBPACK_IMPORTED_MODULE_12__);\n/* harmony import */ var _img_logo_ocensa_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./img/logo-ocensa.svg */ \"./src/img/logo-ocensa.svg\");\n// Libs\n\n\n\n\n // Fonts\n\n\n\n\n\n\n\n // Styles\n\n // Images\n\n\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos */ \"./node_modules/aos/dist/aos.js\");\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../node_modules/slick-carousel */ \"./node_modules/slick-carousel/slick/slick.js\");\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! smooth-scroll */ \"./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js\");\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(smooth_scroll__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _fonts_Cabin_Regular_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./fonts/Cabin-Regular.ttf */ \"./src/fonts/Cabin-Regular.ttf\");\n/* harmony import */ var _fonts_Roboto_Bold_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./fonts/Roboto-Bold.ttf */ \"./src/fonts/Roboto-Bold.ttf\");\n/* harmony import */ var _fonts_Roboto_BoldItalic_ttf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./fonts/Roboto-BoldItalic.ttf */ \"./src/fonts/Roboto-BoldItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Light_ttf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fonts/Roboto-Light.ttf */ \"./src/fonts/Roboto-Light.ttf\");\n/* harmony import */ var _fonts_Roboto_Medium_ttf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./fonts/Roboto-Medium.ttf */ \"./src/fonts/Roboto-Medium.ttf\");\n/* harmony import */ var _fonts_Roboto_MediumItalic_ttf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./fonts/Roboto-MediumItalic.ttf */ \"./src/fonts/Roboto-MediumItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Regular_ttf__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fonts/Roboto-Regular.ttf */ \"./src/fonts/Roboto-Regular.ttf\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./styles/app.sass */ \"./src/styles/app.sass\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_styles_app_sass__WEBPACK_IMPORTED_MODULE_12__);\n/* harmony import */ var _img_logo_ocensa_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./img/logo-ocensa.svg */ \"./src/img/logo-ocensa.svg\");\n/* harmony import */ var _img_icon_menu_buscador_1_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./img/icon_menu_buscador_1.svg */ \"./src/img/icon_menu_buscador_1.svg\");\n/* harmony import */ var _img_sprite_01_menu_blanco_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./img/sprite-01-menu-blanco.svg */ \"./src/img/sprite-01-menu-blanco.svg\");\n/* harmony import */ var _img_icon_footer_1_facebook_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./img/icon_footer_1_facebook.svg */ \"./src/img/icon_footer_1_facebook.svg\");\n/* harmony import */ var _img_icon_footer_2_instagram_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./img/icon_footer_2_instagram.svg */ \"./src/img/icon_footer_2_instagram.svg\");\n/* harmony import */ var _img_icon_footer_3_youtube_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./img/icon_footer_3_youtube.svg */ \"./src/img/icon_footer_3_youtube.svg\");\n/* harmony import */ var _img_icon_footer_4_twitter_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./img/icon_footer_4_twitter.svg */ \"./src/img/icon_footer_4_twitter.svg\");\n/* harmony import */ var _img_isotipo_ocensa_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./img/isotipo-ocensa.svg */ \"./src/img/isotipo-ocensa.svg\");\n// Libs\n\n\n\n\n // Fonts\n\n\n\n\n\n\n\n // Styles\n\n // Images\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -260,6 +260,78 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/icon_footer_1_facebook.svg":
+/*!********************************************!*\
+  !*** ./src/img/icon_footer_1_facebook.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_footer_1_facebook.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_footer_1_facebook.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_footer_2_instagram.svg":
+/*!*********************************************!*\
+  !*** ./src/img/icon_footer_2_instagram.svg ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_footer_2_instagram.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_footer_2_instagram.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_footer_3_youtube.svg":
+/*!*******************************************!*\
+  !*** ./src/img/icon_footer_3_youtube.svg ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_footer_3_youtube.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_footer_3_youtube.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_footer_4_twitter.svg":
+/*!*******************************************!*\
+  !*** ./src/img/icon_footer_4_twitter.svg ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_footer_4_twitter.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_footer_4_twitter.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_menu_buscador_1.svg":
+/*!******************************************!*\
+  !*** ./src/img/icon_menu_buscador_1.svg ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_menu_buscador_1.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_menu_buscador_1.svg?");
+
+/***/ }),
+
+/***/ "./src/img/isotipo-ocensa.svg":
+/*!************************************!*\
+  !*** ./src/img/isotipo-ocensa.svg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/isotipo-ocensa.svg\");\n\n//# sourceURL=webpack:///./src/img/isotipo-ocensa.svg?");
+
+/***/ }),
+
 /***/ "./src/img/logo-ocensa.svg":
 /*!*********************************!*\
   !*** ./src/img/logo-ocensa.svg ***!
@@ -269,6 +341,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/logo-ocensa.svg\");\n\n//# sourceURL=webpack:///./src/img/logo-ocensa.svg?");
+
+/***/ }),
+
+/***/ "./src/img/sprite-01-menu-blanco.svg":
+/*!*******************************************!*\
+  !*** ./src/img/sprite-01-menu-blanco.svg ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/sprite-01-menu-blanco.svg\");\n\n//# sourceURL=webpack:///./src/img/sprite-01-menu-blanco.svg?");
 
 /***/ }),
 
