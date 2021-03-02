@@ -41,3 +41,28 @@ p
         &::before
             width: 100%
             left: 0
+
+.button-style-1
+    span
+        font-family: "roboto-bold"
+        color: #505d6c
+        margin-right: -10px
+        position: relative
+        z-index: 2
+    button
+        background: white
+        transition: all .4s
+        &::before
+            content: ''
+            width: 20%
+            height: 25px
+            background: white
+            top: calc( 50% - 12.5px )
+            left: -5%
+            position: absolute
+        img
+            width: 12px
+    &:hover
+        text-decoration: none
+        button
+            transform: scale(1.2)
