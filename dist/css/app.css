@@ -10816,6 +10816,20 @@ h5, h6 {
   font-family: "roboto-bold", sans-serif;
 }
 
+p {
+  font-family: "roboto-bold", sans-serif;
+}
+
 .oc-header {
   background-color: #19A501;
+}
+.oc-header__brand {
+  width: 200px;
+}
+
+#intro-hero-concesion {
+  background-image: url(img/imag_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
