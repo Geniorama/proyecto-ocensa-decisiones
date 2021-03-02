@@ -172,7 +172,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos */ \"./node_modules/aos/dist/aos.js\");\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../node_modules/slick-carousel */ \"./node_modules/slick-carousel/slick/slick.js\");\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! smooth-scroll */ \"./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js\");\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(smooth_scroll__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _fonts_Cabin_Regular_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./fonts/Cabin-Regular.ttf */ \"./src/fonts/Cabin-Regular.ttf\");\n/* harmony import */ var _fonts_Roboto_Bold_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./fonts/Roboto-Bold.ttf */ \"./src/fonts/Roboto-Bold.ttf\");\n/* harmony import */ var _fonts_Roboto_BoldItalic_ttf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./fonts/Roboto-BoldItalic.ttf */ \"./src/fonts/Roboto-BoldItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Light_ttf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fonts/Roboto-Light.ttf */ \"./src/fonts/Roboto-Light.ttf\");\n/* harmony import */ var _fonts_Roboto_Medium_ttf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./fonts/Roboto-Medium.ttf */ \"./src/fonts/Roboto-Medium.ttf\");\n/* harmony import */ var _fonts_Roboto_MediumItalic_ttf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./fonts/Roboto-MediumItalic.ttf */ \"./src/fonts/Roboto-MediumItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Regular_ttf__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fonts/Roboto-Regular.ttf */ \"./src/fonts/Roboto-Regular.ttf\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./styles/app.sass */ \"./src/styles/app.sass\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_styles_app_sass__WEBPACK_IMPORTED_MODULE_12__);\n/* harmony import */ var _img_logo_ocensa_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./img/logo-ocensa.svg */ \"./src/img/logo-ocensa.svg\");\n/* harmony import */ var _img_icon_menu_buscador_1_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./img/icon_menu_buscador_1.svg */ \"./src/img/icon_menu_buscador_1.svg\");\n/* harmony import */ var _img_sprite_01_menu_blanco_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./img/sprite-01-menu-blanco.svg */ \"./src/img/sprite-01-menu-blanco.svg\");\n/* harmony import */ var _img_icon_footer_1_facebook_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./img/icon_footer_1_facebook.svg */ \"./src/img/icon_footer_1_facebook.svg\");\n/* harmony import */ var _img_icon_footer_2_instagram_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./img/icon_footer_2_instagram.svg */ \"./src/img/icon_footer_2_instagram.svg\");\n/* harmony import */ var _img_icon_footer_3_youtube_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./img/icon_footer_3_youtube.svg */ \"./src/img/icon_footer_3_youtube.svg\");\n/* harmony import */ var _img_icon_footer_4_twitter_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./img/icon_footer_4_twitter.svg */ \"./src/img/icon_footer_4_twitter.svg\");\n/* harmony import */ var _img_isotipo_ocensa_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./img/isotipo-ocensa.svg */ \"./src/img/isotipo-ocensa.svg\");\n// Libs\n\n\n\n\n // Fonts\n\n\n\n\n\n\n\n // Styles\n\n // Images\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos */ \"./node_modules/aos/dist/aos.js\");\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../node_modules/slick-carousel */ \"./node_modules/slick-carousel/slick/slick.js\");\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! smooth-scroll */ \"./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js\");\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(smooth_scroll__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/MenuEffects.js */ \"./src/modules/MenuEffects.js\");\n/* harmony import */ var _fonts_Cabin_Regular_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./fonts/Cabin-Regular.ttf */ \"./src/fonts/Cabin-Regular.ttf\");\n/* harmony import */ var _fonts_Roboto_Bold_ttf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./fonts/Roboto-Bold.ttf */ \"./src/fonts/Roboto-Bold.ttf\");\n/* harmony import */ var _fonts_Roboto_BoldItalic_ttf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fonts/Roboto-BoldItalic.ttf */ \"./src/fonts/Roboto-BoldItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Light_ttf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./fonts/Roboto-Light.ttf */ \"./src/fonts/Roboto-Light.ttf\");\n/* harmony import */ var _fonts_Roboto_Medium_ttf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./fonts/Roboto-Medium.ttf */ \"./src/fonts/Roboto-Medium.ttf\");\n/* harmony import */ var _fonts_Roboto_MediumItalic_ttf__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fonts/Roboto-MediumItalic.ttf */ \"./src/fonts/Roboto-MediumItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Regular_ttf__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./fonts/Roboto-Regular.ttf */ \"./src/fonts/Roboto-Regular.ttf\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./styles/app.sass */ \"./src/styles/app.sass\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_styles_app_sass__WEBPACK_IMPORTED_MODULE_13__);\n/* harmony import */ var _img_logo_ocensa_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./img/logo-ocensa.svg */ \"./src/img/logo-ocensa.svg\");\n/* harmony import */ var _img_icon_menu_buscador_1_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./img/icon_menu_buscador_1.svg */ \"./src/img/icon_menu_buscador_1.svg\");\n/* harmony import */ var _img_sprite_01_menu_blanco_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./img/sprite-01-menu-blanco.svg */ \"./src/img/sprite-01-menu-blanco.svg\");\n/* harmony import */ var _img_icon_footer_1_facebook_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./img/icon_footer_1_facebook.svg */ \"./src/img/icon_footer_1_facebook.svg\");\n/* harmony import */ var _img_icon_footer_2_instagram_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./img/icon_footer_2_instagram.svg */ \"./src/img/icon_footer_2_instagram.svg\");\n/* harmony import */ var _img_icon_footer_3_youtube_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./img/icon_footer_3_youtube.svg */ \"./src/img/icon_footer_3_youtube.svg\");\n/* harmony import */ var _img_icon_footer_4_twitter_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./img/icon_footer_4_twitter.svg */ \"./src/img/icon_footer_4_twitter.svg\");\n/* harmony import */ var _img_isotipo_ocensa_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./img/isotipo-ocensa.svg */ \"./src/img/isotipo-ocensa.svg\");\n/* harmony import */ var _img_icon_subir_azul_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./img/icon_subir_azul.svg */ \"./src/img/icon_subir_azul.svg\");\n/* harmony import */ var _img_icon_flecha_izq_blanca_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./img/icon-flecha-izq-blanca.svg */ \"./src/img/icon-flecha-izq-blanca.svg\");\n/* harmony import */ var _img_pictograma_ocensa_inversionistas_accionistas_inversionistas_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./img/pictograma_ocensa_inversionistas_accionistas_inversionistas.svg */ \"./src/img/pictograma_ocensa_inversionistas_accionistas_inversionistas.svg\");\n// Libs\n\n\n\n\n //Modules\n\n // Fonts\n\n\n\n\n\n\n\n // Styles\n\n // Images\n\n\n\n\n\n\n\n\n\n\n\n\nObject(_modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_5__[\"menuToggle\"])();\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -260,6 +260,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/icon-flecha-izq-blanca.svg":
+/*!********************************************!*\
+  !*** ./src/img/icon-flecha-izq-blanca.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon-flecha-izq-blanca.svg\");\n\n//# sourceURL=webpack:///./src/img/icon-flecha-izq-blanca.svg?");
+
+/***/ }),
+
 /***/ "./src/img/icon_footer_1_facebook.svg":
 /*!********************************************!*\
   !*** ./src/img/icon_footer_1_facebook.svg ***!
@@ -320,6 +332,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/icon_subir_azul.svg":
+/*!*************************************!*\
+  !*** ./src/img/icon_subir_azul.svg ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_subir_azul.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_subir_azul.svg?");
+
+/***/ }),
+
 /***/ "./src/img/isotipo-ocensa.svg":
 /*!************************************!*\
   !*** ./src/img/isotipo-ocensa.svg ***!
@@ -344,6 +368,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/pictograma_ocensa_inversionistas_accionistas_inversionistas.svg":
+/*!*********************************************************************************!*\
+  !*** ./src/img/pictograma_ocensa_inversionistas_accionistas_inversionistas.svg ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/pictograma_ocensa_inversionistas_accionistas_inversionistas.svg\");\n\n//# sourceURL=webpack:///./src/img/pictograma_ocensa_inversionistas_accionistas_inversionistas.svg?");
+
+/***/ }),
+
 /***/ "./src/img/sprite-01-menu-blanco.svg":
 /*!*******************************************!*\
   !*** ./src/img/sprite-01-menu-blanco.svg ***!
@@ -353,6 +389,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/sprite-01-menu-blanco.svg\");\n\n//# sourceURL=webpack:///./src/img/sprite-01-menu-blanco.svg?");
+
+/***/ }),
+
+/***/ "./src/modules/MenuEffects.js":
+/*!************************************!*\
+  !*** ./src/modules/MenuEffects.js ***!
+  \************************************/
+/*! exports provided: menuToggle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"menuToggle\", function() { return menuToggle; });\nvar menuToggle = function menuToggle() {\n  var button_toggle = document.getElementById('btn-menu-lateral');\n  var menu_lateral = document.getElementById('menu-lateral');\n  var title_button = document.getElementById('title-button-menu');\n  var icon_toggle = button_toggle.querySelector('.oc-header__button-menu-lateral');\n  var open_menu = false;\n  button_toggle.addEventListener('click', function (e) {\n    e.preventDefault();\n\n    if (!open_menu) {\n      menu_lateral.classList.add('menu-active');\n      title_button.innerText = \"Ocultar\";\n      icon_toggle.style.backgroundPosition = \"-34px\";\n      open_menu = true;\n    } else {\n      menu_lateral.classList.remove('menu-active');\n      title_button.innerText = \"Menú\";\n      icon_toggle.style.backgroundPosition = \"3px\";\n      open_menu = false;\n    }\n  });\n};\n\n//# sourceURL=webpack:///./src/modules/MenuEffects.js?");
 
 /***/ }),
 
