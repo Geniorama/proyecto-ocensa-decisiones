@@ -21,3 +21,29 @@ p
     &-vertical
         &::-webkit-scrollbar
             width: 5px
+
+// Buttons
+.btn-link
+    color: $c-co
+    text-decoration: none
+    font-family: 'roboto-bold'
+    position: relative
+    background-color: #ffffff
+    transition: $tr
+    &__circle
+        position: absolute
+        right: -17px
+        border: 2px solid $s-co
+        width: 40px
+        height: 40px
+        top: -10px
+        border-radius: 50%
+        z-index: -1
+        transition: $tr
+    &:hover
+        color: $s-co
+        text-decoration: none
+    &:hover .btn-link__circle
+        border-color: $p-co
+
+
