@@ -32,6 +32,12 @@ module.exports = {
             minify: false
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'terminal-maritimo-covenas.html',
+            template: './src/terminal-maritimo-covenas.handlebars',
+            minify: false
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'

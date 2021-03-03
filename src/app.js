@@ -74,6 +74,32 @@ import "./img/23-icon_ocenza_con_potuaria_componente_la_intervencion_informacion
 import "./img/24-icon_ocenza_con_potuaria_componente_a_las_enbarcaciones_informacion_financiera_reportes copia.svg";
 import "./img/25-icon_ocenza_con_potuaria_componente_al-final_ocensa_informacion_financiera_reportes copia.svg";
 
+import "./img/28-icon_ocenza_terminal_covenas_datos_interes.svg";
+import "./img/29-icon_ocenza_terminal_covenas_ubicado.svg";
+import "./img/30-icon_ocenza_terminal_covenas_es_el_puerto.svg";
+import "./img/31-icon_ocenza_terminal_covenas_recibe_petroleo.svg";
+import "./img/32-icon_ocenza_terminal_covenas_su_area.svg";
+import "./img/33-icon_ocenza_terminal_covenas_aqui_llegan.svg";
+import "./img/34-icon_ocenza_terminal_covenas_nuestra_terminal.svg";
+import "./img/35-icon_ocenza_terminal_covenas_un_barril.svg";
+import "./img/36-icon_ocenza_terminal_covenas_todo_este_petroleo.svg";
+import "./img/37-icon_ocenza_terminal_covenas_desde_este_puerto.svg";
+import "./img/38-icon_ocenza_terminal_covenas_el_ultimo_tramo.svg";
+import "./img/39-icon_ocenza_terminal_covenas_por_que_almacenamos.svg";
+import "./img/40-icon_ocenza_terminal_covenas_aqui_contamos.svg";
+import "./img/41-icon_ocenza_terminal_covenas_2020_tlu2.svg";
+import "./img/42-icon_ocenza_terminal_covenas_2020_barriles.svg";
+import "./img/43-icon_ocenza_terminal_covenas_2020_record_buques.svg";
+import "./img/44-icon_ocenza_terminal_covenas_estadisticas.svg";
+import "./img/cov_imag_1.jpg";
+import "./img/cov_imag_2.jpg";
+import "./img/cov_imag_3.jpg";
+import "./img/cov_imag_4.jpg";
+import "./img/cov_imag_5.jpg";
+import "./img/cov_imag_6.jpg";
+import "./img/cov_imag_7.jpg";
+
+
 menuToggle();
 itemActive();
 
@@ -90,6 +116,19 @@ $(function() {
   $('.slick-oc').slick({
     prevArrow: `<button class='nav-arrow nav-left'><img src=${ArrowLeft}></button>`,
     nextArrow: `<button class='nav-arrow nav-right'><img src=${ArrowRight}></button>`
+  });
+
+  $('.slick-oc__style-2').slick({
+    prevArrow: `<a href="#" class="button-style-1 mr-2 nav-arrow nav-left">
+      <button href="#" class="oc-back-to-top__button">
+          <img src="img/icon_subir_azul.svg" alt="">
+      </button>
+    </a>`,
+    nextArrow: `<a href="#" class="button-style-1 mr-2 nav-arrow nav-right">
+      <button href="#" class="oc-back-to-top__button">
+          <img src="img/icon_subir_azul.svg" alt="">
+      </button>
+    </a>`
   });
 });
 

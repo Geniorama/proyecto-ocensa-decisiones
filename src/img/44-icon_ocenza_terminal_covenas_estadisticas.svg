@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="Grupo_7424" data-name="Grupo 7424" transform="translate(133.571)">
+    <rect id="Rectángulo_2578" data-name="Rectángulo 2578" width="120" height="120" transform="translate(-133.571 0)" fill="none"/>
+    <g id="Grupo_7421" data-name="Grupo 7421">
+      <g id="Grupo_7419" data-name="Grupo 7419">
+        <line id="Línea_1617" data-name="Línea 1617" x1="18.206" transform="translate(-92.181 113.861)" fill="none" stroke="#ffea27" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Línea_1618" data-name="Línea 1618" x1="9.103" transform="translate(-61.145 113.861)" fill="none" stroke="#ffea27" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Línea_1619" data-name="Línea 1619" transform="translate(-39.243 113.861)" fill="none" stroke="#ffea27" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Línea_1620" data-name="Línea 1620" x1="18.206" transform="translate(-102.887 113.861)" fill="none" stroke="#ffea27" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g id="Grupo_7420" data-name="Grupo 7420">
+        <line id="Línea_1621" data-name="Línea 1621" x1="45.386" transform="translate(-102.887 101.636)" fill="none" stroke="#ffea27" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Línea_1622" data-name="Línea 1622" transform="translate(-102.887 101.636)" fill="none" stroke="#ffea27" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <line id="Línea_1623" data-name="Línea 1623" x1="25.758" transform="translate(-65.001 101.636)" fill="none" stroke="#ffea27" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+    </g>
+    <g id="Grupo_7423" data-name="Grupo 7423">
+      <line id="Línea_1624" data-name="Línea 1624" x1="72.578" y2="0.009" transform="translate(-103.604 89.017)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <g id="Grupo_7422" data-name="Grupo 7422">
+        <path id="Trazado_6239" data-name="Trazado 6239" d="M-96.784,52.533a7.472,7.472,0,0,1,.3,5.472,7.477,7.477,0,0,1-4,4.465,7.5,7.5,0,0,1-9.937-3.7,7.5,7.5,0,0,1,3.7-9.937A7.5,7.5,0,0,1-96.784,52.533Z" fill="none" stroke="#ffea27" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Trazado_6240" data-name="Trazado 6240" d="M-96.177,34.281" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Línea_1625" data-name="Línea 1625" y1="16.064" transform="translate(-103.59 25.449)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Línea_1626" data-name="Línea 1626" x1="0.001" y1="18.5" transform="translate(-103.59 70.534)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Trazado_6241" data-name="Trazado 6241" d="M-108.433,32.991l4.854-7.612,5.1,7.537" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Rectángulo_2579" data-name="Rectángulo 2579" d="M1.837,0h9.627a1.829,1.829,0,0,1,1.829,1.829V25.866a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1.837A1.837,1.837,0,0,1,1.837,0Z" transform="translate(-91.492 63.151)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Rectángulo_2580" data-name="Rectángulo 2580" d="M1.674,0H11.64a1.653,1.653,0,0,1,1.653,1.653V39.57a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1.674A1.674,1.674,0,0,1,1.674,0Z" transform="translate(-70.824 49.447)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <path id="Rectángulo_2581" data-name="Rectángulo 2581" d="M1.745,0h9.711a1.838,1.838,0,0,1,1.838,1.838V53.229a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1.745A1.745,1.745,0,0,1,1.745,0Z" transform="translate(-50.156 35.787)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

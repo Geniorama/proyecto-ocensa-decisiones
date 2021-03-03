@@ -1,0 +1,65 @@
+#datos-de-interes
+    .oc-box
+        width: 262px
+        height: 325px
+        position: absolute
+        right: -30px
+        bottom: -30px
+        z-index: -1
+
+.oc-info-box
+    border: solid 1px #c1c1c1
+    height: 400px
+    &__icon
+        height: 40%
+        img
+            width: 35%
+            margin: auto
+    &__text
+        height: 60%
+        padding-bottom: 0
+        color: #505d6c
+        &.oc-box-yellow
+            background-color: $primary
+        &.oc-box-gray
+            background-color: #dfe4e7
+
+#cifras-slider
+    .oc-title-style-2
+        transform: translateX(calc(100% / 3))
+        margin-top: 3em
+
+.oc-card-numbers 
+    background-color: white
+    transform: translateX(calc(100% / 3))
+    &__item
+        width: calc( 100% / 3)
+        &__title
+            color: $secondary
+            font-size: 1em
+            margin-bottom: 4em
+        &__list
+            font-family: 'roboto-regular'
+            color: #505d6c
+            .nav-item
+                margin-bottom: .5em
+                font-size: 1.1em
+        &:first-child
+            position: relative
+            &::before
+                content: ''
+                position: absolute
+                right: 0
+                bottom: 10%
+                height: 80%
+                width: 1px
+                background-color: #707070
+    .oc-percent
+        font-size: 3.5em
+        font-family: 'roboto-regular'
+        top: calc(50% - .7em)
+        display: block
+        text-align: center
+        width: 100%
+        left: 0
+
