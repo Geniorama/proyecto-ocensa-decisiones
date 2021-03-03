@@ -6,7 +6,7 @@ import "./../node_modules/slick-carousel";
 import SmoothScroll from "smooth-scroll";
 
 //Modules
-import {menuToggle} from "./modules/MenuEffects.js";
+import {menuToggle, itemActive} from "./modules/MenuEffects.js";
 
 // Fonts
 import "./fonts/Cabin-Regular.ttf";
@@ -75,6 +75,7 @@ import "./img/24-icon_ocenza_con_potuaria_componente_a_las_enbarcaciones_informa
 import "./img/25-icon_ocenza_con_potuaria_componente_al-final_ocensa_informacion_financiera_reportes copia.svg";
 
 menuToggle();
+itemActive();
 
 // Jquery
 $(function() {
@@ -84,11 +85,6 @@ $(function() {
     } else {
       $('#mast-header').removeClass('sticky-header')
     }
-  });
-
-  $('.ts-slick').slick({
-      prevArrow: `<button class='nav-left'><img src='${ArrowLeft}'></button>`,
-      nextArrow: `<button class='nav-right'><img src='${ArrowRight}'></button>`
   });
 
   $('.slick-oc').slick({

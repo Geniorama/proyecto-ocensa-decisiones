@@ -17,14 +17,12 @@
 
 // Section 02 Home
 .oc-retos
-    margin-top: 10em
     &__cont-1
         height: 600px
     &__figure
         position: relative
         width: 256px
         height: 309px
-        background-color: $s-co
     &__img
         width: 90%
         position: relative
@@ -54,48 +52,16 @@
 
 // Section 03 Home
 .oc-galery
-    position: relative
-    margin-top: 7em
-    &__item
-        padding: .5em
+    .nav-arrow
+        top: calc( 50% - 35px )
     &__img
         width: 100%
         margin-bottom: 2em
-    .nav-left
-        position: absolute   
-        left: -45px
-        top: 45%
-        width: 27px
-        height: 27px
-        background-color: $primary
-        border-radius: 50%
-        border: none
-        color: #fff
-        display: flex
-        align-items: center
-        img
-            width: 13px
-    .nav-right
-        position: absolute   
-        right: -45px
-        top: 45%
-        width: 27px
-        height: 27px
-        background-color: $primary
-        border-radius: 50%
-        border: none
-        color: #fff
-        display: flex
-        justify-content: center
-        align-items: center
-        img
-            width: 13px 
+        padding: 1em
 
 // Section 04  Home
 .oc-time
     background-color: #F2F4F5
-    padding: 4em 0
-    margin-top: 5em
     &__cont-1
         padding-left: 8em
     &__icon
@@ -118,8 +84,6 @@
 // Section 05 Home
 .oc-component
     background-color: #F2F4F5
-    padding: 4em 0
-    margin-top: 5em
     .oc-back-to-top__button
         background-color: #F2F4F5
         &::before
@@ -150,7 +114,6 @@
 
 // Section 06 Home
 .oc-sentence
-    background-color: $primary
     padding-top: 4.5em
     position: relative
     display: flex
@@ -165,6 +128,10 @@
         left: 70px
         bottom: -90px
         padding: 3em
+        .oc-circle
+            position: absolute
+            right: 30px
+            top: -30px
     &__desc
         color: #fff
         font-size: 25px

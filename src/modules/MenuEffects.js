@@ -19,6 +19,18 @@ export const menuToggle = () => {
             icon_toggle.style.backgroundPosition = "3px"
             open_menu = false;
         }
-    })
-    
+    })   
+}
+
+export const itemActive = () =>{
+    let title_page = document.title
+    let items_menu = document.querySelectorAll('.oc-subheader .nav-link')
+
+    for(let item of items_menu){
+        let title_item = item.textContent
+
+        if (title_item == title_page) {
+            item.classList.add('active')
+        }
+    }
 }
