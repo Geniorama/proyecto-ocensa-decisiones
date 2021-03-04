@@ -38,6 +38,12 @@ module.exports = {
             minify: false
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'tlu2.html',
+            template: './src/tlu2.handlebars',
+            minify: false
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'

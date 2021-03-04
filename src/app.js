@@ -99,6 +99,14 @@ import "./img/cov_imag_5.jpg";
 import "./img/cov_imag_6.jpg";
 import "./img/cov_imag_7.jpg";
 
+import "./img/26-icon_ocenza_tlu2_tlu2_nueva_informacion_financiera_reportes.svg";
+import "./img/27-icon_ocenza_tlu2_el_futuro_tlu2_informacion_financiera_reportes.svg";
+import "./img/mask-group-13.jpgroup-14.jpg";
+import "./img/mask-group-13.jpgroup-15.jpg";
+import "./img/mask-group-13.jpgroup-16.jpg";
+import "./img/path-6415.jpg";
+import "./img/path-6416.jpg";
+
 
 menuToggle();
 itemActive();
