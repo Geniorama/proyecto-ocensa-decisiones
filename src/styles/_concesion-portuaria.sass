@@ -1,6 +1,8 @@
 #que-es-concesion
     img
         max-width: 120px
+    p
+        font-family: "roboto-regular", sans-serif
 
 #ani-concesion
     .box-yellow
@@ -72,12 +74,17 @@
                     display: inline-block
     .cont-down
         bottom: 0
-        .img-down
+        .img-down 
             width: 95%
             left: 0
+            top: -100px
     .info-down
-        margin-top: 220px
+        margin-top: 0
         margin-left: 500px
+        top: 350px
+        .oc-circle
+            z-index: 3
+            top: 15px
         p
             color: white
             font-size: 30px
@@ -87,6 +94,7 @@
             background-color: $secondary
             padding: 60px
             line-height: 1.1em
+            position: absolute
    
 #amb-concesion
     margin-top: 120px
@@ -103,6 +111,8 @@
         font-family: 'roboto-regular', sans-serif
 
 .slick-oc-item
+    p
+        margin-top: 1.5em
     .circle-slick-oc
         width: 160px
         height: 160px
@@ -116,4 +126,74 @@
             color: #505d6c
             font-family: 'roboto-medium', sans-serif
             text-align: center
-            
+
+@media screen and (max-width: 480px)
+    #que-es-concesion
+        .line-yellow
+            margin-top: 150px
+        .responsive-ajustes
+            margin-top: -120px
+    #ani-concesion
+        .line-yellow
+            margin-top: 150px
+        .responsive-ajustes
+            margin-top: -120px
+    #ocensa-concesion
+        margin-top: -4em
+        .line-yellow
+            margin-top: 150px
+        .responsive-ajustes
+            margin-top: -120px !important
+    #conport-concesion
+        p
+            padding: 2em
+        li
+            padding: .5em .5em .5em 2em
+        .line-yellow
+            margin-top: 150px
+        .responsive-ajustes
+            margin-top: -120px !important
+            margin-bottom: -80px
+        .cont-right
+            margin: 0
+            padding: 0
+            .text-left
+                padding: 2em
+                margin-bottom: -50px
+        .cont-down
+            width: 90%
+            left: 30px
+            position: relative
+            top: 0
+            .img-down
+                width: 94% !important
+                margin-top: 85px 
+        .down-responsive
+            left: -520px !important
+            margin-top: -230px
+            .oc-circle
+                z-index: 3
+                top: 15px
+            p
+                width: 330px
+                height: 255px
+                font-size: 20px
+                padding: 35px 35px
+    #amb-concesion
+        .line-yellow
+            margin-top: 380px
+        .responsive-ajustes
+            margin-top: -125px !important
+        .responsive-ajustes-1
+            margin-top: -100px
+
+    #oc-carousel-concesion
+        .slick-oc
+            p
+                margin-top: 1.5em
+            .slick-arrow
+                top: 0
+            .nav-right
+                right: 0 !important
+            .nav-left
+                left: 0 !important
