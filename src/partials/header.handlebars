@@ -8,6 +8,22 @@
     <title>{{title}}</title>
 </head>
 <body class="page-{{body-class}}">
+    <!-- Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog pt-5">
+        <div class="modal-content">
+        <div class="modal-body">
+            <form action="" class="justify-content-end d-flex">
+                <input type="text" placeholder="Buscar" class="form-control oc-input-search" style="background-image: url('img/icon_menu_buscador_1.svg');">
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Buscar</button>
+        </div>
+        </div>
+    </div>
+    </div>
     <div class="oc-mast-header" id="mast-header">
         <header class="oc-header py-3">
             <div class="container-fluid">
@@ -27,7 +43,10 @@
 
                     {{!-- Box search menu --}}
                     <div class="col col-md-2">
-                        <form action="" class="d-flex justify-content-end">
+                        <button class="oc-button-toggle-search d-block d-md-none" data-toggle="modal" data-target="#searchModal">
+                            <img src="img/icon_menu_button-search-mobile.svg" alt="">
+                        </button>
+                        <form action="" class="justify-content-end d-none d-md-flex">
                             <input type="text" placeholder="Buscar" class="form-control oc-input-search" style="background-image: url('img/icon_menu_buscador_1.svg');">
                         </form>
                     </div>

@@ -153,3 +153,36 @@
                 width: 90%
     .oc-menu-lateral
         width: 20%
+
+// Responsive Header Mobile
+@media screen and ( max-width: 480px )
+    .oc-menu-lateral
+        width: 75%
+        padding-top: 4em
+    .oc-mast-header
+        .oc-header
+            &__brand
+                width: 100px
+            .oc-button-toggle-search
+                background-color: transparent
+                border: none
+                padding: 0
+                display: inline-block !important
+                img
+                    width: 40px
+    #searchModal
+        .form-control
+            height: 50px
+        .oc-input-search
+            background-repeat: no-repeat
+            background-size: 30px
+            background-position-y: 50%
+            background-position-x: 3%
+            padding-left: 3em
+            border-radius: 50px
+        .btn
+            font-family: 'roboto-bold'
+            border-radius: 50px
+            
+
+    
