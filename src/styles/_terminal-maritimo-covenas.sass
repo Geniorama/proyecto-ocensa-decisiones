@@ -64,3 +64,95 @@
         width: 100%
         left: 0
 
+//RESPONSIVE
+@media (max-width: 480px)
+    .oc-slider-terminal
+        .oc-intro-hero__title
+            margin-top: 2.5em
+            font-size: 60px
+            line-height: 1em
+    #datos-de-interes
+        .line-yellow
+            display: none
+        .oc-subtitle
+            line-height: 1em
+        .bg-primary
+            height: 234px
+            bottom: -18px
+            width: 100%
+            right: 0
+    #info-slider
+        .nav-left
+            top: auto
+            bottom: -30px
+            left: 0
+        .nav-right
+            top: auto
+            bottom: -30px
+            right: 0
+        .oc-info-box
+            height: auto
+            &__text
+                height: auto
+            &__icon
+                height: auto
+    #cifras-2020
+        .line-yellow
+            display: none
+    #cifras-slider
+        .oc-row-full
+            display: block !important
+        .oc-col-full
+            width: 100%
+        .oc-bg-image
+            height: 250px
+        .oc-title-style-2
+            transform: none
+            margin: 0
+            text-align: center
+            margin-bottom: 3.5em
+        .oc-col-full
+            padding: 2em 1em
+        .nav-right
+            left: auto
+            right: 10px
+            top: 18%
+        .nav-left
+            left: 10px
+            top: 18%
+        .oc-card-numbers
+            transform: none
+            width: 100%
+            flex-wrap: wrap
+            height: 325px
+            overflow: scroll
+            &__item
+                padding: 1em !important
+            &__item:nth-child(1)
+                width: 50%
+                &::before
+                    top: 0
+                    bottom: 0
+                    margin: auto
+                .oc-card-numbers__item__title
+                    text-align: left !important
+            &__item:nth-child(2)
+                width: 50%
+                .oc-card-numbers__item__title
+                    text-align: right !important
+            &__item:nth-child(3)
+                width: 100%
+                height: 150px
+            .oc-percent
+                position: relative !important
+                top: 0
+                margin: 0 !important
+                line-height: 0
+            &__item__title
+                margin-bottom: 1em
+                height: 50px
+            &__item__list .nav-item
+                font-size: .85em
+                line-height: 1em
+                height: 30px
+            

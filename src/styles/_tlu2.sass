@@ -26,3 +26,36 @@
         top: 35%
         right: -60px
         z-index: -1
+
+// RESPONSIVE
+@media (max-width: 480px)
+    .oc-intro-hero
+        height: 50vh
+    #tlu-nueva
+        .line-yellow
+            display: none !important
+    .oc-subtitle
+        position: relative
+        margin-bottom: .7em
+        &::before
+            content: ''
+            width: 80px
+            height: 3px
+            position: absolute
+            bottom: -5px
+            left: 0
+            background-color: $primary
+    #tlu2-banner
+        text-align: center
+        .oc-box-yellow
+            height: 150px
+            margin-top: -175px
+        .oc-image-banner
+            width: 90%
+    #futuro-tlu2
+        .line-yellow
+            display: none
+        .bg-primary
+            width: 100%
+            right: 0
+            top: 8%
