@@ -137,3 +137,106 @@
         font-size: 25px
         font-family: 'roboto-regular', sans-serif
         line-height: 1em
+        
+// Section timeline
+.oc-time__func
+    z-index: 2
+    &::before
+        content: ''
+        position: absolute
+        top: -20px
+        left: 0
+        width: 100%
+        height: 30px
+        background-color: #F2F4F5
+        border-bottom: solid 1px #95a5af
+.slick-oc__time
+    &__item
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        text-align: center
+        cursor: pointer
+        transition: all .4s
+        &__circle
+            width: 10px
+            height: 10px
+            background: #93afbb
+            border-radius: 50%
+            margin: auto
+            margin-top: 5px
+            transition: all .4s
+        &__text
+            font-family: 'roboto-regular'
+            font-size: .9em
+            margin-top: .9em
+            transition: all .4s
+        &__number
+            font-family: 'roboto-bold'
+            font-size: 1.5em
+            line-height: 1em
+            transition: all .4s
+        span
+            display: block
+            color: #93afbb
+            transition: all .4s
+        &:hover
+            .slick-oc__time__item
+                &__circle
+                    width: 20px
+                    height: 20px
+                    background-color: $primary
+                    border: solid 1px #95a5af
+                    margin-top: 0px
+                &__text
+                    margin-top: .6em
+                    font-size: 1em
+                &__number
+                    font-size: 2.5em
+            span
+                color: $secondary
+    .time-active
+        .slick-oc__time__item
+            &__circle
+                width: 20px
+                height: 20px
+                background-color: $primary
+                border: solid 1px #95a5af
+                margin-top: 0px
+            &__text
+                margin-top: .6em
+                font-size: 1em
+            &__number
+                font-size: 2.5em
+                
+        span
+            color: $secondary
+
+.oc-time__info
+    &__date
+        color: $secondary
+        font-family: "roboto-bold", sans-serif
+    &__day
+        color: $secondary
+        font-family: "roboto-bold", sans-serif
+        font-size: 3em
+    &__right
+        padding: 5em
+    &__desc
+        color: #505d6c
+        width: 80%
+    &__icons
+        button
+            width: 60px
+            height: 60px
+            border: none
+            background-color: transparent
+            margin-right: .5em
+            outline: none !important
+            transition: all .4s
+            &:hover
+                opacity: .7
+        img
+            width: 100%
+        

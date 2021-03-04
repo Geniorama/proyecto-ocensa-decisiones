@@ -8,6 +8,7 @@ import SmoothScroll from "smooth-scroll";
 //Modules
 import {menuToggle, itemActive} from "./modules/MenuEffects.js";
 import {buttonDisabled} from "./modules/CustomSlick.js";
+import buttonsCalendar from "./modules/ButtonsTimeline.js";
 
 // Fonts
 import "./fonts/Cabin-Regular.ttf";
@@ -44,6 +45,7 @@ import "./img/imag-5.jpg";
 import "./img/imag-6.jpg";
 import "./img/imag-7.jpg";
 import "./img/imag-8.jpg";
+import "./img/imag-9.jpg";
 import "./img/icon_ocenza_home_linea_de_tiempo.svg";
 import "./img/icon_ocenza_home_componente_ambiental.svg";
 import "./img/imag-10.jpg";
@@ -113,9 +115,18 @@ import "./img/arrow-2-right-inactive.svg";
 import ArrowLeft2 from "./img/arrow-2-left.svg";
 import ArrowRight2 from "./img/arrow-2-right.svg";
 
+import "./img/04-icon_ocenza_home_audio_activo.svg";
+import "./img/04-icon_ocenza_home_audio_inactivo.svg";
+import "./img/04-icon_ocenza_home_documento_activo.svg";
+import "./img/04-icon_ocenza_home_documento_inactivo.svg";
+import "./img/04-icon_ocenza_home_imagenes_activo.svg";
+import "./img/04-icon_ocenza_home_imagenes_inactivo.svg";
+import "./img/04-icon_ocenza_home_videos_activo.svg";
+import "./img/04-icon_ocenza_home_videos_inactivo.svg";
 
 menuToggle();
 itemActive();
+buttonsCalendar();
 
 
 // Jquery
@@ -131,6 +142,12 @@ $(function() {
   $('.slick-oc').slick({
     prevArrow: `<button class='nav-arrow nav-left'><img src=${ArrowLeft}></button>`,
     nextArrow: `<button class='nav-arrow nav-right'><img src=${ArrowRight}></button>`
+  });
+
+  $('.slick-oc__time').slick({
+    prevArrow: `<button class='nav-arrow nav-left'><img src=${ArrowLeft}></button>`,
+    nextArrow: `<button class='nav-arrow nav-right'><img src=${ArrowRight}></button>`,
+    slidesToShow: 20
   });
 
   $('.slick-oc__style-2').slick({
