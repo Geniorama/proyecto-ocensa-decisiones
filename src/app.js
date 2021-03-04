@@ -7,6 +7,7 @@ import SmoothScroll from "smooth-scroll";
 
 //Modules
 import {menuToggle, itemActive} from "./modules/MenuEffects.js";
+import {buttonDisabled} from "./modules/CustomSlick.js";
 
 // Fonts
 import "./fonts/Cabin-Regular.ttf";
@@ -101,15 +102,21 @@ import "./img/cov_imag_7.jpg";
 
 import "./img/26-icon_ocenza_tlu2_tlu2_nueva_informacion_financiera_reportes.svg";
 import "./img/27-icon_ocenza_tlu2_el_futuro_tlu2_informacion_financiera_reportes.svg";
+import "./img/mask-group-13.jpg";
 import "./img/mask-group-13.jpgroup-14.jpg";
 import "./img/mask-group-13.jpgroup-15.jpg";
 import "./img/mask-group-13.jpgroup-16.jpg";
 import "./img/path-6415.jpg";
 import "./img/path-6416.jpg";
+import "./img/arrow-2-left-inactive.svg";
+import "./img/arrow-2-right-inactive.svg";
+import ArrowLeft2 from "./img/arrow-2-left.svg";
+import ArrowRight2 from "./img/arrow-2-right.svg";
 
 
 menuToggle();
 itemActive();
+
 
 // Jquery
 $(function() {
@@ -127,16 +134,14 @@ $(function() {
   });
 
   $('.slick-oc__style-2').slick({
-    prevArrow: `<a href="#" class="button-style-1 mr-2 nav-arrow nav-left">
-      <button href="#" class="oc-back-to-top__button">
-          <img src="img/icon_subir_azul.svg" alt="">
-      </button>
-    </a>`,
-    nextArrow: `<a href="#" class="button-style-1 mr-2 nav-arrow nav-right">
-      <button href="#" class="oc-back-to-top__button">
-          <img src="img/icon_subir_azul.svg" alt="">
-      </button>
-    </a>`
+    prevArrow: `<button class='nav-arrow nav-left'><img src=${ArrowLeft2}></button>`,
+    nextArrow: `<button class='nav-arrow nav-right'><img src=${ArrowRight2}></button>`
   });
+
+  if($('.slick-oc__style-2')){
+    buttonDisabled();
+  }
 });
+
+
 

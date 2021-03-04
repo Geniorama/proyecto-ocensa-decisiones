@@ -160,19 +160,15 @@ p
             top: 13%
             position: absolute
             z-index: 1
-            button
-                background-color: transparent
-                &::before
-                    background-color: #f5f5f5
+            border: none
+            background: transparent
+            outline: none !important
             &.nav-right
                 left: 40%
-                img
-                    transform: rotate(90deg)
             &.nav-left
-                left: 36%
-                transform: rotate(180deg)
-                img
-                    transform: rotate(90deg)
+                left: 34%
+            &.slick-disabled
+                cursor: no-drop
 
     .slick-dots
         display: flex
