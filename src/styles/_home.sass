@@ -137,3 +137,100 @@
         font-size: 25px
         font-family: 'roboto-regular', sans-serif
         line-height: 1em
+
+// Section 07 Home
+.oc-info
+    &__title
+        color: $secondary
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            bottom: 38px
+            left: -90px
+            height: 3px
+            width: 80px
+            background-color: $primary
+    &__cont-info
+        overflow: scroll
+        position: relative
+        &::-webkit-scrollbar
+            height: 10px
+    &__img
+        height: 500px
+        width: auto
+    &__tooltip
+        position: absolute
+        width: 30px
+        height: 30px
+        border-radius: 50%
+        opacity: 0
+    &__mangueras
+        top: 246px
+        left: 126px
+    &__plem
+        top: 348px
+        left: 206px
+    &__tlu-2
+        top: 189px
+        left: 253px
+    &__estabilizacion
+        top: 435px
+        left: 304px
+    &__buque
+        top: 202px
+        left: 548px
+    &__geotubos
+        top: 450px
+        left: 702px
+    &__oleoducto
+        top: 368px
+        left: 847px
+    &__covenas
+        top: 97px
+        left: 1818px
+    &__item
+        padding: .5em
+    &__item-desc
+        color: #000000
+        text-align: left
+        font-family: 'roboto-c-regular'
+        font-size: 16px
+        color: $t-co
+        margin: 0
+        line-height: 1.1em
+    &__item-title
+        color: $p-co
+        text-align: left
+        margin: 0
+        font-family: 'roboto-c-bold'
+    &__item-btn
+        background-color: $p-co
+        text-align: center
+        display: table
+        margin: auto
+        padding: .5em 1.5em
+        border-radius: 20px
+        font-family: 'roboto-bold'
+        color: #fff
+        transition: $tr
+        margin-bottom: 2em
+        margin-top: 2em
+        &:hover
+            background-color: $secondary
+            text-decoration: none
+            color: #fff
+.tooltip.show
+    opacity: 1
+.tooltip-inner
+    background-color: #fff
+    max-width: 250px !important
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.13)
+    p
+        margin: 0 !important
+    hr
+        margin: .4em 0
+.bs-tooltip-right .arrow::before
+    border-right-color: #fff
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.13)
+

@@ -113,6 +113,8 @@ import "./img/arrow-2-right-inactive.svg";
 import ArrowLeft2 from "./img/arrow-2-left.svg";
 import ArrowRight2 from "./img/arrow-2-right.svg";
 
+import "./img/infografia.jpg";
+
 
 menuToggle();
 itemActive();
@@ -141,6 +143,8 @@ $(function() {
   if($('.slick-oc__style-2')){
     buttonDisabled();
   }
+  // Toggle
+  $('.oc-info__tooltip').tooltip();
 });
 
 
