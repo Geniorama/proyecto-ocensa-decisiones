@@ -107,6 +107,8 @@ import "./img/mask-group-13.jpgroup-16.jpg";
 import "./img/path-6415.jpg";
 import "./img/path-6416.jpg";
 
+import "./img/infografia.jpg";
+
 
 menuToggle();
 itemActive();
@@ -138,5 +140,8 @@ $(function() {
       </button>
     </a>`
   });
+
+  // Toggle
+  $('.oc-info__tooltip').tooltip();
 });
 

@@ -137,3 +137,60 @@
         font-size: 25px
         font-family: 'roboto-regular', sans-serif
         line-height: 1em
+
+// Section 07 Home
+.oc-info
+    &__title
+        color: $secondary
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            bottom: 38px
+            left: -90px
+            height: 3px
+            width: 80px
+            background-color: $primary
+    &__cont-info
+        overflow: scroll
+        position: relative
+        &::-webkit-scrollbar
+            height: 10px
+    &__img
+        height: 500px
+        width: auto
+    &__tooltip
+        position: absolute
+        width: 30px
+        height: 30px
+        border-radius: 50%
+        opacity: .5
+    &__mangueras
+        top: 246px
+        left: 126px
+    &__plem
+        top: 348px
+        left: 206px
+    &__tlu-2
+        top: 189px
+        left: 253px
+    &__estabilizacion
+        top: 435px
+        left: 304px
+    &__buque
+        top: 202px
+        left: 548px
+    &__geotubos
+        top: 450px
+        left: 702px
+    &__oleoducto
+        top: 368px
+        left: 847px
+    &__covenas
+        top: 97px
+        left: 1818px
+    &__item
+        background-color: #fff
+    &__tooltip .tooltip > .tooltip-inner
+        background-color: #f00
+
