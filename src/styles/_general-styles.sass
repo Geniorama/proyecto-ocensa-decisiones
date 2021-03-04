@@ -131,7 +131,7 @@ p
     position: relative
     margin-left: 50px
 
-.slick-oc
+.slick-oc, .slick-oc__time
     position: relative
     .nav-arrow
         display: flex
@@ -155,6 +155,7 @@ p
             right: -20px
         &.nav-left
             left: -20px
+    
     &__style-2
         .nav-arrow
             top: 13%
@@ -185,6 +186,12 @@ p
             color: $primary
         button
             display: none
+
+.slick-oc__time
+    .nav-right
+        right: 10px !important
+    .nav-left
+        left: 10px !important
 
 .oc-row-full
     min-height: 80vh
