@@ -8,6 +8,22 @@
     <title>Concesión Portuaria</title>
 <link href="css/app.css" rel="stylesheet"></head>
 <body class="page-concesion-portuaria">
+    <!-- Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog pt-5">
+        <div class="modal-content">
+        <div class="modal-body">
+            <form action="" class="justify-content-end d-flex">
+                <input type="text" placeholder="Buscar" class="form-control oc-input-search" style="background-image: url('img/icon_menu_buscador_1.svg');">
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Buscar</button>
+        </div>
+        </div>
+    </div>
+    </div>
     <div class="oc-mast-header" id="mast-header">
         <header class="oc-header py-3">
             <div class="container-fluid">
@@ -24,7 +40,10 @@
                     </div>
 
                     <div class="col col-md-2">
-                        <form action="" class="d-flex justify-content-end">
+                        <button class="oc-button-toggle-search d-block d-md-none" data-toggle="modal" data-target="#searchModal">
+                            <img src="img/icon_menu_button-search-mobile.svg" alt="">
+                        </button>
+                        <form action="" class="justify-content-end d-none d-md-flex">
                             <input type="text" placeholder="Buscar" class="form-control oc-input-search" style="background-image: url('img/icon_menu_buscador_1.svg');">
                         </form>
                     </div>
@@ -98,7 +117,7 @@
                     <div class="col-12 col-md-4 text-right">
                         <hr class="line-yellow">
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-8 responsive-ajustes">
                         <img src="img/05-icon_ocenza_con_potuaria_que_es_informacion_financiera_reportes.svg" alt="" class="oc-icon-section">
                         <h2 class="mt-4 oc-subtitle">¿Qué es la Concesión Portuaria?</h2>
                     </div>
@@ -144,7 +163,7 @@
                     <div class="col-12 col-md-4 text-right">
                         <hr class="line-yellow">
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-8 responsive-ajustes">
                         <img src="img/06-icon_ocenza_con_potuaria_ani_informacion_financiera_reportes.svg" alt=""
                             class="img-rigth">
                         <h2 class="mt-4">ANI: uno de los actores</h2>
@@ -171,7 +190,7 @@
                     <div class="col-12 col-md-4 text-right">
                         <hr class="line-yellow">
                     </div>
-                    <div class="col-12 col-md-8 mt-5">
+                    <div class="col-12 col-md-8 mt-5 responsive-ajustes">
                         <img src="img/07-icon_ocenza_con_potuaria_ocensayani_informacion_financiera_reportes.svg"
                             alt="" class="left-img">
                         <h2 class="mt-4">OCENSA y la ANI</h2>
@@ -196,7 +215,7 @@
                     <div class="col-12 col-md-4 text-right">
                         <hr class="line-white">
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-8 responsive-ajustes">
                         <img src="img/08-icon_ocenza_con_potuaria_que_es_comport_informacion_financiera_reportes copia.svg"
                             alt="" class="left-img">
                         <h2 class="mt-4">Qué es Conport</h2>
@@ -228,8 +247,8 @@
         <div class="col-12 col-md-10 cont-down position-absolute">
             <img src="img/imag_4.jpg" alt="" class="img-fluid img-down position-absolute">
         </div>
-        <div class="col-12 col-md-2 info-down p-5 position-absolute">
-            <div class="oc-circle">
+        <div class="col-12 col-md-2 info-down p-5 down-responsive">
+            <div class="oc-circle position-absolute">
             </div>
             <p>Trabajamos para garantizar una ejecución responsable y segura de las operaciones, priorizando el
                     cuidado por la vida y el medioambiente. El proyecto Conport se ejecuta siguiendo los términos de la
@@ -245,14 +264,14 @@
                     <div class="col-12 col-md-4 text-right">
                         <hr class="line-yellow">
                     </div>
-                    <div class="col-12 col-md-8 mt-5">
+                    <div class="col-12 col-md-8 mt-5 responsive-ajustes">
                         <img src="img/09-icon_ocenza_con_potuaria_componente_ambiental_informacion_financiera_reportes.svg"
                             alt="" class="left-img">
                         <h2 class="mt-4">Componente ambiental, siempre presente</h2>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 responsive-ajustes-1">
                 <p>Para desarrollar nuestra actividad de transporte de petróleo siempre hemos necesitado de una licencia ambiental. La que tenemos actualmente, otorgada por la ANLA, nos permite operar el oleoducto Cusiana-Coveñas y los kilómetros en mar hasta la TLU-2.<br>
 
 <br>A continuación, aspectos ambientales importantes relacionados con el cambio de la TLU-2 o monoboya:</p>
@@ -260,7 +279,7 @@
         </div>
     </div>
 </section>
-<section class="mb-5">
+<section class="mb-5" id="oc-carousel-concesion">
     <div class="container">
         <div class="slick-oc" data-slick='{"slidesToShow": 1, "dots": true}'>
             <div class="slick-oc-item">
@@ -394,11 +413,13 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-8 oc-footer__left px-5">
-                <h3 class="mb-3">Encuentre aquí lo que busca</h3>
-                <form action="">
-                    <input type="text" class="form-control mb-5 oc-input-search" placeholder="Buscar">
-                </form>
+            <div class="col-12 col-md-8 oc-footer__left px-4 px-md-5">
+                <div class="oc-footer__search d-none d-md-block">
+                    <h3 class="mb-3">Encuentre aquí lo que busca</h3>
+                    <form action="">
+                        <input type="text" class="form-control mb-5 oc-input-search" placeholder="Buscar">
+                    </form>
+                </div>
 
                 <div class="oc-more-info mb-5">
                     <h3 class="mb-3">¿Necesita más información?</h3>
@@ -406,13 +427,13 @@
                         <div class="col-12 col-md-6">
                             <p class="m-0">Queremos ayudarlo y estamos listos para hacerlo desde el otro lado de la pantalla.</p>
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 mt-4 mt-md-0">
                             <a href="#" class="btn btn-success">Contáctenos <img src="img/icon-flecha-izq-blanca.svg" alt="" width="20px" class="ml-2"></a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="d-flex align-items-center mb-4 justify-content-between">
+                <div class="d-flex align-items-center mb-4 justify-content-between oc-footer__menus">
                     <ul class="nav nav-social">
                         <li class="nav-item"><a href="#" class="nav-link"><img src="img/icon_footer_1_facebook.svg" alt=""></a></li>
                         <li class="nav-item"><a href="#" class="nav-link"><img src="img/icon_footer_2_instagram.svg" alt=""></a></li>
@@ -432,7 +453,7 @@
                     <p class="m-0">Diseño y programación <a href="#">Ekon7.com</a></p>
                 </div>
             </div>
-            <div class="col-12 col-md-4 oc-footer__right px-5">
+            <div class="col-12 col-md-4 oc-footer__right px-5 d-none d-md-block">
                 <ul class="nav flex-column">
                     <li class="nav-item"><a href="#" class="nav-link link-style-2">Nuestra compañía</a></li>
                     <li class="nav-item"><a href="#" class="nav-link link-style-2">Nuestra actividad</a></li>
@@ -445,6 +466,7 @@
 
                 <img src="img/isotipo-ocensa.svg" alt="" class="oc-footer__isotipo px-3 mt-4">
             </div>
+            <img src="img/isotipo-ocensa.svg" alt="" class="d-block d-md-none oc-footer__isotipo px-2 mt-4" style="margin: auto">
         </div>
     </div>
 </footer>
