@@ -86,14 +86,6 @@ p
         font-size: 80px
         font-family: 'roboto-bold', sans-serif
 
-.line-yellow
-    display: inline-block
-    height: 4px
-    width: 75px
-    color: $primary
-    border: none
-    background-color: $primary
-
 .padding-section
     padding: 4em 0
 
@@ -111,15 +103,6 @@ p
 
 .oc-text-color-dark
     color: #505d6c
-
-
-.line-white
-    display: inline-block
-    height: 4px
-    width: 50px
-    color: $primary
-    border: none
-    background-color: white
 
 .oc-circle
     width: 60px
@@ -203,6 +186,25 @@ p
 
 .oc-bg-gray
     background-color: #f5f5f5
+
+.oc-line-title
+    position: relative
+    &::before
+        content: ''
+        position: absolute
+        left: -85px
+        width: 70px
+        height: 3px
+        bottom: 9px
+    &.line-yellow
+        &::before
+            background-color: $primary
+    &.line-white
+        &::before
+            background-color: white
+
+.oc-padding-title
+    padding-left: 80px
 
 @media screen and (max-width: 480px)
     .oc-intro-hero
