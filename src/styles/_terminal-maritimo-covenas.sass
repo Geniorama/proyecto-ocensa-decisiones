@@ -114,21 +114,22 @@
             margin: 0
             text-align: center
             margin-bottom: 3.5em
+            font-size: 1em
         .oc-col-full
             padding: 2em 1em
         .nav-right
             left: auto
             right: 10px
-            top: 18%
+            margin-top: -40px
         .nav-left
             left: 10px
-            top: 18%
+            margin-top: -40px
         .oc-card-numbers
             transform: none
             width: 100%
             flex-wrap: wrap
             height: 325px
-            overflow: scroll
+            overflow: hidden
             &__item
                 padding: 1em !important
             &__item:nth-child(1)
@@ -159,3 +160,7 @@
                 line-height: 1em
                 height: 30px
             
+@media screen and (max-width: 768px)
+    .oc-card-numbers
+        .oc-percent
+            font-size: 3em
