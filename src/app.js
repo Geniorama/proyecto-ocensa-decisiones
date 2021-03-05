@@ -225,4 +225,7 @@ $(function() {
 
 });
 
+//AOS//
+AOS.init();
+
 
