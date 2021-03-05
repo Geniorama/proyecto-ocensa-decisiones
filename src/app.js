@@ -126,6 +126,8 @@ import "./img/04-icon_ocenza_home_imagenes_inactivo.svg";
 import "./img/04-icon_ocenza_home_videos_activo.svg";
 import "./img/04-icon_ocenza_home_videos_inactivo.svg";
 import "./img/icon_menu_button-search-mobile.svg";
+import "./img/icon_deslizar-h-blanco-2.svg";
+import "./img/icon_deslizar-h-azul.svg";
 
 menuToggle();
 itemActive();

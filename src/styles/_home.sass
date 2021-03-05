@@ -165,9 +165,29 @@
         height: 30px
         border-radius: 50%
         opacity: 0
+        &.disabled
+            opacity: 1
+            border: 2px solid #ccc
+            width: 25px
+            height: 25px
+            cursor: no-drop
+            outline: none !important
+            &::before
+                content: ''
+                width: 100%
+                height: 100%
+                background-color: #ccc
+                position: absolute
+                top: 0
+                left: 0
+                border-radius: 50%
+                transform: scale(.5)
     &__mangueras
         top: 246px
         left: 126px
+        &.disabled
+            top: 248px
+            left: 128px
     &__plem
         top: 348px
         left: 206px
@@ -183,12 +203,21 @@
     &__geotubos
         top: 450px
         left: 702px
+        &.disabled
+            top: 453px
+            left: 704px
     &__oleoducto
         top: 368px
         left: 847px
+        &.disabled
+            top: 370px
+            left: 849px
     &__covenas
         top: 97px
         left: 1818px
+        &.disabled
+            top: 99px
+            left: 1820px
     &__item
         padding: .5em
     &__item-desc
@@ -198,7 +227,7 @@
         font-size: 16px
         color: $t-co
         margin: 0
-        line-height: 1.1em
+        line-height: 1.4em !important
     &__item-title
         color: $p-co
         text-align: left
@@ -337,3 +366,25 @@
         img
             width: 100%
         
+.oc-deslice
+    transform: translateY(50px)
+    z-index: 3
+    img
+        width: 40px
+        animation: deslice 3s linear 3
+    span
+        font-family: 'roboto-bold'
+        color: $secondary
+
+@keyframes deslice
+    0%
+        transform: translate(0px)
+    50%
+        transform: translate(40px)
+    100%
+        transform: translate(0px)
+
+@media screen and ( max-width: 480px )
+    .oc-deslice
+        margin-bottom: 2em
+    
