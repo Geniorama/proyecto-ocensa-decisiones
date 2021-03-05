@@ -68,6 +68,34 @@
         color: $secondary
 
 //RESPONSIVE
+@media (min-width: 480px) and ( max-width: 769px )
+    .oc-info-box
+        height: 340px
+        overflow-y: scroll
+    .oc-info-box__text
+        font-size: .8em
+        height: 75%
+    .oc-info-box__icon
+        height: 25%
+    .oc-percent
+        font-size: 2.7em !important
+    .slick-oc__style-2
+        .nav-arrow
+            top: 6%
+            &.nav-right
+                left: 42%
+        .oc-card-numbers
+            max-height: 600px
+            overflow-y: scroll !important
+        .oc-card-numbers__item
+            padding: 1em !important
+            .nav-item
+                height: 50px
+            .oc-card-numbers__item__title
+                margin-bottom: 2em !important
+                height: 50px
+    
+
 @media (max-width: 480px)
     .oc-slider-terminal
         .oc-intro-hero__title
