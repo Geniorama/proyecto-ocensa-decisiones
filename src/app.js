@@ -126,6 +126,9 @@ import "./img/04-icon_ocenza_home_imagenes_inactivo.svg";
 import "./img/04-icon_ocenza_home_videos_activo.svg";
 import "./img/04-icon_ocenza_home_videos_inactivo.svg";
 import "./img/icon_menu_button-search-mobile.svg";
+import "./img/pictograma_ocensa_conport_footer_2.svg";
+import "./img/pictograma_ocensa_conport_footer_3.svg";
+import "./img/pictograma_ocensa_conport_footer_4.svg";
 
 menuToggle();
 itemActive();
@@ -144,13 +147,63 @@ $(function() {
 
   $('.slick-oc').slick({
     prevArrow: `<button class='nav-arrow nav-left'><img src=${ArrowLeft}></button>`,
-    nextArrow: `<button class='nav-arrow nav-right'><img src=${ArrowRight}></button>`
+    nextArrow: `<button class='nav-arrow nav-right'><img src=${ArrowRight}></button>`,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
 
   $('.slick-oc__time').slick({
     prevArrow: `<button class='nav-arrow nav-left'><img src=${ArrowLeft}></button>`,
     nextArrow: `<button class='nav-arrow nav-right'><img src=${ArrowRight}></button>`,
-    slidesToShow: 20
+    slidesToShow: 20,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 20,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
 
   $('.slick-oc__style-2').slick({
