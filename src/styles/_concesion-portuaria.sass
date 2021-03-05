@@ -1,8 +1,6 @@
 #que-es-concesion
     img
         max-width: 120px
-    p
-        font-family: "roboto-regular", sans-serif
 
 #ani-concesion
     .box-yellow
@@ -18,11 +16,7 @@
     .img-rigth
         width: 120px
         align-items: center
-    h2
-        color: $secondary
-        font-size: 40px
-    p
-        font-family: 'roboto-regular', sans-serif
+
     .line-yellow
         margin-top: 230px
 
@@ -30,34 +24,21 @@
     .left-img
         width: 120px
         align-items: center
-    h2
-        color: $secondary
-        font-size: 40px
     .line-yellow
         margin-top: 135px
-    p
-        font-family: 'roboto-regular', sans-serif
     .img-right
         width: 90%
         margin-left: 30px
         
 #conport-concesion
-    height: 1110px
+    // height: 1110px
     .line-white
-        height: 2px
         width: 75px
-        margin-top: 130px
+        margin-top: 100%
     .left-img
         width: 120px
         align-items: center
-    h2
-        color: $secondary
-        font-size: 40px
-    p
-        color: #505d6c
     .cont-right
-        margin: 38px 0 36px
-        padding: 0px 24px 80px 76px
         .text-right
             margin-top: 60px
         ul
@@ -65,50 +46,34 @@
             li
                 color: #505d6c
                 font-weight: 500
-                font-family: 'roboto-bold'
+                font-family: 'roboto-medium', sans-serif
                 &::before
                     content: '•'
                     color: white
                     font-size: 20pt
                     margin-right: .4em
                     display: inline-block
-    .cont-down
-        bottom: 0
-        .img-down 
-            width: 95%
-            left: 0
-            top: -100px
     .info-down
-        margin-top: 0
-        margin-left: 500px
-        top: 350px
+        background-color: $secondary
+        right: 3%
+        bottom: -100px
         .oc-circle
             z-index: 3
-            top: 15px
+            top: -30px
+            left: 0
         p
             color: white
-            font-size: 30px
+            font-size: 1.7em
             font-family: 'roboto-regular', sans-serif
-            width: 630px
-            height: 330px
-            background-color: $secondary
-            padding: 60px
-            line-height: 1.1em
-            position: absolute
+            line-height: 1.3em
    
 #amb-concesion
     margin-top: 120px
     .line-yellow
         margin-top: 200px
-    h2
-        color: $secondary
-        font-size: 40px
     .left-img
         width: 120px
         align-items: center
-    p
-        margin-top: 140px
-        font-family: 'roboto-regular', sans-serif
 
 .slick-oc-item
     p
@@ -127,65 +92,33 @@
             font-family: 'roboto-medium', sans-serif
             text-align: center
 
+#oc-carousel-concesion
+    p
+        font-family: 'roboto-medium', sans-serif
+
 @media screen and (max-width: 480px)
-    #que-es-concesion
-        .line-yellow
-            margin-top: 150px
-        .responsive-ajustes
-            margin-top: -120px
-    #ani-concesion
-        .line-yellow
-            margin-top: 150px
-        .responsive-ajustes
-            margin-top: -120px
+    .line-yellow
+        display: none !important
     #ocensa-concesion
         margin-top: -4em
-        .line-yellow
-            margin-top: 150px
-        .responsive-ajustes
-            margin-top: -120px !important
     #conport-concesion
-        p
-            padding: 2em
+        .line-white
+            margin-top: 30px
+
         li
             padding: .5em .5em .5em 2em
-        .line-yellow
-            margin-top: 150px
-        .responsive-ajustes
-            margin-top: -120px !important
-            margin-bottom: -80px
         .cont-right
             margin: 0
             padding: 0
             .text-left
                 padding: 2em
                 margin-bottom: -50px
-        .cont-down
-            width: 90%
-            left: 30px
-            position: relative
-            top: 0
-            .img-down
-                width: 94% !important
-                margin-top: 85px 
-        .down-responsive
-            left: -520px !important
-            margin-top: -230px
-            .oc-circle
-                z-index: 3
-                top: 15px
+        
+        .info-down
+            position: relative !important
+            margin-top: -120px
             p
-                width: 330px
-                height: 255px
-                font-size: 20px
-                padding: 35px 35px
-    #amb-concesion
-        .line-yellow
-            margin-top: 380px
-        .responsive-ajustes
-            margin-top: -125px !important
-        .responsive-ajustes-1
-            margin-top: -100px
+                font-size: 1.2em
 
     #oc-carousel-concesion
         .slick-oc
@@ -197,3 +130,6 @@
                 right: 0 !important
             .nav-left
                 left: 0 !important
+    #ani-concesion .img-ani img
+        margin-top: 95px
+        margin-bottom: 3em

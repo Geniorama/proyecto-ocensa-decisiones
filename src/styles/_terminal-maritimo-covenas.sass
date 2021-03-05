@@ -35,6 +35,7 @@
     transform: translateX(4.7%)
     &__item
         width: calc( 140% / 3)
+        overflow: hidden
         &__title
             color: $secondary
             font-size: 1em
@@ -51,8 +52,9 @@
                 content: ''
                 position: absolute
                 right: 0
-                bottom: 30px
-                height: 80%
+                top: 0
+                margin-top: 20px
+                height: calc( 100% - 40px )
                 width: 1px
                 background-color: #707070
     .oc-percent
@@ -63,6 +65,7 @@
         text-align: center
         width: 100%
         left: 0
+        color: $secondary
 
 //RESPONSIVE
 @media (max-width: 480px)
