@@ -129,11 +129,13 @@ import "./img/icon_menu_button-search-mobile.svg";
 import "./img/pictograma_ocensa_conport_footer_2.svg";
 import "./img/pictograma_ocensa_conport_footer_3.svg";
 import "./img/pictograma_ocensa_conport_footer_4.svg";
+import "./img/icono-faltante.svg";
 
+
+AOS.init();
 menuToggle();
 itemActive();
 buttonsCalendar();
-
 
 // Jquery
 $(function() {
@@ -216,6 +218,9 @@ $(function() {
   }
   // Toggle
   $('.oc-info__tooltip').tooltip();
+
+  AOS.refresh();
+
 });
 
 
