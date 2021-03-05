@@ -132,6 +132,8 @@ import "./img/pictograma_ocensa_conport_footer_4.svg";
 import "./img/icon_deslizar-h-blanco-2.svg";
 import "./img/icon_deslizar-h-azul.svg";
 import "./img/icono-faltante.svg";
+import "./img/logo_ocensa_logo2.png";
+import "./img/logo_ocensa_logosimbolo.png";
 
 
 AOS.init();
