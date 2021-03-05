@@ -218,4 +218,7 @@ $(function() {
   $('.oc-info__tooltip').tooltip();
 });
 
+//AOS//
+AOS.init();
+
 
