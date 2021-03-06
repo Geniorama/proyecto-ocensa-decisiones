@@ -67,16 +67,21 @@
         left: 0
         color: $secondary
 
+.slick-oc__terminal
+    .nav-arrow
+        bottom: unset
+        top: 50%
+
 //RESPONSIVE
 @media (min-width: 480px) and ( max-width: 769px )
     .oc-info-box
-        height: 340px
+        height: 449px
         overflow-y: scroll
     .oc-info-box__text
-        font-size: .8em
-        height: 75%
+        font-size: 1em
+        height: 70%
     .oc-info-box__icon
-        height: 25%
+        height: 30%
     .oc-percent
         font-size: 2.7em !important
     .slick-oc__style-2
@@ -115,18 +120,19 @@
     #info-slider
         .nav-left
             top: auto
-            bottom: -30px
+            bottom: -43px
             left: 0
         .nav-right
             top: auto
-            bottom: -30px
+            bottom: -43px
             right: 0
         .oc-info-box
-            height: auto
-            &__text
-                height: auto
+            height: 382px
             &__icon
-                height: auto
+                height: 30%
+            &__text
+                height: 70%
+                font-size: .9em
     #cifras-2020
         .line-yellow
             display: none

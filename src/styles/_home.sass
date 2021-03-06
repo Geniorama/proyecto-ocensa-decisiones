@@ -365,6 +365,13 @@
                 opacity: .7
         img
             width: 100%
+
+.slick-oc__concesion__responsive
+    .nav-arrow
+        top: 50% !important
+    .slick-slide
+        img
+            width: 100px
         
 //Responsive
 @media (min-width: 480px) and ( max-width: 769px)
@@ -374,15 +381,36 @@
                 padding: 2em
     .padding-section
         padding: 2em 0
+    
+    .oc-retos
+        &__cont-2
+            padding: 0 2em
+        &__img
+            top: -268px
+            width: 70%
 
     .oc-galery__item
         img
             width: 50%
+    .oc-sentence
+        padding-top: 2.5em
+        justify-content: center
+        &__cont
+            top: 261px
+            height: 260px
+
+    .oc-info
+        &__cont-title
+            margin-top: 50px
     
 @media (max-width: 480px)
+    #oc-carousel-concesion
+        margin-bottom: 0px !important
     .oc-deslice
         margin-bottom: 2em
     .oc-retos
+        &__cont-1
+            height: 420px
         &__cont-2
             padding: 1em 2em
         &__title
@@ -449,18 +477,7 @@
     span
         font-family: 'roboto-bold'
         color: $secondary
-
-@media screen and (max-width: 768px)
-    .oc-sentence
-        padding-top: 2.5em
-        justify-content: center
-        &__cont
-            top: 261px
-            height: 260px
-
-    .oc-info
-        &__cont-title
-            margin-top: 50px
+    
 
 @keyframes deslice
     0%
