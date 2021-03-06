@@ -1,0 +1,63 @@
+#tlu2-banner
+    .oc-image-banner
+        width: 70%
+    .oc-box-yellow
+        height: 350px
+        margin-top: -240px
+
+#tlu-nueva
+    .oc-icon-section
+        margin-left: -6px !important
+#futuro-tlu2
+    .oc-icon-section
+        margin-left: -6px !important
+    .slick-dots
+        justify-content: flex-end
+        margin-top: 1em
+        li
+            color: transparent
+            border: 2px solid white
+            border-radius: 50%
+            width: 13px
+            height: 13px
+            font-size: 0
+            margin: 0px 10px
+            &.slick-active
+                background-color: white
+    .oc-box
+        width: 262px
+        height: 301px
+        position: absolute
+        top: 35%
+        right: -60px
+        z-index: -1
+
+// RESPONSIVE
+@media (max-width: 480px)
+    .oc-intro-hero
+        height: 50vh
+    .oc-subtitle
+        position: relative
+        margin-bottom: .7em
+        &::before
+            content: ''
+            width: 80px
+            height: 3px
+            position: absolute
+            bottom: -5px
+            left: 0
+            background-color: $primary
+    #tlu2-banner
+        text-align: center
+        .oc-box-yellow
+            height: 150px
+            margin-top: -175px
+        .oc-image-banner
+            width: 90%
+    #futuro-tlu2
+        .line-yellow
+            display: none
+        .bg-primary
+            width: 100%
+            right: 0
+            top: 8%

@@ -1,0 +1,488 @@
+// Section 01 Home
+.oc-slider
+    &__cont
+        position: relative
+    &__img
+        height: 700px
+        width: 100%
+        top: 60px
+        position: relative
+    &__title
+        position: absolute
+        top: 45%
+        left: 150px
+        font-family: 'roboto-bold', sans-serif
+        color: #ffffff
+        font-size: 80px
+
+// Section 02 Home
+.oc-retos
+    &__cont-1
+        height: 600px
+    &__figure
+        position: relative
+        width: 256px
+        height: 309px
+    &__img
+        width: 90%
+        position: relative
+        top: -220px
+        left: 50px
+    &__cont-2
+        padding-left: 4.5em
+    &__icon
+        width: 100px
+    &__title
+        color: $c-co
+        margin-top: .5em
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            left: -85px
+            width: 80px
+            height: 3px
+            background-color: $s-co
+            top: 50%
+    &__desc
+        color: $t-co
+        font-family: 'roboto-regular', sans-serif
+    &__btn
+        margin-top: 2em
+
+// Section 03 Home
+.oc-galery
+    .nav-arrow
+        top: calc( 50% - 35px )
+    &__img
+        width: 100%
+        margin-bottom: 2em
+        padding: 1em
+
+// Section 04  Home
+.oc-time
+    background-color: #F2F4F5
+    &__cont-1
+        padding-left: 8em
+    &__icon
+        width: 110px
+    &__title
+        color: $secondary
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            bottom: 8px
+            left: -94px
+            width: 85px
+            height: 3px
+            background-color: $primary
+    &__desc
+        color: $t-co
+        font-family: 'roboto-medium', sans-serif
+
+// Section 05 Home
+.oc-component
+    background-color: #F2F4F5
+    .oc-back-to-top__button
+        background-color: #F2F4F5
+        &::before
+            background-color: #F2F4F5
+    &__cont-1
+        padding-left: 8em
+    &__icon
+        width: 110px
+    &__title
+        color: $secondary
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            bottom: 8px
+            left: -94px
+            width: 85px
+            height: 3px
+            background-color: $primary
+    &__desc
+        color: $t-co
+        font-family: 'roboto-medium', sans-serif
+    &__btn
+        margin-top: 1.5em
+    .btn-link
+        background-color: #F2F4F5
+        z-index: 1
+
+// Section 06 Home
+.oc-sentence
+    padding-top: 4.5em
+    position: relative
+    display: flex
+    justify-content: flex-end
+    margin-bottom: 7em
+    &__img
+        width: 80%
+    &__cont
+        position: absolute
+        background-color: $secondary
+        width: 630px
+        left: 70px
+        bottom: -90px
+        padding: 3em
+        .oc-circle
+            position: absolute
+            right: 30px
+            top: -30px
+    &__desc
+        color: #fff
+        font-size: 25px
+        font-family: 'roboto-regular', sans-serif
+        line-height: 1.2em
+
+// Section 07 Home
+.oc-info
+    &__title
+        color: $secondary
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            bottom: 38px
+            left: -90px
+            height: 3px
+            width: 80px
+            background-color: $primary
+    &__cont-info
+        overflow: scroll
+        position: relative
+        &::-webkit-scrollbar
+            height: 10px
+    &__img
+        height: 500px
+        width: auto
+    &__tooltip
+        position: absolute
+        width: 30px
+        height: 30px
+        border-radius: 50%
+        opacity: 0
+        &.disabled
+            opacity: 1
+            border: 2px solid #ccc
+            width: 25px
+            height: 25px
+            cursor: no-drop
+            outline: none !important
+            &::before
+                content: ''
+                width: 100%
+                height: 100%
+                background-color: #ccc
+                position: absolute
+                top: 0
+                left: 0
+                border-radius: 50%
+                transform: scale(.5)
+    &__mangueras
+        top: 246px
+        left: 126px
+        &.disabled
+            top: 248px
+            left: 128px
+    &__plem
+        top: 348px
+        left: 206px
+    &__tlu-2
+        top: 189px
+        left: 253px
+    &__estabilizacion
+        top: 435px
+        left: 304px
+    &__buque
+        top: 202px
+        left: 548px
+    &__geotubos
+        top: 450px
+        left: 702px
+        &.disabled
+            top: 453px
+            left: 704px
+    &__oleoducto
+        top: 368px
+        left: 847px
+        &.disabled
+            top: 370px
+            left: 849px
+    &__covenas
+        top: 97px
+        left: 1818px
+        &.disabled
+            top: 99px
+            left: 1820px
+    &__item
+        padding: .5em
+    &__item-desc
+        color: #000000
+        text-align: left
+        font-family: 'roboto-c-regular'
+        font-size: 16px
+        color: $t-co
+        margin: 0
+        line-height: 1.4em !important
+    &__item-title
+        color: $p-co
+        text-align: left
+        margin: 0
+        font-family: 'roboto-c-bold'
+    &__item-btn
+        background-color: $p-co
+        text-align: center
+        display: table
+        margin: auto
+        padding: .5em 1.5em
+        border-radius: 20px
+        font-family: 'roboto-bold'
+        color: #fff
+        transition: $tr
+        margin-bottom: 2em
+        margin-top: 2em
+        &:hover
+            background-color: $secondary
+            text-decoration: none
+            color: #fff
+.tooltip.show
+    opacity: 1
+.tooltip-inner
+    background-color: #fff
+    max-width: 250px !important
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.13)
+    p
+        margin: 0 !important
+    hr
+        margin: .4em 0
+.bs-tooltip-right .arrow::before
+    border-right-color: #fff
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.13)
+
+        
+// Section timeline
+.oc-time__func
+    z-index: 2
+    &::before
+        content: ''
+        position: absolute
+        top: -20px
+        left: 0
+        width: 100%
+        height: 30px
+        background-color: #F2F4F5
+        border-bottom: solid 1px #95a5af
+.slick-oc__time
+    &__item
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        text-align: center
+        cursor: pointer
+        transition: all .4s
+        &__circle
+            width: 10px
+            height: 10px
+            background: #93afbb
+            border-radius: 50%
+            margin: auto
+            margin-top: 5px
+            transition: all .4s
+        &__text
+            font-family: 'roboto-regular'
+            font-size: .9em
+            margin-top: .9em
+            transition: all .4s
+        &__number
+            font-family: 'roboto-bold'
+            font-size: 1.5em
+            line-height: 1em
+            transition: all .4s
+        span
+            display: block
+            color: #93afbb
+            transition: all .4s
+        &:hover
+            .slick-oc__time__item
+                &__circle
+                    width: 20px
+                    height: 20px
+                    background-color: $primary
+                    border: solid 1px #95a5af
+                    margin-top: 0px
+                &__text
+                    margin-top: .6em
+                    font-size: 1em
+                &__number
+                    font-size: 2.5em
+            span
+                color: $secondary
+    .time-active
+        .slick-oc__time__item
+            &__circle
+                width: 20px
+                height: 20px
+                background-color: $primary
+                border: solid 1px #95a5af
+                margin-top: 0px
+            &__text
+                margin-top: .6em
+                font-size: 1em
+            &__number
+                font-size: 2.5em
+                
+        span
+            color: $secondary
+
+.oc-time__info
+    &__date
+        color: $secondary
+        font-family: "roboto-bold", sans-serif
+    &__day
+        color: $secondary
+        font-family: "roboto-bold", sans-serif
+        font-size: 3em
+    &__right
+        padding: 5em
+    &__desc
+        color: #505d6c
+        width: 80%
+    &__icons
+        button
+            width: 60px
+            height: 60px
+            border: none
+            background-color: transparent
+            margin-right: .5em
+            outline: none !important
+            transition: all .4s
+            &:hover
+                opacity: .7
+        img
+            width: 100%
+
+.slick-oc__concesion__responsive
+    .nav-arrow
+        top: 50% !important
+    .slick-slide
+        img
+            width: 100px
+        
+//Responsive
+@media (min-width: 480px) and ( max-width: 769px)
+    .oc-time
+        &__info
+            &__right
+                padding: 2em
+    .padding-section
+        padding: 2em 0
+    
+    .oc-retos
+        &__cont-2
+            padding: 0 2em
+        &__img
+            top: -268px
+            width: 70%
+
+    .oc-galery__item
+        img
+            width: 50%
+    .oc-sentence
+        padding-top: 2.5em
+        justify-content: center
+        &__cont
+            top: 261px
+            height: 260px
+
+    .oc-info
+        &__cont-title
+            margin-top: 50px
+    
+@media (max-width: 480px)
+    #oc-carousel-concesion
+        margin-bottom: 0px !important
+    .oc-deslice
+        margin-bottom: 2em
+    .oc-retos
+        &__cont-1
+            height: 420px
+        &__cont-2
+            padding: 1em 2em
+        &__title
+            margin-bottom: 1em
+            &::before
+                bottom: -15px
+                left: 0
+                top: auto
+        .button-view-more
+            display: none
+    .oc-galery
+        .nav-left
+            left: 10px !important
+        .nav-right
+            right: 10px !important
+    .oc-time
+        &__cont-1
+            padding: 1em
+        &__title
+            &::before
+                bottom: -10px
+                left: 0
+        &__info__right
+            padding: 2em
+    .oc-bg-image
+        height: 250px
+    .oc-component
+        &__cont-1
+            padding: 1em
+        &__title
+            &::before
+                bottom: -10px
+                left: 0
+    .oc-sentence
+        justify-content: center
+        padding-top: 1em
+        margin-bottom: 10em
+        &__cont
+            width: 100%
+            left: 0
+            padding: 1.5em
+            bottom: -160px
+            .oc-circle
+                width: 40px
+                height: 40px
+                top: -20px
+        &__desc
+            font-size: 1em
+            text-align: center
+            line-height: 1.2em
+        &__img
+            width: 90%
+    .oc-info
+        &__title
+            &::before
+                bottom: -10px
+                left: 0
+.oc-deslice
+    transform: translateY(50px)
+    z-index: 3
+    img
+        width: 40px
+        animation: deslice 3s linear 3
+    span
+        font-family: 'roboto-bold'
+        color: $secondary
+    
+
+@keyframes deslice
+    0%
+        transform: translate(0px)
+    50%
+        transform: translate(40px)
+    100%
+        transform: translate(0px)
