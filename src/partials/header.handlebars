@@ -8,6 +8,8 @@
     <title>{{title}}</title>
 </head>
 <body class="page-{{body-class}}">
+    {{!-- Ancla --}}
+    <div id="top"></div>
     <!-- Modal -->
     <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog pt-5">
@@ -29,7 +31,7 @@
             <div class="container-fluid">
                 <div class="row justify-content-between text-center align-items-center">
                     {{!-- Box button menu toggle --}}
-                    <div class="col col-md-2">
+                    <div class="col col-md-3 col-lg-2">
                         <button class="oc-header__box-button-menu text-left" id="btn-menu-lateral">
                             <div class="oc-header__button-menu-lateral m-auto" style="background-image: url('img/sprite-01-menu-blanco.svg');"></div>
                             <p class="oc-header__title-menu-lateral m-0 text-center" id="title-button-menu">Menú</p>
@@ -37,12 +39,12 @@
                     </div>
                     
                     {{!-- Box Brand --}}
-                    <div class="col col-md-8">
+                    <div class="col col-md-6 col-lg-8">
                         <a href="#" class="oc-header__link-brand"><img src="img/logo_ocensa_logo2.png" alt="" class="oc-header__brand"></a>
                     </div>
 
                     {{!-- Box search menu --}}
-                    <div class="col col-md-2">
+                    <div class="col col-md-3 col-lg-2">
                         <button class="oc-button-toggle-search d-block d-md-none" data-toggle="modal" data-target="#searchModal">
                             <img src="img/icon_menu_button-search-mobile.svg" alt="">
                         </button>
@@ -93,7 +95,7 @@
                     <li class="nav-item"><a href="#" class="nav-link">Política de protección de datos</a></li>
                 </ul>
 
-                <img src="img/isotipo-ocensa.svg" alt="" class="oc-menu-lateral__isotipo px-3 mt-4">
+                <img src="img/logo_ocensa_logosimbolo.png" alt="" class="oc-menu-lateral__isotipo px-3 my-4">
             </nav>
         </div>  
     </div>
