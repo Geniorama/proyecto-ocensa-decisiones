@@ -27,20 +27,8 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
-            filename: 'concesion-portuaria.html',
-            template: './src/concesion-portuaria.handlebars',
-            minify: false
-        }),
-
-        new HtmlWebpackPlugin({
-            filename: 'terminal-maritimo-covenas.html',
-            template: './src/terminal-maritimo-covenas.handlebars',
-            minify: false
-        }),
-
-        new HtmlWebpackPlugin({
-            filename: 'tlu2.html',
-            template: './src/tlu2.handlebars',
+            filename: 'example.html',
+            template: './src/example.handlebars',
             minify: false
         }),
 
