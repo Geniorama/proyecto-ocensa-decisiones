@@ -1,8 +1,8 @@
-body, html
+body
     overflow-x: hidden
     
 h1, h2, h3
-    font-family: "roboto-regular", sans-serif
+    font-family: "cabin-regular", sans-serif
 
 h5, h6
     font-family: "roboto-bold", sans-serif
@@ -17,7 +17,7 @@ p
         border-radius: 10px
     &::-webkit-scrollbar-thumb 
         border-radius: 10px
-        background: #19A501
+        background: $primary
     &-vertical
         &::-webkit-scrollbar
             width: 5px
@@ -74,6 +74,7 @@ p
             color: $secondary !important
 .oc-h-100
     height: 100%
+
 .oc-intro-hero
     background-position: center
     background-repeat: no-repeat
@@ -100,6 +101,14 @@ p
     max-width: 120px
     margin-left: -13px
 
+.oc-button-down
+    width: 35px 
+    height: 35px
+    display: inline-block
+    img
+        width: 100%
+        height: 100%
+
 .oc-subtitle
     color: $secondary
     font-size: 2.4em
@@ -109,7 +118,7 @@ p
     font-family: 'roboto-bold'
 
 .oc-text-color-dark
-    color: #505d6c
+    color: #000
 
 .oc-circle
     width: 60px
@@ -120,68 +129,6 @@ p
     position: relative
     margin-left: 50px
 
-.slick-oc, .slick-oc__time, .slick-oc__terminal
-    position: relative
-    .nav-arrow
-        display: flex
-        justify-content: center
-        align-items: center
-        background-color: $primary
-        width: 30px
-        height: 30px
-        box-shadow: none
-        border: none
-        padding: .5em
-        border-radius: 50%
-        padding: .5em
-        position: absolute
-        top: calc( 50% - 15px )
-        z-index: 2
-        outline: none !important
-        img
-            width: 90%
-        &.nav-right
-            right: -20px
-        &.nav-left
-            left: -20px
-    
-    &__style-2
-        .nav-arrow
-            top: 13%
-            position: absolute
-            z-index: 1
-            border: none
-            background: transparent
-            outline: none !important
-            &.nav-right
-                left: 40%
-            &.nav-left
-                left: 34%
-            &.slick-disabled
-                cursor: no-drop
-
-    .slick-dots
-        display: flex
-        justify-content: center
-        align-items: center
-        li
-            width: 10px
-            height: 10px
-            margin: 0 .3em
-            font-size: 2.1em
-            color: #dfe4e7
-            cursor: pointer
-        .slick-active
-            color: $primary
-        button
-            display: none
-
-.slick-oc__time
-    .nav-right
-        right: 10px !important
-    .nav-left
-        left: 10px !important
-
 .oc-row-full
     min-height: 80vh
     .oc-col-full
@@ -191,8 +138,15 @@ p
     background-size: cover
     background-repeat: no-repeat
 
-.oc-bg-gray
-    background-color: #f5f5f5
+.oc-bg
+    &-gray
+        background-color: #f5f5f5
+    &-yellow
+        background-color: $yellow-co
+    &-turq
+        background-color: $turquoise-co
+    &-green
+        background-color: $primary
 
 .oc-line-title
     position: relative
@@ -203,7 +157,7 @@ p
         width: 70px
         height: 3px
         bottom: 9px
-    &.line-yellow
+    &.line-green
         &::before
             background-color: $primary
     &.line-white
@@ -225,13 +179,6 @@ p
     .oc-line-title
         &::before
             bottom: -15px !important
-    .slick-oc, .slick-oc__time, .slick-oc__terminal
-        .slick-dots
-            li
-                width: 8px
-                height: 8px
-                font-size: 1.7em
-
 
 @media screen and (max-width: 768px)
     .oc-line-title

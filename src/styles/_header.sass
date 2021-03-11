@@ -1,62 +1,16 @@
-.oc-mast-header
-    position: fixed
-    width: 100%
-    top: 0
-    left: 0
-    z-index: 5
-
-.oc-header
-    background-color: #19A501
-    z-index: 3
-    position: relative
-    transition: all .4s
-    &__link-brand
-        transition: all .4s
-        &:hover
-            opacity: .7
-    &__brand
-        width: 200px
-        transition: all .4s
-    .oc-input-search
-        height: 40px !important
-        border-radius: 50px
-        // background-image: url('../img/icon_menu_buscador_1.svg')
-        background-repeat: no-repeat
-        background-size: 30px
-        padding-left: 40px
-        background-position: 10px 5px
-        width: 40%
-        transition: all .4s linear
-        font-family: "roboto-bold"
-        &::placeholder
-            color: #ccc
-        &:hover
-            width: 70%
-            transition: all .4s linear
-    &__box-button-menu
-        cursor: pointer
-        background-color: transparent
-        border: none
-        display: block
-        outline: none !important
-        width: 55px
-        text-align: center
-    &__button-menu-lateral
-        width: 30px
-        height: 30px
-        // background-image: url('./../img/sprite-01-menu-blanco.svg')
-        background-repeat: no-repeat
-        background-size: 200%
-        background-position-x: 3px
-        transition: all .4s
-    &__title-menu-lateral
-        color: white
-        font-size: .8em
-
 // Subheader
 .oc-subheader
     background-color: white
     border-bottom: 1px solid #d7d7d7
+    position: relative
+    &__arrow
+        width: 10px
+        top: 20px
+        position: absolute
+        &.left
+            left: 10px
+        &.right
+            right: 10px
     .nav
         flex-wrap: nowrap
     .nav-link
@@ -79,127 +33,13 @@
         &:hover
             opacity: .6
 
-// Menu Lateral
-.oc-menu-lateral
-    background-color: rgba(#000, 0)
-    position: fixed
-    top: 0
-    left: 0
-    height: 100vh
-    padding-top: 8em
-    padding-bottom: 2em
-    width: 15%
-    overflow-y: scroll
-    transform: translateX(-200%)
-    transition: all .6s linear
-    &.menu-active
-        transform: translateY(0)
-        background-color: rgba(#000, .8)
-    .nav-item
-        padding: 1.5em 0
-        box-sizing: border-box
-    .nav-link
-        color: white
-        font-family: "roboto-regular"
-        display: inline-block
-        transition: all .4s
-        box-sizing: border-box
-        &:hover
-            font-size: 1.1em
-            box-sizing: border-box
-    .social-nav
-        list-style: none
-        padding: 0
-        display: grid
-        grid-template-columns: repeat(2, 1fr)
-        width: 50%
-        margin-left: 20px
-        .nav-item
-            text-align: center
-            padding: .5em 0
-            .nav-link
-                padding: 0
-                transition: all .4s
-                &:hover
-                    opacity: .6
-        img
-            width: 50px
-            height: 50px
-    .nav-secondary
-        .nav-item
-            padding: 0
-            .nav-link
-                font-size: .8em
-                transition: all .4s
-                &:hover
-                    font-size: .9em
-    &__isotipo
-        width: 40%
-
-// Sticky header
-.sticky-header
-    .oc-header
-        padding: 7px 0 !important
-        &__brand
-            width: 100px
-// Header Laptop
-@media ( min-width: 768px ) and (max-width: 1440px)
-    .oc-header
-        .oc-input-search
-            width: 60%
-            &:hover
-                width: 90%
-    .oc-menu-lateral
-        width: 20%
-
 @media ( min-width: 480px ) and (max-width: 769px)
-    .oc-header
-        .oc-input-search
-            width: 100%
-    .oc-menu-lateral
-        width: 50%
     .oc-subheader
         nav
             overflow-x: scroll
 
 // Responsive Header Mobile
 @media screen and ( max-width: 480px )
-    .oc-menu-lateral
-        width: 75%
-        padding-top: 4em
-    .oc-mast-header
-        .oc-header
-            .container-fluid
-                padding: 0
-            &__brand
-                width: 110px
-            .oc-button-toggle-search
-                background-color: transparent
-                border: none
-                padding: 0
-                display: inline-block !important
-                img
-                    width: 40px
-            &__button-menu-lateral
-                width: 34px
-                margin-top: 3px !important
-    #searchModal
-        .form-control
-            height: 50px
-        .oc-input-search
-            background-repeat: no-repeat
-            background-size: 30px
-            background-position-y: 50%
-            background-position-x: 3%
-            padding-left: 3em
-            border-radius: 50px
-        .btn
-            font-family: 'roboto-bold'
-            border-radius: 50px
-            
-    .oc-header
-        &__box-button-menu
-            width: 65px
     .oc-subheader
         nav
             overflow-x: scroll
