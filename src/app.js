@@ -38,6 +38,16 @@ import "./img/oc-icon-more.svg"
 import "./img/oc-icon-minus.svg"
 import "./img/oc-icon-more-hover.svg"
 import "./img/icon_ocensa_gobierno_corporativo__comite_ejecutivo.svg"
+import "./img/icon_ocensa_gobierno_corporativo__comite_inversiones.svg"
+import "./img/icon_ocensa_gobierno_corporativo__foro_alineacion_tactica.svg"
+import "./img/icon_ocensa_gobierno_corporativo__comite_operaciones.svg"
+import "./img/icon_ocensa_gobierno_corporativo__comite_gestion_financiera.svg"
+import "./img/icon_ocensa_gobierno_corporativo__imte.svg"
+import "./img/icon_ocensa_gobierno_corporativo__foro_operativo_hse.svg"
+import "./img/icon_ocensa_gobierno_corporativo__foro_desempeño_financiero.svg"
+import "./img/icon_ocensa_gobierno_corporativo__foro_interferencia_con_terceros.svg"
+import "./img/icon_ocensa_gobierno_corporativo__comite_etica.svg"
+import "./img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg"
 
 
 
