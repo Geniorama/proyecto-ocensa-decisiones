@@ -23,13 +23,27 @@ import "./fonts/Roboto-Regular.ttf";
 import "./styles/app.sass";
 
 // Images
-import "./img/left-arrow.svg"
-import "./img/right-arrow.svg"
-import "./img/icon-back-to-top.svg"
-import "./img/icon-back-to-top-hover.svg"
-import "./img/icon-arrow-down.svg"
-import "./img/icon-arrow-down-hover.svg"
-
+import "./img/left-arrow.svg";
+import "./img/right-arrow.svg";
+import "./img/icon-back-to-top.svg";
+import "./img/icon-back-to-top-hover.svg";
+import "./img/icon-arrow-down.svg";
+import "./img/icon-arrow-down-hover.svg";
+import "./img/imag_ocensa_1_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg";
+import "./img/logo-ocensa-home.svg";
+import "./img/imag_ocensa_2_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg";
+import "./img/flecha-blanca.svg";
+import "./img/icon_ocensa_gobierno_corporativo__estatutos.svg";
+import "./img/icon_ocensa_gobierno_corporativo__codigo_buen_gobierno.svg";
+import "./img/icon_ocensa_gobierno_corporativo__modelo_organizacional.svg";
+import "./img/imag_ocensa_3_gobierno_corporativo_estatutos_mesa.svg";
+import "./img/boton_ocensa_gobierno_corporativo_descargar_verde_boton_descargar_inactivo.svg";
+import "./img/imag_ocensa_4_gobierno_corporativo_codigo_buen_gobierno_mesa.svg";
+import "./img/imag_ocensa_5_gobierno_corporativo_modelo_organizacional_mesa.svg";
+import "./img/icon_ok.svg";
+import "./img/imag_ocensa_8_gobierno_corporativo_ocensa.svg";
+import "./img/icon_ocensa_gobierno_corporativo__instancias_organizacionales.svg";
+import "./img/icon_ocensa_gobierno_corporativo__instancias_de_ley.svg";
 
 
 /*===============FUNCTIONS===============*/
