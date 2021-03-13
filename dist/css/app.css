@@ -10856,8 +10856,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
-  margin-top: 8em;
+  height: 95vh;
 }
 .oc-intro-hero .container {
   height: 100%;
@@ -10874,6 +10873,63 @@ p {
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
+.oc-roboto-light {
+  font-family: "roboto-light", sans-serif;
+}
+
+strong {
+  font-family: "roboto-bold", sans-serif;
+}
+
+.oc-intro__icon {
+  width: 120px;
+}
+.oc-intro__title {
+  color: white;
+}
+
+.oc-button-arrow {
+  display: inline-block;
+}
+.oc-button-arrow span {
+  font-family: "roboto-regular", sans-serif;
+  display: inline-block;
+  margin-left: 0.5em;
+}
+.oc-button-arrow img {
+  width: 45px;
+}
+.oc-button-arrow:hover {
+  text-decoration: none;
+}
+
+.oc-accordion .card-header {
+  background-color: white;
+}
+.oc-accordion .card-header .oc-title-icon {
+  width: 100px;
+  margin-right: 20px;
+}
+.oc-accordion button, .oc-accordion a {
+  font-size: 0.8em;
+  outline: 0px !important;
+  text-decoration: none !important;
+}
+.oc-accordion button:hover, .oc-accordion a:hover {
+  text-decoration: none;
+}
+.oc-accordion .oc-tab-icon {
+  cursor: pointer;
+}
+.oc-accordion .oc-tab-icon img {
+  width: 50px;
+}
+.oc-accordion .oc-tab-icon__date {
+  color: #95A6B1;
+  font-size: 0.7em;
+  font-family: "roboto-regular", sans-serif;
+}
+
 .padding-section {
   padding: 4em 0;
 }
@@ -10885,6 +10941,7 @@ p {
 }
 
 .oc-button-down {
+  transform: translateY(70px);
   width: 35px;
   height: 35px;
   display: inline-block;
@@ -10934,13 +10991,49 @@ p {
   background-color: #f5f5f5;
 }
 .oc-bg-yellow {
-  background-color: #FFEA27;
+  background-color: #fad804;
 }
 .oc-bg-turq {
   background-color: #30D9CB;
 }
 .oc-bg-green {
   background-color: #24A31A;
+}
+
+.oc-acc-box {
+  padding: 1em 1.5em;
+  color: white;
+}
+.oc-acc-box p {
+  margin: 0;
+  font-size: 1.2em;
+}
+.oc-acc-box.oc-bg-gray p, .oc-acc-box.oc-bg-gray h5 {
+  color: #000;
+  font-size: 1em;
+}
+.oc-acc-box.oc-bg-gray .text-primary {
+  font-size: 1.2em;
+}
+.oc-acc-box.oc-bg-gray h5 {
+  margin: 1em 0;
+}
+.oc-acc-box.oc-bg-gray ul li {
+  color: #000;
+  font-family: "roboto-light", sans-serif;
+  margin-bottom: 0.2em;
+  position: relative;
+  padding-left: 14px !important;
+}
+.oc-acc-box.oc-bg-gray ul li::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #24A31A;
+  border-radius: 50%;
+  left: 0;
+  top: 6px;
 }
 
 .oc-line-title {
@@ -10963,6 +11056,15 @@ p {
 
 .oc-padding-title {
   padding-left: 80px;
+}
+
+.btn-secondary {
+  border-radius: 50px;
+  font-family: "roboto-regular", sans-serif;
+}
+.btn-secondary:hover {
+  background-color: #24A31A;
+  border-color: #24A31A;
 }
 
 @media screen and (max-width: 480px) {
@@ -11069,13 +11171,116 @@ p {
   height: 100%;
 }
 
+#oc-home-decisiones .logo-home {
+  width: 240px;
+  left: calc( 40% - 120px );
+  top: 15%;
+}
 #oc-home-decisiones.oc-intro-hero {
   background-color: #28347D;
 }
-#oc-home-decisiones.oc-intro-hero img {
-  width: 400px;
+#oc-home-decisiones.oc-intro-hero .img-header img {
+  width: 550px;
 }
 #oc-home-decisiones.oc-intro-hero h2 {
-  font-size: 80px;
+  font-size: 75px;
   color: white;
+  font-family: "roboto-light", sans-serif;
+}
+#oc-home-decisiones.oc-intro-hero h2 span {
+  font-family: "roboto-bold";
+}
+#oc-home-decisiones.oc-intro-hero .oc-button-down {
+  margin-bottom: 30px;
+}
+
+#oc-home-decisiones-2 p {
+  font-family: "roboto-light", sans-serif;
+}
+
+#oc-home-decisiones-3 {
+  background-color: #EEF1F3;
+}
+#oc-home-decisiones-3 .text-decisiones-3 {
+  color: #24A31A;
+  font-family: "cabin-bold", sans-serif;
+}
+#oc-home-decisiones-3 .lineamientos-icon img {
+  width: 150px;
+}
+#oc-home-decisiones-3 .lineamientos-icon p {
+  font-family: "roboto-regular", sans-serif;
+  color: #28347D;
+}
+
+#oc-home-decisiones-4 .info-decisiones img {
+  width: 40px;
+}
+
+#oc-home-decisiones-5 {
+  background-color: #fad804;
+}
+
+#oc-home-decisiones-6 .oc-listado-ok li {
+  margin-bottom: 1em;
+}
+#oc-home-decisiones-6 .oc-listado-ok p {
+  font-family: "roboto-light", sans-serif;
+}
+#oc-home-decisiones-6 .oc-listado-ok img {
+  margin-right: 0.5em;
+  width: 18px;
+  height: 18px;
+}
+
+#oc-home-decisiones-7 h2 {
+  color: #24A31A;
+  font-family: "cabin-bold", sans-serif;
+}
+#oc-home-decisiones-7 #oc-accordion-home button {
+  text-decoration: none;
+}
+#oc-home-decisiones-7 #oc-accordion-home button .hover-accordion {
+  background-color: #24A31A;
+  color: white;
+}
+#oc-home-decisiones-7 #oc-accordion-home span {
+  font-size: 1.5em;
+  font-family: "roboto-light", sans-serif;
+  color: #28347D;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5em;
+  width: 100px;
+  height: 100px;
+  border: solid 2px #24A31A;
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+#oc-home-decisiones-7 #oc-accordion-home span:hover {
+  background-color: #24A31A;
+  color: white;
+}
+#oc-home-decisiones-7 #oc-accordion-home .card-header {
+  background-color: white;
+}
+#oc-home-decisiones-7 #oc-accordion-home .card {
+  border: none !important;
+  border-bottom: 2px solid #707070;
+}
+
+#oc-home-decisiones-8 .oc-circle-icon {
+  width: 400px;
+  height: 400px;
+}
+#oc-home-decisiones-8 .img-circle {
+  width: 40%;
+}
+#oc-home-decisiones-8 h2 {
+  font-family: "roboto-light", sans-serif;
+}
+
+#oc-home-decisiones-9 {
+  background-color: #30D9CB;
 }

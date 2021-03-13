@@ -161,7 +161,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos */ \"./node_modules/aos/dist/aos.js\");\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! smooth-scroll */ \"./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js\");\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(smooth_scroll__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/MenuEffects.js */ \"./src/modules/MenuEffects.js\");\n/* harmony import */ var _fonts_Cabin_Regular_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./fonts/Cabin-Regular.ttf */ \"./src/fonts/Cabin-Regular.ttf\");\n/* harmony import */ var _fonts_Cabin_Bold_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./fonts/Cabin-Bold.ttf */ \"./src/fonts/Cabin-Bold.ttf\");\n/* harmony import */ var _fonts_Cabin_SemiBold_ttf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./fonts/Cabin-SemiBold.ttf */ \"./src/fonts/Cabin-SemiBold.ttf\");\n/* harmony import */ var _fonts_Roboto_Bold_ttf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fonts/Roboto-Bold.ttf */ \"./src/fonts/Roboto-Bold.ttf\");\n/* harmony import */ var _fonts_Roboto_BoldItalic_ttf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./fonts/Roboto-BoldItalic.ttf */ \"./src/fonts/Roboto-BoldItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Light_ttf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./fonts/Roboto-Light.ttf */ \"./src/fonts/Roboto-Light.ttf\");\n/* harmony import */ var _fonts_Roboto_Medium_ttf__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fonts/Roboto-Medium.ttf */ \"./src/fonts/Roboto-Medium.ttf\");\n/* harmony import */ var _fonts_Roboto_MediumItalic_ttf__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./fonts/Roboto-MediumItalic.ttf */ \"./src/fonts/Roboto-MediumItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Regular_ttf__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./fonts/Roboto-Regular.ttf */ \"./src/fonts/Roboto-Regular.ttf\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./styles/app.sass */ \"./src/styles/app.sass\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_styles_app_sass__WEBPACK_IMPORTED_MODULE_14__);\n/* harmony import */ var _img_left_arrow_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./img/left-arrow.svg */ \"./src/img/left-arrow.svg\");\n/* harmony import */ var _img_right_arrow_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./img/right-arrow.svg */ \"./src/img/right-arrow.svg\");\n/* harmony import */ var _img_icon_back_to_top_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./img/icon-back-to-top.svg */ \"./src/img/icon-back-to-top.svg\");\n/* harmony import */ var _img_icon_back_to_top_hover_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./img/icon-back-to-top-hover.svg */ \"./src/img/icon-back-to-top-hover.svg\");\n/* harmony import */ var _img_icon_arrow_down_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./img/icon-arrow-down.svg */ \"./src/img/icon-arrow-down.svg\");\n/* harmony import */ var _img_icon_arrow_down_hover_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./img/icon-arrow-down-hover.svg */ \"./src/img/icon-arrow-down-hover.svg\");\n/* harmony import */ var _img_imag_ocensa_1_gobierno_corporativo_instrumento_toma_decisiones_mesa_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./img/imag_ocensa_1_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg */ \"./src/img/imag_ocensa_1_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg\");\n/* harmony import */ var _img_logo_ocensa_home_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./img/logo-ocensa-home.svg */ \"./src/img/logo-ocensa-home.svg\");\n// Libs\n\n\n\n //Modules\n\n // Fonts\n\n\n\n\n\n\n\n\n\n // Styles\n\n // Images\n\n\n\n\n\n\n\n\n\n/*===============FUNCTIONS===============*/\n\naos__WEBPACK_IMPORTED_MODULE_2___default.a.init();\nObject(_modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_4__[\"itemActive\"])();\nObject(_modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_4__[\"desplaceMenu\"])();\nvar scroll = new smooth_scroll__WEBPACK_IMPORTED_MODULE_3___default.a('a[href*=\"#\"]'); // For use jQuery\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {\n  // Hover effect back to top\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-back-to-top').mouseenter(function () {\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-back-to-top img').attr('src', 'img/icon-back-to-top-hover.svg');\n  });\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-back-to-top').mouseleave(function () {\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-back-to-top img').attr('src', 'img/icon-back-to-top.svg');\n  }); // Hover effect button down\n\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-button-down').mouseenter(function () {\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-button-down img').attr('src', 'img/icon-arrow-down-hover.svg');\n  });\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-button-down').mouseleave(function () {\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-button-down img').attr('src', 'img/icon-arrow-down.svg');\n  });\n});\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos */ \"./node_modules/aos/dist/aos.js\");\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! smooth-scroll */ \"./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js\");\n/* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(smooth_scroll__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/MenuEffects.js */ \"./src/modules/MenuEffects.js\");\n/* harmony import */ var _fonts_Cabin_Regular_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./fonts/Cabin-Regular.ttf */ \"./src/fonts/Cabin-Regular.ttf\");\n/* harmony import */ var _fonts_Cabin_Bold_ttf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./fonts/Cabin-Bold.ttf */ \"./src/fonts/Cabin-Bold.ttf\");\n/* harmony import */ var _fonts_Cabin_SemiBold_ttf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./fonts/Cabin-SemiBold.ttf */ \"./src/fonts/Cabin-SemiBold.ttf\");\n/* harmony import */ var _fonts_Roboto_Bold_ttf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fonts/Roboto-Bold.ttf */ \"./src/fonts/Roboto-Bold.ttf\");\n/* harmony import */ var _fonts_Roboto_BoldItalic_ttf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./fonts/Roboto-BoldItalic.ttf */ \"./src/fonts/Roboto-BoldItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Light_ttf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./fonts/Roboto-Light.ttf */ \"./src/fonts/Roboto-Light.ttf\");\n/* harmony import */ var _fonts_Roboto_Medium_ttf__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fonts/Roboto-Medium.ttf */ \"./src/fonts/Roboto-Medium.ttf\");\n/* harmony import */ var _fonts_Roboto_MediumItalic_ttf__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./fonts/Roboto-MediumItalic.ttf */ \"./src/fonts/Roboto-MediumItalic.ttf\");\n/* harmony import */ var _fonts_Roboto_Regular_ttf__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./fonts/Roboto-Regular.ttf */ \"./src/fonts/Roboto-Regular.ttf\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./styles/app.sass */ \"./src/styles/app.sass\");\n/* harmony import */ var _styles_app_sass__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_styles_app_sass__WEBPACK_IMPORTED_MODULE_14__);\n/* harmony import */ var _img_left_arrow_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./img/left-arrow.svg */ \"./src/img/left-arrow.svg\");\n/* harmony import */ var _img_right_arrow_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./img/right-arrow.svg */ \"./src/img/right-arrow.svg\");\n/* harmony import */ var _img_icon_back_to_top_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./img/icon-back-to-top.svg */ \"./src/img/icon-back-to-top.svg\");\n/* harmony import */ var _img_icon_back_to_top_hover_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./img/icon-back-to-top-hover.svg */ \"./src/img/icon-back-to-top-hover.svg\");\n/* harmony import */ var _img_icon_arrow_down_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./img/icon-arrow-down.svg */ \"./src/img/icon-arrow-down.svg\");\n/* harmony import */ var _img_icon_arrow_down_hover_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./img/icon-arrow-down-hover.svg */ \"./src/img/icon-arrow-down-hover.svg\");\n/* harmony import */ var _img_imag_ocensa_1_gobierno_corporativo_instrumento_toma_decisiones_mesa_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./img/imag_ocensa_1_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg */ \"./src/img/imag_ocensa_1_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg\");\n/* harmony import */ var _img_logo_ocensa_home_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./img/logo-ocensa-home.svg */ \"./src/img/logo-ocensa-home.svg\");\n/* harmony import */ var _img_imag_ocensa_2_gobierno_corporativo_instrumento_toma_decisiones_mesa_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./img/imag_ocensa_2_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg */ \"./src/img/imag_ocensa_2_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg\");\n/* harmony import */ var _img_flecha_blanca_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./img/flecha-blanca.svg */ \"./src/img/flecha-blanca.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_estatutos_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__estatutos.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__estatutos.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_codigo_buen_gobierno_svg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__codigo_buen_gobierno.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__codigo_buen_gobierno.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_modelo_organizacional_svg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__modelo_organizacional.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__modelo_organizacional.svg\");\n/* harmony import */ var _img_imag_ocensa_3_gobierno_corporativo_estatutos_mesa_svg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./img/imag_ocensa_3_gobierno_corporativo_estatutos_mesa.svg */ \"./src/img/imag_ocensa_3_gobierno_corporativo_estatutos_mesa.svg\");\n/* harmony import */ var _img_boton_ocensa_gobierno_corporativo_descargar_verde_boton_descargar_inactivo_svg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./img/boton_ocensa_gobierno_corporativo_descargar_verde_boton_descargar_inactivo.svg */ \"./src/img/boton_ocensa_gobierno_corporativo_descargar_verde_boton_descargar_inactivo.svg\");\n/* harmony import */ var _img_imag_ocensa_4_gobierno_corporativo_codigo_buen_gobierno_mesa_svg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./img/imag_ocensa_4_gobierno_corporativo_codigo_buen_gobierno_mesa.svg */ \"./src/img/imag_ocensa_4_gobierno_corporativo_codigo_buen_gobierno_mesa.svg\");\n/* harmony import */ var _img_imag_ocensa_5_gobierno_corporativo_modelo_organizacional_mesa_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./img/imag_ocensa_5_gobierno_corporativo_modelo_organizacional_mesa.svg */ \"./src/img/imag_ocensa_5_gobierno_corporativo_modelo_organizacional_mesa.svg\");\n/* harmony import */ var _img_icon_ok_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./img/icon_ok.svg */ \"./src/img/icon_ok.svg\");\n/* harmony import */ var _img_imag_ocensa_8_gobierno_corporativo_ocensa_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./img/imag_ocensa_8_gobierno_corporativo_ocensa.svg */ \"./src/img/imag_ocensa_8_gobierno_corporativo_ocensa.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_instancias_organizacionales_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__instancias_organizacionales.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__instancias_organizacionales.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_instancias_de_ley_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__instancias_de_ley.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__instancias_de_ley.svg\");\n/* harmony import */ var _img_imag_ocensa_6_gobierno_corporativo_matriz_delegacion_autoridad_mesa_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./img/imag_ocensa_6_gobierno_corporativo_matriz_delegacion_autoridad_mesa.svg */ \"./src/img/imag_ocensa_6_gobierno_corporativo_matriz_delegacion_autoridad_mesa.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_matriz_de_delegacion_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__matriz_de_delegacion.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__matriz_de_delegacion.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_instancias_organizacionales_header_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__instancias_organizacionales_header.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__instancias_organizacionales_header.svg\");\n/* harmony import */ var _img_grafica_ocensa_gobierno_corporativo_instancias_organizacionales_escritorio_2x_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./img/grafica_ocensa_gobierno_corporativo_instancias_organizacionales_escritorio@2x.png */ \"./src/img/grafica_ocensa_gobierno_corporativo_instancias_organizacionales_escritorio@2x.png\");\n/* harmony import */ var _img_oc_arrow_right_2_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./img/oc-arrow-right-2.svg */ \"./src/img/oc-arrow-right-2.svg\");\n/* harmony import */ var _img_oc_icon_more_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./img/oc-icon-more.svg */ \"./src/img/oc-icon-more.svg\");\n/* harmony import */ var _img_oc_icon_minus_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./img/oc-icon-minus.svg */ \"./src/img/oc-icon-minus.svg\");\n/* harmony import */ var _img_oc_icon_more_hover_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./img/oc-icon-more-hover.svg */ \"./src/img/oc-icon-more-hover.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_comite_ejecutivo_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__comite_ejecutivo.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__comite_ejecutivo.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_comite_inversiones_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__comite_inversiones.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__comite_inversiones.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_foro_alineacion_tactica_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__foro_alineacion_tactica.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__foro_alineacion_tactica.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_comite_operaciones_svg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__comite_operaciones.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__comite_operaciones.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_comite_gestion_financiera_svg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__comite_gestion_financiera.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__comite_gestion_financiera.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_imte_svg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__imte.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__imte.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_foro_operativo_hse_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__foro_operativo_hse.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__foro_operativo_hse.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_foro_desempe_o_financiero_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__foro_desempeño_financiero.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__foro_desempeño_financiero.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_foro_interferencia_con_terceros_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__foro_interferencia_con_terceros.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__foro_interferencia_con_terceros.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_comite_etica_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__comite_etica.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__comite_etica.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_foro_tactico_hse_svg__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg\");\n/* harmony import */ var _img_icon_ocensa_gobierno_corporativo_comite_mro_svg__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./img/icon_ocensa_gobierno_corporativo__comite_mro.svg */ \"./src/img/icon_ocensa_gobierno_corporativo__comite_mro.svg\");\n// Libs\n\n\n\n //Modules\n\n // Fonts\n\n\n\n\n\n\n\n\n\n // Styles\n\n // Images\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*===============FUNCTIONS===============*/\n\naos__WEBPACK_IMPORTED_MODULE_2___default.a.init();\nObject(_modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_4__[\"itemActive\"])();\nObject(_modules_MenuEffects_js__WEBPACK_IMPORTED_MODULE_4__[\"desplaceMenu\"])();\nvar scroll = new smooth_scroll__WEBPACK_IMPORTED_MODULE_3___default.a('a[href*=\"#\"]'); // For use jQuery\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {\n  // Hover effect back to top\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-back-to-top').mouseenter(function () {\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-back-to-top img').attr('src', 'img/icon-back-to-top-hover.svg');\n  });\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-back-to-top').mouseleave(function () {\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-back-to-top img').attr('src', 'img/icon-back-to-top.svg');\n  }); // Hover effect button down\n\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-button-down').mouseenter(function () {\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-button-down img').attr('src', 'img/icon-arrow-down-hover.svg');\n  });\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-button-down').mouseleave(function () {\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-button-down img').attr('src', 'img/icon-arrow-down.svg');\n  }); // Hover effect button down\n\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-tab-icon').mouseenter(function () {\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).find('.oc-tab-icon__more').attr('src', 'img/oc-icon-more-hover.svg');\n  });\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.oc-tab-icon').mouseleave(function () {\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).find('.oc-tab-icon__more').attr('src', 'img/oc-icon-more.svg');\n  });\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.collapse').on('shown.bs.collapse', function () {\n    var idCol = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).attr('id');\n    var iconHandle = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".button-collapse[data-target='#\" + idCol + \"'] .oc-tab-icon img\");\n    var dateHandle = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".button-collapse[data-target='#\" + idCol + \"'] .oc-tab-icon .oc-tab-icon__date\");\n    iconHandle.attr('src', 'img/oc-icon-minus.svg');\n    iconHandle.attr('class', 'oc-tab-icon__minus');\n    dateHandle.removeClass('d-none');\n  });\n  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.collapse').on('hidden.bs.collapse', function () {\n    var idCol = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).attr('id');\n    var iconHandle = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".button-collapse[data-target='#\" + idCol + \"'] .oc-tab-icon img\");\n    var dateHandle = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".button-collapse[data-target='#\" + idCol + \"'] .oc-tab-icon .oc-tab-icon__date\");\n    iconHandle.attr('src', 'img/oc-icon-more.svg');\n    iconHandle.attr('class', 'oc-tab-icon__more');\n    dateHandle.addClass('d-none');\n  });\n});\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -273,6 +273,42 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/boton_ocensa_gobierno_corporativo_descargar_verde_boton_descargar_inactivo.svg":
+/*!************************************************************************************************!*\
+  !*** ./src/img/boton_ocensa_gobierno_corporativo_descargar_verde_boton_descargar_inactivo.svg ***!
+  \************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/boton_ocensa_gobierno_corporativo_descargar_verde_boton_descargar_inactivo.svg\");\n\n//# sourceURL=webpack:///./src/img/boton_ocensa_gobierno_corporativo_descargar_verde_boton_descargar_inactivo.svg?");
+
+/***/ }),
+
+/***/ "./src/img/flecha-blanca.svg":
+/*!***********************************!*\
+  !*** ./src/img/flecha-blanca.svg ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/flecha-blanca.svg\");\n\n//# sourceURL=webpack:///./src/img/flecha-blanca.svg?");
+
+/***/ }),
+
+/***/ "./src/img/grafica_ocensa_gobierno_corporativo_instancias_organizacionales_escritorio@2x.png":
+/*!***************************************************************************************************!*\
+  !*** ./src/img/grafica_ocensa_gobierno_corporativo_instancias_organizacionales_escritorio@2x.png ***!
+  \***************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/grafica_ocensa_gobierno_corporativo_instancias_organizacionales_escritorio@2x.png\");\n\n//# sourceURL=webpack:///./src/img/grafica_ocensa_gobierno_corporativo_instancias_organizacionales_escritorio@2x.png?");
+
+/***/ }),
+
 /***/ "./src/img/icon-arrow-down-hover.svg":
 /*!*******************************************!*\
   !*** ./src/img/icon-arrow-down-hover.svg ***!
@@ -321,6 +357,246 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__codigo_buen_gobierno.svg":
+/*!****************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__codigo_buen_gobierno.svg ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__codigo_buen_gobierno.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__codigo_buen_gobierno.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__comite_ejecutivo.svg":
+/*!************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__comite_ejecutivo.svg ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__comite_ejecutivo.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__comite_ejecutivo.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__comite_etica.svg":
+/*!********************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__comite_etica.svg ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__comite_etica.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__comite_etica.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__comite_gestion_financiera.svg":
+/*!*********************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__comite_gestion_financiera.svg ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__comite_gestion_financiera.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__comite_gestion_financiera.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__comite_inversiones.svg":
+/*!**************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__comite_inversiones.svg ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__comite_inversiones.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__comite_inversiones.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__comite_mro.svg":
+/*!******************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__comite_mro.svg ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__comite_mro.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__comite_mro.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__comite_operaciones.svg":
+/*!**************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__comite_operaciones.svg ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__comite_operaciones.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__comite_operaciones.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__estatutos.svg":
+/*!*****************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__estatutos.svg ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__estatutos.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__estatutos.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__foro_alineacion_tactica.svg":
+/*!*******************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__foro_alineacion_tactica.svg ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__foro_alineacion_tactica.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__foro_alineacion_tactica.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__foro_desempeño_financiero.svg":
+/*!*********************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__foro_desempeño_financiero.svg ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__foro_desempeño_financiero.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__foro_desempe%C3%B1o_financiero.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__foro_interferencia_con_terceros.svg":
+/*!***************************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__foro_interferencia_con_terceros.svg ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__foro_interferencia_con_terceros.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__foro_interferencia_con_terceros.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__foro_operativo_hse.svg":
+/*!**************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__foro_operativo_hse.svg ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__foro_operativo_hse.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__foro_operativo_hse.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg":
+/*!************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__imte.svg":
+/*!************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__imte.svg ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__imte.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__imte.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__instancias_de_ley.svg":
+/*!*************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__instancias_de_ley.svg ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__instancias_de_ley.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__instancias_de_ley.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__instancias_organizacionales.svg":
+/*!***********************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__instancias_organizacionales.svg ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__instancias_organizacionales.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__instancias_organizacionales.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__instancias_organizacionales_header.svg":
+/*!******************************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__instancias_organizacionales_header.svg ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__instancias_organizacionales_header.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__instancias_organizacionales_header.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__matriz_de_delegacion.svg":
+/*!****************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__matriz_de_delegacion.svg ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__matriz_de_delegacion.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__matriz_de_delegacion.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ocensa_gobierno_corporativo__modelo_organizacional.svg":
+/*!*****************************************************************************!*\
+  !*** ./src/img/icon_ocensa_gobierno_corporativo__modelo_organizacional.svg ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ocensa_gobierno_corporativo__modelo_organizacional.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ocensa_gobierno_corporativo__modelo_organizacional.svg?");
+
+/***/ }),
+
+/***/ "./src/img/icon_ok.svg":
+/*!*****************************!*\
+  !*** ./src/img/icon_ok.svg ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_ok.svg\");\n\n//# sourceURL=webpack:///./src/img/icon_ok.svg?");
+
+/***/ }),
+
 /***/ "./src/img/imag_ocensa_1_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg":
 /*!*****************************************************************************************!*\
   !*** ./src/img/imag_ocensa_1_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg ***!
@@ -330,6 +606,78 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/imag_ocensa_1_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg\");\n\n//# sourceURL=webpack:///./src/img/imag_ocensa_1_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg?");
+
+/***/ }),
+
+/***/ "./src/img/imag_ocensa_2_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg":
+/*!*****************************************************************************************!*\
+  !*** ./src/img/imag_ocensa_2_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg ***!
+  \*****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/imag_ocensa_2_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg\");\n\n//# sourceURL=webpack:///./src/img/imag_ocensa_2_gobierno_corporativo_instrumento_toma_decisiones_mesa.svg?");
+
+/***/ }),
+
+/***/ "./src/img/imag_ocensa_3_gobierno_corporativo_estatutos_mesa.svg":
+/*!***********************************************************************!*\
+  !*** ./src/img/imag_ocensa_3_gobierno_corporativo_estatutos_mesa.svg ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/imag_ocensa_3_gobierno_corporativo_estatutos_mesa.svg\");\n\n//# sourceURL=webpack:///./src/img/imag_ocensa_3_gobierno_corporativo_estatutos_mesa.svg?");
+
+/***/ }),
+
+/***/ "./src/img/imag_ocensa_4_gobierno_corporativo_codigo_buen_gobierno_mesa.svg":
+/*!**********************************************************************************!*\
+  !*** ./src/img/imag_ocensa_4_gobierno_corporativo_codigo_buen_gobierno_mesa.svg ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/imag_ocensa_4_gobierno_corporativo_codigo_buen_gobierno_mesa.svg\");\n\n//# sourceURL=webpack:///./src/img/imag_ocensa_4_gobierno_corporativo_codigo_buen_gobierno_mesa.svg?");
+
+/***/ }),
+
+/***/ "./src/img/imag_ocensa_5_gobierno_corporativo_modelo_organizacional_mesa.svg":
+/*!***********************************************************************************!*\
+  !*** ./src/img/imag_ocensa_5_gobierno_corporativo_modelo_organizacional_mesa.svg ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/imag_ocensa_5_gobierno_corporativo_modelo_organizacional_mesa.svg\");\n\n//# sourceURL=webpack:///./src/img/imag_ocensa_5_gobierno_corporativo_modelo_organizacional_mesa.svg?");
+
+/***/ }),
+
+/***/ "./src/img/imag_ocensa_6_gobierno_corporativo_matriz_delegacion_autoridad_mesa.svg":
+/*!*****************************************************************************************!*\
+  !*** ./src/img/imag_ocensa_6_gobierno_corporativo_matriz_delegacion_autoridad_mesa.svg ***!
+  \*****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/imag_ocensa_6_gobierno_corporativo_matriz_delegacion_autoridad_mesa.svg\");\n\n//# sourceURL=webpack:///./src/img/imag_ocensa_6_gobierno_corporativo_matriz_delegacion_autoridad_mesa.svg?");
+
+/***/ }),
+
+/***/ "./src/img/imag_ocensa_8_gobierno_corporativo_ocensa.svg":
+/*!***************************************************************!*\
+  !*** ./src/img/imag_ocensa_8_gobierno_corporativo_ocensa.svg ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/imag_ocensa_8_gobierno_corporativo_ocensa.svg\");\n\n//# sourceURL=webpack:///./src/img/imag_ocensa_8_gobierno_corporativo_ocensa.svg?");
 
 /***/ }),
 
@@ -354,6 +702,54 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/logo-ocensa-home.svg\");\n\n//# sourceURL=webpack:///./src/img/logo-ocensa-home.svg?");
+
+/***/ }),
+
+/***/ "./src/img/oc-arrow-right-2.svg":
+/*!**************************************!*\
+  !*** ./src/img/oc-arrow-right-2.svg ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/oc-arrow-right-2.svg\");\n\n//# sourceURL=webpack:///./src/img/oc-arrow-right-2.svg?");
+
+/***/ }),
+
+/***/ "./src/img/oc-icon-minus.svg":
+/*!***********************************!*\
+  !*** ./src/img/oc-icon-minus.svg ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/oc-icon-minus.svg\");\n\n//# sourceURL=webpack:///./src/img/oc-icon-minus.svg?");
+
+/***/ }),
+
+/***/ "./src/img/oc-icon-more-hover.svg":
+/*!****************************************!*\
+  !*** ./src/img/oc-icon-more-hover.svg ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/oc-icon-more-hover.svg\");\n\n//# sourceURL=webpack:///./src/img/oc-icon-more-hover.svg?");
+
+/***/ }),
+
+/***/ "./src/img/oc-icon-more.svg":
+/*!**********************************!*\
+  !*** ./src/img/oc-icon-more.svg ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/oc-icon-more.svg\");\n\n//# sourceURL=webpack:///./src/img/oc-icon-more.svg?");
 
 /***/ }),
 
