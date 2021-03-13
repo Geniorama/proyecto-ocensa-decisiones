@@ -48,6 +48,7 @@ import "./img/icon_ocensa_gobierno_corporativo__foro_desempeño_financiero.svg"
 import "./img/icon_ocensa_gobierno_corporativo__foro_interferencia_con_terceros.svg"
 import "./img/icon_ocensa_gobierno_corporativo__comite_etica.svg"
 import "./img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg"
+import "./img/icon_ocensa_gobierno_corporativo__comite_mro.svg"
 
 
 

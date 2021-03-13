@@ -10,6 +10,8 @@
     </div>
 </section>
 
+{{>partials/bottom-header}}
+
 <section class="padding-section text-center" id="ins-organizacionales-grafica">
     <div class="container">
         <img src="img/grafica_ocensa_gobierno_corporativo_instancias_organizacionales_escritorio@2x.png" alt=""
@@ -355,21 +357,9 @@
                                     <p><strong>Origen:</strong> Proceso</p>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4">Instancia para la toma de decisiones relacionadas con la
-                                gestión financiera, orientadas a mejorar los excedentes de caja, tomar medidas para la
-                                mitigación de los riesgos financieros e identificar y gestionar fuentes de capital, así
-                                como analizar el valor razonable de la cartera con base en la cartera que se encuentre
-                                vencida, con el fin de evaluar y determinar las evidencias objetivas de deterioro o
-                                recuperación y la toma de decisiones requeridas sobre los casos presentados.
-                                Instancia para la toma de decisiones relacionadas con la gestión financiera, orientadas
-                                a mejorar los excedentes de caja, tomar medidas para la mitigación de los riesgos
-                                financieros e identificar y gestionar fuentes de capital, así como analizar el valor
-                                razonable de la cartera con base en la cartera que se encuentre vencida, con el fin de
-                                evaluar y determinar las evidencias objetivas de deterioro o recuperación y la toma de
-                                decisiones requeridas sobre los casos presentados.
-
+                            <div class="col-12 col-md-4">
                                 <div class="oc-acc-box oc-bg-turq">
-                                    <p><strong>Nivel:</strong> Estratégico</p>
+                                    <p><strong>Nivel:</strong> Táctico</p>
                                 </div>
                             </div>
                             <div class="col-12 col-md-4">
@@ -860,10 +850,9 @@
             <div class="card">
                 <div class="card-header" id="headingEtica">
                     <h2 class="mb-0">
-                        <button
+                        <a
                             class="btn btn-link btn-block text-left d-flex justify-content-between align-items-center button-collapse"
-                            type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true"
-                            aria-controls="collapseEtica">
+                            type="button" href="#" target="_blank">
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__comite_etica.svg" alt=""
                                     class="oc-title-icon">
@@ -873,7 +862,7 @@
                             <div class="oc-tab-icon">
                                 <img src="img/oc-arrow-right-2.svg" alt="" class="oc-tab-icon__right">
                             </div>
-                        </button>
+                        </a>
                     </h2>
                 </div>
 
@@ -1009,8 +998,145 @@
 
                                     <h5><i>Invitados:</i></h5>
                                     <ul class="nav flex-column">
-                                        <li>De  acuerdo con temáticas.</li>
+                                        <li>De acuerdo con temáticas.</li>
                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <a href="#" class="oc-button-arrow">
+                                <img src="img/oc-arrow-right-2.svg" alt="">
+                                <span>Ver Estándar Instancias de Gobierno</span>
+                            </a>
+
+                            <a href="#" class="btn btn-secondary d-inline-block">➜ Gestión Documental</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{!-- Card Comité Marco Regulatorio Operacional --}}
+            <div class="card">
+                <div class="card-header" id="headingEight">
+                    <h2 class="mb-0">
+                        <button
+                            class="btn btn-link btn-block text-left d-flex justify-content-between align-items-center button-collapse"
+                            type="button" data-toggle="collapse" data-target="#collapseMarco" aria-expanded="true"
+                            aria-controls="headingMarco">
+                            <div>
+                                <img src="img/icon_ocensa_gobierno_corporativo__comite_mro.svg" alt=""
+                                    class="oc-title-icon">
+                                Comité Marco Regulatorio Operacional
+                            </div>
+
+                            <div class="oc-tab-icon">
+                                <span class="oc-tab-icon__date d-none">Fecha publicación: Feb 10/2021</span>
+                                <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
+                            </div>
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseMarco" class="collapse" aria-labelledby="headingMarco" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-4">
+                                <div class="oc-acc-box oc-bg-green">
+                                    <p><strong>Origen:</strong> Proceso</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="oc-acc-box oc-bg-turq">
+                                    <p><strong>Nivel:</strong> Operativo</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="oc-acc-box oc-bg-yellow">
+                                    <p><strong>Naturaleza:</strong> Mixto</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row my-3">
+                            <div class="col-12 col-md-6">
+                                <div class="oc-acc-box oc-bg-gray">
+                                    <p><strong class="text-primary">Frecuencia:</strong> según solicitud y/o criticidad
+                                        de temas</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="oc-acc-box oc-bg-gray">
+                                    <p><strong class="text-primary">Duración:</strong> 2 horas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="oc-acc-box oc-bg-gray">
+                                    <p><strong class="text-primary">Objetivo</strong></p>
+                                    <p class="mt-2 oc-roboto-light">Servir de instancia de discusión y aprobación
+                                        respecto de asuntos relacionados con el Marco Regulatorio Operacional de Ocensa,
+                                        con el fin de garantizar su aplicabilidad, cumplimiento y pertinencia frente de
+                                        acuerdo con las necesidades e intereses del negocio.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mt-3">
+                                <div class="oc-acc-box oc-bg-gray">
+                                    <p><strong class="text-primary">Asesoría / Alineación / Seguimiento</strong></p>
+                                    <ul class="nav flex-column mt-3">
+                                        <li>Discutir y generar aclaraciones para definir de manera clara y concisa
+                                            objetivos y alcances para cumplir cualquier requerimiento del Marco
+                                            Regulatorio.</li>
+                                        <li>Monitorear periódicamente los indicadores y la efectividad del programa OQ.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mt-3">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="oc-acc-box oc-bg-gray oc-h-100">
+                                            <p><strong class="text-primary">Decisiones</strong>
+                                            </p>
+                                            <ul class="nav flex-column mt-3">
+                                                <li>Aprobar solicitudes de modificación al Marco Regulatorio
+                                                    Operacional.</li>
+                                                <li>Aprobar el planteamiento de cambios al MRO, con objetivos y
+                                                    alcances.</li>
+                                                <li>Aprobar la inclusión, exclusión de tareas calificadas.</li>
+                                                <li>Aprobar o rechazar actualizaciones al programa OQ.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="oc-acc-box oc-bg-gray">
+                                            <p><strong class="text-primary">Roles</strong></p>
+                                            <h5><i>Miembros</i></h5>
+                                            <ul class="nav flex-column mt-3">
+                                                <li>Director de Operaciones (voto).</li>
+                                                <li>Gerente de Transporte (voto).</li>
+                                                <li>Gerente Planeación, confiabilidad e integridad mto (Líder) (voto).
+                                                </li>
+                                                <li>Gerente Proyectos e Ingeniería (voto).</li>
+                                                <li>Gerente O&M Sur / Norte (voto).</li>
+                                                <li>Experto MRO y Programa OQ (Secretario) (voz).</li>
+                                                <li>Gerente Senior Riesgos y Cumplimiento (voz).</li>
+                                                <li>Gerente HSE (voz).</li>
+                                                <li>Gerente Capacidad Organizacional (voz).</li>
+                                                <li>Gerente de Talento Humano (voz).</li>
+                                            </ul>
+
+                                            <h5><i>Miembros por invitación</i></h5>
+                                            <ul class="nav flex-column mt-3">
+                                                <li>Según se requiera para cada sesión</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1031,10 +1157,9 @@
             <div class="card">
                 <div class="card-header" id="headingSeven">
                     <h2 class="mb-0">
-                        <button
+                        <a
                             class="btn btn-link btn-block text-left d-flex justify-content-between align-items-center button-collapse"
-                            type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true"
-                            aria-controls="collapseFive">
+                            type="button" href="http://gestiondocumental/CONTROL%20MAESTRO%20DE%20DOCUMENTOS/GESTION%20HSE/ESTANDAR/ESTANDAR%20IMT-E.pdf" target="_blank">
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__imte.svg" alt="" class="oc-title-icon">
                                 IMT-E
@@ -1043,7 +1168,7 @@
                             <div class="oc-tab-icon">
                                 <img src="img/oc-arrow-right-2.svg" alt="" class="oc-tab-icon__right">
                             </div>
-                        </button>
+                        </a>
                     </h2>
                 </div>
 
@@ -1386,7 +1511,7 @@
                                     </ul>
                                 </div>
 
-                                <div class="oc-acc-box oc-bg-gray oc-h-100 mt-3">
+                                <div class="oc-acc-box oc-bg-gray mt-3">
                                     <p><strong class="text-primary">Roles</strong></p>
                                     <div class="row">
                                         <div class="col-12 col-md-6">
@@ -1417,20 +1542,18 @@
                                                 invitados.</p>
                                         </div>
                                     </div>
-
-
                                 </div>
                             </div>
+                            <div class="col-12">
+                                <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <a href="#" class="oc-button-arrow">
+                                        <img src="img/oc-arrow-right-2.svg" alt="">
+                                        <span>Ver Estándar Instancias de Gobierno</span>
+                                    </a>
 
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center mt-2">
-                            <a href="#" class="oc-button-arrow">
-                                <img src="img/oc-arrow-right-2.svg" alt="">
-                                <span>Ver Estándar Instancias de Gobierno</span>
-                            </a>
-
-                            <a href="#" class="btn btn-secondary d-inline-block">➜ Gestión Documental</a>
+                                    <a href="#" class="btn btn-secondary d-inline-block">➜ Gestión Documental</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1439,4 +1562,4 @@
     </div>
 </section>
 
-{{>partials/bottom-header}}
+{{>partials/footer}}
