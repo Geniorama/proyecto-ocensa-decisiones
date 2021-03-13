@@ -44,7 +44,8 @@ import "./img/icon_ok.svg";
 import "./img/imag_ocensa_8_gobierno_corporativo_ocensa.svg";
 import "./img/icon_ocensa_gobierno_corporativo__instancias_organizacionales.svg";
 import "./img/icon_ocensa_gobierno_corporativo__instancias_de_ley.svg";
-
+import "./img/imag_ocensa_6_gobierno_corporativo_matriz_delegacion_autoridad_mesa.svg";
+import "./img/icon_ocensa_gobierno_corporativo__matriz_de_delegacion.svg";
 
 /*===============FUNCTIONS===============*/
 
