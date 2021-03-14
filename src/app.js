@@ -46,12 +46,12 @@ import "./img/icon_ocensa_gobierno_corporativo__instancias_organizacionales.svg"
 import "./img/icon_ocensa_gobierno_corporativo__instancias_de_ley.svg";
 import "./img/imag_ocensa_6_gobierno_corporativo_matriz_delegacion_autoridad_mesa.svg";
 import "./img/icon_ocensa_gobierno_corporativo__matriz_de_delegacion.svg";
-import "./img/left-arrow.svg"
-import "./img/right-arrow.svg"
-import "./img/icon-back-to-top.svg"
-import "./img/icon-back-to-top-hover.svg"
-import "./img/icon-arrow-down.svg"
-import "./img/icon-arrow-down-hover.svg"
+import "./img/left-arrow.svg";
+import "./img/right-arrow.svg";
+import "./img/icon-back-to-top.svg";
+import "./img/icon-back-to-top-hover.svg";
+import "./img/icon-arrow-down.svg";
+import "./img/icon-arrow-down-hover.svg";
 
 import "./img/icon_ocensa_gobierno_corporativo__instancias_organizacionales.svg"
 import "./img/icon_ocensa_gobierno_corporativo__instancias_organizacionales_header.svg"
@@ -72,7 +72,7 @@ import "./img/icon_ocensa_gobierno_corporativo__foro_interferencia_con_terceros.
 import "./img/icon_ocensa_gobierno_corporativo__comite_etica.svg"
 import "./img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg"
 import "./img/icon_ocensa_gobierno_corporativo__comite_mro.svg"
-
+import "./img/boton_ocensa_gobierno_corporativo_descargar_blanco_boton_descargar_inactivo.svg";
 
 
 
