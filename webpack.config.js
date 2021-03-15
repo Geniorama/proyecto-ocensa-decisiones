@@ -38,6 +38,12 @@ module.exports = {
             minify: false
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'instancias-de-ley.html',
+            template: './src/instancias-de-ley.handlebars',
+            minify: false
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'
