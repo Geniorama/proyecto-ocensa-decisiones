@@ -73,7 +73,8 @@ import "./img/icon_ocensa_gobierno_corporativo__comite_etica.svg"
 import "./img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg"
 import "./img/icon_ocensa_gobierno_corporativo__comite_mro.svg"
 import "./img/boton_ocensa_gobierno_corporativo_descargar_blanco_boton_descargar_inactivo.svg";
-
+import "./img/grafica_ocensa_gobierno_corporativo_instancias_legales_esritorio.jpg";
+import "./img/grafica_ocensa_gobierno_corporativo_instancias_legales_movil.jpg";
 
 
 /*===============FUNCTIONS===============*/
