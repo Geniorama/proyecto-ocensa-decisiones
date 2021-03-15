@@ -6,6 +6,7 @@ import SmoothScroll from "smooth-scroll";
 
 //Modules
 import {itemActive, desplaceMenu} from "./modules/MenuEffects.js";
+import showInfoTable from "./modules/TableInfo";
 
 // Fonts
 import "./fonts/Cabin-Regular.ttf";
@@ -72,6 +73,8 @@ import "./img/icon_ocensa_gobierno_corporativo__foro_interferencia_con_terceros.
 import "./img/icon_ocensa_gobierno_corporativo__comite_etica.svg"
 import "./img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg"
 import "./img/icon_ocensa_gobierno_corporativo__comite_mro.svg"
+import "./img/icon_ocensa_gobierno_corporativo__agenda_anual.svg"
+import "./img/arrow-down-table.svg"
 
 
 
@@ -81,6 +84,7 @@ import "./img/icon_ocensa_gobierno_corporativo__comite_mro.svg"
 AOS.init();
 itemActive();
 desplaceMenu();
+showInfoTable();
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
