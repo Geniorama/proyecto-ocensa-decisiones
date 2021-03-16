@@ -15,7 +15,7 @@
             span
                 font-family: "roboto-bold"
         .oc-button-down
-            margin-bottom: 30px
+            margin-bottom: 0px
 
 #oc-home-decisiones-2
     p
@@ -93,5 +93,33 @@
     h2
         font-family: "roboto-light", sans-serif
 
-#oc-home-decisiones-9
-    background-color: $turquoise-co
+@media screen and (max-width: 480px)
+    #oc-home-decisiones
+        position: relative
+        height: 450px
+        .logo-home
+            display: none
+            position: relative
+        &.oc-intro-hero
+            h2
+                font-size: 2.4em
+                margin-top: 1em
+            .img-header
+                img
+                    width: 240px !important
+            .oc-button-down
+                transform: translateY(-15px) !important
+
+    #oc-home-decisiones-3
+        .text-decisiones-3
+            font-size: 1.5em
+
+    #oc-home-decisiones-8
+        .oc-circle-icon
+            width: 290px
+            height: 290px
+            h2
+                font-size: 1.3em
+                font-family: "roboto-regular", sans-serif
+        .oc-bg-yellow
+            margin-top: 3em
