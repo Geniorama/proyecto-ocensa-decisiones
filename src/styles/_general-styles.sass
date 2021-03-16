@@ -79,7 +79,7 @@ p
     background-position: center
     background-repeat: no-repeat
     background-size: cover
-    height: 95vh
+    height: 110vh
     .container
         height: 100%
         .row
@@ -249,7 +249,7 @@ strong
         background-color: $primary
         border-color: $primary
 
-@media screen and (max-width: 480px)
+@media (max-width: 480px)
     .oc-intro-hero
         margin-top: 7em
         &__title
@@ -260,17 +260,24 @@ strong
 
     .oc-line-title
         &::before
-            bottom: -15px !important
+            top: 105%
+            left: 0
+            bottom: -5px !important
+    .oc-padding-title
+        padding: 1em
 
-@media screen and (max-width: 768px)
+    .oc-subtitle
+        text-align: left
+
+// Responsive tablet
+
+@media (min-width: 480px) and (max-width: 769px)
     .oc-line-title
         margin-bottom: 1em
         &::before
             left: 0
             top: 105%
             bottom: -15px !important    
-    .oc-padding-title
-        padding-left: 2em
 
     .oc-intro-hero
         height: 50vh
