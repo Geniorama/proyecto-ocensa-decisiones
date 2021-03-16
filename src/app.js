@@ -6,6 +6,7 @@ import SmoothScroll from "smooth-scroll";
 
 //Modules
 import {itemActive, desplaceMenu} from "./modules/MenuEffects.js";
+import showInfoTable from "./modules/TableInfo";
 
 // Fonts
 import "./fonts/Cabin-Regular.ttf";
@@ -75,6 +76,10 @@ import "./img/icon_ocensa_gobierno_corporativo__comite_mro.svg"
 import "./img/boton_ocensa_gobierno_corporativo_descargar_blanco_boton_descargar_inactivo.svg";
 import "./img/grafica_ocensa_gobierno_corporativo_instancias_legales_esritorio.jpg";
 import "./img/grafica_ocensa_gobierno_corporativo_instancias_legales_movil.jpg";
+import "./img/icon_ocensa_gobierno_corporativo__agenda_anual.svg"
+import "./img/arrow-down-table.svg"
+
+
 
 
 /*===============FUNCTIONS===============*/
@@ -82,6 +87,7 @@ import "./img/grafica_ocensa_gobierno_corporativo_instancias_legales_movil.jpg";
 AOS.init();
 itemActive();
 desplaceMenu();
+showInfoTable();
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
