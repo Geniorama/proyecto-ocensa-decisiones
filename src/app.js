@@ -80,6 +80,7 @@ import "./img/icon_ocensa_gobierno_corporativo__agenda_anual.svg"
 import "./img/arrow-down-table.svg"
 import "./img/flecha-sin-fondo.svg"
 import "./img/flecha-descarga.svg"
+import "./img/icon_deslizar-h-azul.svg"
 
 
 
@@ -132,7 +133,11 @@ $(function() {
 
         iconHandle.attr('src', 'img/oc-icon-minus.svg')
         iconHandle.attr('class', 'oc-tab-icon__minus')
-        dateHandle.removeClass('d-none')
+
+        if(screen.width > 1290){
+            dateHandle.removeClass('d-none')
+        }
+       
     })
 
     $('#accordionInstancias .collapse').on('hidden.bs.collapse', function () {
@@ -142,7 +147,11 @@ $(function() {
 
         iconHandle.attr('src', 'img/oc-icon-more.svg')
         iconHandle.attr('class', 'oc-tab-icon__more')
-        dateHandle.addClass('d-none')
+
+        if(screen.width > 1290){
+            dateHandle.addClass('d-none')
+        }
+        
     })
 
     // Accordion Home

@@ -1,5 +1,10 @@
 {{>partials/header title="Instancias Organizacionales" body-class="home"}}
 
+{{!-- Bottom Header Mobile --}}
+<div class="d-block d-md-none">
+    {{>partials/bottom-header}}
+</div>
+
 <section class="oc-intro bg-secondary">
     <div class="container">
         <div class="d-flex justify-content-center py-5 align-items-center">
@@ -10,12 +15,22 @@
     </div>
 </section>
 
-{{>partials/bottom-header}}
+{{!-- Bottom Header Desktop --}}
+<div class="d-none d-md-block">
+    {{>partials/bottom-header}}
+</div>
+
 
 <section class="padding-section text-center" id="ins-organizacionales-grafica">
     <div class="container">
-        <img src="img/grafica_ocensa_gobierno_corporativo_instancias_organizacionales_escritorio@2x.png" alt=""
-            class="img-fluid mb-5">
+        <div class="oc-deslice mb-5 text-center position-relative d-block d-md-none">
+            <span class="d-block mb-2">Para navegar deslice horizontalmente</span>
+            <img src="img/icon_deslizar-h-azul.svg" alt="">
+        </div>
+        <div class="oc-box-image scrollbar mb-4">
+            <img src="img/grafica_ocensa_gobierno_corporativo_instancias_organizacionales_escritorio@2x.png" alt=""
+                class="img-fluid mb-5">
+        </div>
 
         <a href="#" class="oc-button-style-2">
             <button class="border-green before-white">
@@ -26,7 +41,7 @@
     </div>
 </section>
 
-<section class="padding-section" id="acc-ins-organizacionales">
+<section class="padding-section acc-ins-organizacionales" id="acc-ins-organizacionales">
     <div class="container">
         <div class="accordion oc-accordion" id="accordionInstancias">
             {{!-- Card Comité Ejecutivo --}}
@@ -40,10 +55,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__comite_ejecutivo.svg" alt=""
                                     class="oc-title-icon">
-                                Comité Ejecutivo
+                                <span class="d-none d-md-inline-block">Comité Ejecutivo</span>
                             </div>
-
+                            
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Comité Ejecutivo</span>
                                 <span class="oc-tab-icon__date d-none">Fecha publicación: Feb 10/2021</span>
                                 <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
                             </div>
@@ -207,10 +223,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__comite_inversiones.svg" alt=""
                                     class="oc-title-icon">
-                                Comité Inversiones
+                                <span class="d-none d-md-inline-block">Comité Inversiones</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Comité Inversiones</span>
                                 <span class="oc-tab-icon__date d-none">Fecha publicación: Feb 10/2021</span>
                                 <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
                             </div>
@@ -344,10 +361,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__foro_alineacion_tactica.svg" alt=""
                                     class="oc-title-icon">
-                                Foro Alineación Táctica
+                                <span class="d-none d-md-inline-block">Foro Alineación Táctica</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Foro Alineación Táctica</span>
                                 <span class="oc-tab-icon__date d-none">Fecha publicación: Feb 10/2021</span>
                                 <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
                             </div>
@@ -460,10 +478,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__foro_alineacion_tactica.svg" alt=""
                                     class="oc-title-icon">
-                                Consejo Abastecimiento
+                                <span class="d-none d-md-inline-block">Consejo Abastecimiento</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Consejo Abastecimiento</span>
                                 <span class="oc-tab-icon__date d-none">Fecha publicación: Feb 10/2021</span>
                                 <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
                             </div>
@@ -576,10 +595,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__comite_operaciones.svg" alt=""
                                     class="oc-title-icon">
-                                Comité Operaciones
+                                <span class="d-none d-md-inline-block">Comité Operaciones</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Comité Operaciones</span>
                                 <span class="oc-tab-icon__date d-none">Fecha publicación: Feb 10/2021</span>
                                 <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
                             </div>
@@ -710,10 +730,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__comite_gestion_financiera.svg" alt=""
                                     class="oc-title-icon">
-                                Comité Gestión Financiera
+                                <span class="d-none d-md-inline-block">Comité Gestión Financiera</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Comité Gestión Financiera</span>
                                 <span class="oc-tab-icon__date d-none">Fecha publicación: Feb 10/2021</span>
                                 <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
                             </div>
@@ -872,10 +893,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__comite_etica.svg" alt=""
                                     class="oc-title-icon">
-                                Comité Ética
+                                <span class="d-none d-md-inline-block">Comité Ética</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Comité Ética</span>
                                 <img src="img/oc-arrow-right-2.svg" alt="" class="oc-tab-icon__right">
                             </div>
                         </a>
@@ -901,10 +923,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__foro_tactico_hse.svg" alt=""
                                     class="oc-title-icon">
-                                Foro Táctico HSE
+                                <span class="d-none d-md-inline-block">Foro Táctico HSE</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Foro Táctico HSE</span>
                                 <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
                             </div>
                         </button>
@@ -1046,10 +1069,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__comite_mro.svg" alt=""
                                     class="oc-title-icon">
-                                Comité Marco Regulatorio Operacional
+                                <span class="d-none d-md-inline-block">Comité Marco Regulatorio Operacional</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Comité Marco Regulatorio Operacional</span>
                                 <span class="oc-tab-icon__date d-none">Fecha publicación: Feb 10/2021</span>
                                 <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
                             </div>
@@ -1185,10 +1209,11 @@
                             target="_blank">
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__imte.svg" alt="" class="oc-title-icon">
-                                IMT-E
+                                <span class="d-none d-md-inline-block">IMT-E</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">IMT-E</span>
                                 <img src="img/oc-arrow-right-2.svg" alt="" class="oc-tab-icon__right">
                             </div>
                         </a>
@@ -1214,10 +1239,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__foro_operativo_hse.svg" alt=""
                                     class="oc-title-icon">
-                                Foro Operativo HSE
+                                <span class="d-none d-md-inline-block">Foro Operativo HSE</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Foro Operativo HSE</span>
                                 <span class="oc-tab-icon__date d-none">Fecha publicación: Feb 10/2021</span>
                                 <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
                             </div>
@@ -1348,10 +1374,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__foro_desempeño_financiero.svg" alt=""
                                     class="oc-title-icon">
-                                Foro Desempeño Financiero
+                                <span class="d-none d-md-inline-block">Foro Desempeño Financiero</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Foro Desempeño Financiero</span>
                                 <span class="oc-tab-icon__date d-none">Fecha publicación: Feb 10/2021</span>
                                 <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
                             </div>
@@ -1468,10 +1495,11 @@
                             <div>
                                 <img src="img/icon_ocensa_gobierno_corporativo__foro_interferencia_con_terceros.svg"
                                     alt="" class="oc-title-icon">
-                                Foro Interferencia con Terceros
+                                <span class="d-none d-md-inline-block">Foro Interferencia con Terceros</span>
                             </div>
 
                             <div class="oc-tab-icon">
+                                <span class="d-block d-md-none">Foro Interferencia con Terceros</span>
                                 <span class="oc-tab-icon__date d-none">Fecha publicación: Feb 10/2021</span>
                                 <img src="img/oc-icon-more.svg" alt="" class="oc-tab-icon__more">
                             </div>

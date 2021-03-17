@@ -1,6 +1,11 @@
 {{!-- Importando Header --}}
 {{>partials/header title="Inicio" body-class="home"}}
 
+{{!-- Bottom Header Mobile --}}
+<div class="d-block d-md-none">
+    {{>partials/bottom-header}}
+</div>
+
 <section id="oc-home-decisiones" class="oc-intro-hero position-relative">
     <img src="img/logo-ocensa-home.svg" alt="" class="position-absolute logo-home ">
     <div class="container">
@@ -19,7 +24,10 @@
     </div>
 </section>
 
-{{>partials/bottom-header}}
+{{!-- Bottom Header Desktop --}}
+<div class="d-none d-md-block">
+    {{>partials/bottom-header}}
+</div>
 
 <section id="oc-home-decisiones-2" class="padding-section pb-0">
     <div class="container">
