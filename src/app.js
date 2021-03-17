@@ -161,6 +161,8 @@ $(function() {
         $('#oc-accordion-home .btn').removeClass('button-active')
         buttonHandle.addClass('button-active')
     })
+
+    AOS.refresh();
 });
  
  
