@@ -24,6 +24,8 @@
 #oc-home-decisiones-3
     background-color: #EEF1F3
     .text-decisiones-3
+        width: 88%
+        margin: auto
         color: #24A31A
         font-family: "cabin-bold", sans-serif
     .lineamientos-icon
@@ -56,28 +58,35 @@
     h2
         color: #24A31A
         font-family: "cabin-bold", sans-serif
+        width: 80%
+        margin: auto
     #oc-accordion-home
         button
             text-decoration: none
-            .hover-accordion
-                background-color: #24A31A
-                color: white
-        span
-            font-size: 1.5em
-            font-family: "roboto-light", sans-serif
-            color: $secondary
-            display: inline-flex
-            align-items: center
-            justify-content: center
-            margin-right: 1.5em
-            width: 100px
-            height: 100px
-            border: solid 2px #24A31A
-            border-radius: 50%
-            transition: all .4s
-            &:hover
-                background-color: #24A31A
-                color: white
+            display: block
+            width: 100%
+            text-align: left
+            .oc-icon-number
+                font-size: 1.5em
+                font-family: "roboto-light", sans-serif
+                color: $secondary
+                display: inline-flex
+                align-items: center
+                justify-content: center
+                margin-right: 1.5em
+                width: 100px
+                height: 100px
+                border: solid 2px #24A31A
+                border-radius: 50%
+                transition: all .4s
+            &:hover, &.button-active
+                .oc-icon-number
+                    background-color: #24A31A !important
+                    color: white
+        p
+            font-family: 'roboto-light', sans-serif
+            i
+                font-family: 'roboto-bold-italic', sans-serif
         .card-header
             background-color: white
         .card
@@ -88,10 +97,13 @@
     .oc-circle-icon
         width: 400px
         height: 400px
+        .oc-subtitle
+            font-family: "cabin-bold", sans-serif
     .img-circle
         width: 40%
     h2
         font-family: "roboto-light", sans-serif
+  
 
 @media screen and (max-width: 480px)
     #oc-home-decisiones
@@ -109,9 +121,9 @@
                     width: 240px !important
             .oc-button-down
                 transform: translateY(-15px) !important
-
-    #oc-home-decisiones-3
-        .text-decisiones-3
+    #oc-home-decisiones-7, #oc-home-decisiones-3
+        h2
+            width: 100%
             font-size: 1.5em
 
     #oc-home-decisiones-8

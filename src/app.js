@@ -78,6 +78,7 @@ import "./img/grafica_ocensa_gobierno_corporativo_instancias_legales_esritorio.j
 import "./img/grafica_ocensa_gobierno_corporativo_instancias_legales_movil.jpg";
 import "./img/icon_ocensa_gobierno_corporativo__agenda_anual.svg"
 import "./img/arrow-down-table.svg"
+import "./img/flecha-sin-fondo.svg"
 
 
 
@@ -122,7 +123,8 @@ $(function() {
     })
 
 
-    $('.collapse').on('shown.bs.collapse', function () {
+    // Accordion Instancias
+    $('#accordionInstancias .collapse').on('shown.bs.collapse', function () {
         let idCol = $(this).attr('id')
         let iconHandle = $(".button-collapse[data-target='#"+idCol+"'] .oc-tab-icon img")
         let dateHandle = $(".button-collapse[data-target='#"+idCol+"'] .oc-tab-icon .oc-tab-icon__date")
@@ -132,7 +134,7 @@ $(function() {
         dateHandle.removeClass('d-none')
     })
 
-    $('.collapse').on('hidden.bs.collapse', function () {
+    $('#accordionInstancias .collapse').on('hidden.bs.collapse', function () {
         let idCol = $(this).attr('id')
         let iconHandle = $(".button-collapse[data-target='#"+idCol+"'] .oc-tab-icon img")
         let dateHandle = $(".button-collapse[data-target='#"+idCol+"'] .oc-tab-icon .oc-tab-icon__date")
@@ -140,6 +142,14 @@ $(function() {
         iconHandle.attr('src', 'img/oc-icon-more.svg')
         iconHandle.attr('class', 'oc-tab-icon__more')
         dateHandle.addClass('d-none')
+    })
+
+    // Accordion Home
+    $('#oc-accordion-home .collapse').on('shown.bs.collapse', function () {
+        let idCol = $(this).attr('id')
+        let buttonHandle = $(".btn[data-target='#"+idCol+"']")
+        $('#oc-accordion-home .btn').removeClass('button-active')
+        buttonHandle.addClass('button-active')
     })
 });
  

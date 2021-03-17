@@ -101,15 +101,17 @@ var info_table = [
 const showInfoTable = () =>{
     const body_table = document.getElementById('tbody-agenda')
 
-    for (const item of info_table) {
-       body_table.innerHTML += `
-        <tr>
-            <td class="text-secondary">${item.proceso}</td>
-            <td>${item.tematica}</td>
-            <td class="text-center">${item.periodicidad}</td>
-            <td class="text-center">${item.naturaleza}</td>
-        </tr>
-       `
+    if(body_table){
+        for (const item of info_table) {
+            body_table.innerHTML += `
+             <tr>
+                 <td class="text-secondary">${item.proceso}</td>
+                 <td>${item.tematica}</td>
+                 <td class="text-center">${item.periodicidad}</td>
+                 <td class="text-center">${item.naturaleza}</td>
+             </tr>
+            `
+         }
     }
 }
 

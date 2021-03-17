@@ -1,0 +1,30 @@
+.oc-acc-box
+    padding: 1em 1.5em
+    color: white
+    p
+        margin: 0
+        font-size: 1.2em
+    &.oc-bg-gray
+        p, h5
+            color: #000
+            font-size: 1em
+        .text-primary
+            font-size: 1.2em
+        h5
+            margin: 1em 0
+        ul
+            li
+                color: #000
+                font-family: 'roboto-light', sans-serif
+                margin-bottom: .2em
+                position: relative
+                padding-left: 14px !important
+                &::before
+                    content: ''
+                    position: absolute
+                    width: 10px
+                    height: 10px
+                    border: 2px solid $primary
+                    border-radius: 50%
+                    left: 0
+                    top: 6px

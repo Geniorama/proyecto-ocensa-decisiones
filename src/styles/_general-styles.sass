@@ -10,6 +10,98 @@ h5, h6
 p
     font-family: 'roboto-medium', sans-serif
 
+/***************** RESET BOOTSTRAP CLASSES ********************/
+
+.container-fluid
+    max-width: 1850px !important
+
+.btn-secondary
+    border-radius: 50px
+    font-family: 'roboto-regular', sans-serif
+    &:hover
+        background-color: $primary
+        border-color: $primary
+
+.btn
+    outline: none !important
+    &:focus 
+        outline: none !important
+    &:active
+        outline: none !important
+
+
+/***************** HELP CLASSES ********************/
+.padding-section
+    padding: 4em 0
+
+.oc-icon-section
+    width: 45%
+    max-width: 120px
+    margin-left: -13px
+
+// Text
+.oc-roboto-light
+    font-family: 'roboto-light', sans-serif
+
+strong
+    font-family: 'roboto-bold', sans-serif
+
+.oc-subtitle
+    color: $secondary
+    font-size: 2.4em
+
+.oc-title-style-2
+    color: $secondary
+    font-family: 'roboto-bold', sans-serif
+
+.oc-text-color-dark
+    color: #000
+
+// Intro
+.oc-intro
+    &__icon
+        width: 120px
+    &__title
+        color: white
+
+.oc-intro-hero
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    height: 80vh
+    .container
+        height: 100%
+        .row
+            height: 100%
+            align-items: center
+    &__title
+        position: relative
+        color: white
+        font-size: 80px
+        font-family: 'roboto-bold', sans-serif
+        text-shadow: 2px 2px 6px rgb(0 0 0 / 20%)
+
+// Box icon & text
+.oc-line-title
+    position: relative
+    &::before
+        content: ''
+        position: absolute
+        left: -85px
+        width: 70px
+        height: 3px
+        bottom: 9px
+    &.line-green
+        &::before
+            background-color: $primary
+    &.line-white
+        &::before
+            background-color: white
+
+.oc-padding-title
+    padding-left: 80px
+
+// Scrollbar
 .scrollbar
     &::-webkit-scrollbar
         height: 4px
@@ -22,9 +114,11 @@ p
         &::-webkit-scrollbar
             width: 5px
 
-.container-fluid
-    max-width: 1850px !important
+.oc-h-100
+    height: 100%
 
+
+// Buttons & Links
 .link-style-2
     position: relative
     transition: all .4s
@@ -72,37 +166,6 @@ p
         button
             border-color: $primary
             color: $secondary !important
-.oc-h-100
-    height: 100%
-
-.oc-intro-hero
-    background-position: center
-    background-repeat: no-repeat
-    background-size: cover
-    height: 110vh
-    .container
-        height: 100%
-        .row
-            height: 100%
-            align-items: center
-    &__title
-        position: relative
-        color: white
-        font-size: 80px
-        font-family: 'roboto-bold', sans-serif
-        text-shadow: 2px 2px 6px rgb(0 0 0 / 20%)
-
-.oc-roboto-light
-    font-family: 'roboto-light', sans-serif
-
-strong
-    font-family: 'roboto-bold', sans-serif
-
-.oc-intro
-    &__icon
-        width: 120px
-    &__title
-        color: white
 
 .oc-button-arrow
     display: inline-block
@@ -114,6 +177,33 @@ strong
         width: 45px
     &:hover
         text-decoration: none
+
+.oc-button-down
+    width: 35px 
+    height: 35px
+    display: inline-block
+    img
+        width: 100%
+        height: 100%
+
+// Background image
+.oc-bg-image
+    background-size: cover
+    background-repeat: no-repeat
+
+// Background colors
+.oc-bg
+    &-gray
+        background-color: #f5f5f5
+    &-yellow
+        background-color: $yellow-co
+    &-turq
+        background-color: $turquoise-co
+    &-green
+        background-color: $primary
+
+
+/***************** ACCORDION CUSTOM ********************/
 
 .oc-accordion
     .card-header
@@ -136,118 +226,49 @@ strong
             font-size: .7em
             font-family: "roboto-regular", sans-serif
 
-.padding-section
-    padding: 4em 0
-
-.oc-icon-section
-    width: 45%
-    max-width: 120px
-    margin-left: -13px
-
-.oc-button-down
-    transform: translateY(70px)
-    width: 35px 
-    height: 35px
-    display: inline-block
-    img
-        width: 100%
-        height: 100%
-
-.oc-subtitle
-    color: $secondary
-    font-size: 2.4em
-
-.oc-title-style-2
-    color: $secondary
-    font-family: 'roboto-bold'
-
-.oc-text-color-dark
-    color: #000
-
-.oc-circle
-    width: 60px
-    height: 60px
-    border-radius: 50px
-    border: 4px solid $primary
-    margin-bottom: -29px
-    position: relative
-    margin-left: 50px
-
-.oc-row-full
-    min-height: 80vh
-    .oc-col-full
-        width: 50%
-
-.oc-bg-image
-    background-size: cover
-    background-repeat: no-repeat
-
-.oc-bg
-    &-gray
-        background-color: #f5f5f5
-    &-yellow
-        background-color: $yellow-co
-    &-turq
-        background-color: $turquoise-co
-    &-green
-        background-color: $primary
-
-.oc-acc-box
-    padding: 1em 1.5em
-    color: white
-    p
-        margin: 0
-        font-size: 1.2em
-    &.oc-bg-gray
-        p, h5
-            color: #000
-            font-size: 1em
-        .text-primary
-            font-size: 1.2em
-        h5
-            margin: 1em 0
-        ul
-            li
-                color: #000
-                font-family: 'roboto-light', sans-serif
-                margin-bottom: .2em
-                position: relative
-                padding-left: 14px !important
-                &::before
-                    content: ''
-                    position: absolute
-                    width: 10px
-                    height: 10px
-                    border: 2px solid $primary
-                    border-radius: 50%
-                    left: 0
-                    top: 6px
-
-.oc-line-title
-    position: relative
-    &::before
-        content: ''
-        position: absolute
-        left: -85px
-        width: 70px
-        height: 3px
-        bottom: 9px
-    &.line-green
-        &::before
-            background-color: $primary
-    &.line-white
-        &::before
-            background-color: white
-
-.oc-padding-title
-    padding-left: 80px
-
-.btn-secondary
-    border-radius: 50px
-    font-family: 'roboto-regular', sans-serif
+.oc-button-style-2
     &:hover
-        background-color: $primary
-        border-color: $primary
+        text-decoration: none !important
+    button
+        width: 50px
+        height: 50px
+        border: 2px solid black
+        background: transparent
+        display: inline-flex
+        align-items: center
+        justify-content: center
+        border-radius: 50%
+        position: relative
+        transition: $tr
+        &::before
+            content: ''
+            position: absolute
+            width: 10px
+            height: 20px
+            left: -5px
+            transition: $tr
+        &.border-green
+            border-color: $primary
+            &:hover
+                background-color: $primary
+                &::before
+                    width: 0
+        &.border-white
+            border-color: white
+            &:hover
+                background-color: white
+                &::before
+                    width: 0
+        &.before-turq
+            &::before
+                background-color: $turquoise-co
+        &.before-yellow
+            &::before
+                background-color: $yellow-co
+        img
+            width: 20px
+
+// Responsive mobile
 
 @media (max-width: 480px)
     .oc-intro-hero
