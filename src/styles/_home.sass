@@ -13,7 +13,8 @@
                 font-family: "roboto-bold"
         .oc-button-down
             margin-bottom: 0px
-
+section
+    overflow: hidden
 #oc-home-decisiones-2
     p
         font-family: "roboto-light", sans-serif
@@ -142,6 +143,29 @@
         span
             color: white
 
+/*Ilustaciones por capas*/
+.oc-dec-cont
+    position: relative
+    &__img
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+        width: auto
+    &__01
+        height: 450px
+    &__02
+        height: 560px
+    &__03
+        height: 600px
+    &__04
+        height: 540px
+    &__05
+        height: 710px
+    &__06
+        height: 626px
+    &__07
+        height: 720px
 
 // Responsive home tablet
 @media (min-width: 480px) and ( max-width: 769px)
@@ -161,7 +185,7 @@
             height: 300px
             .oc-subtitle
                 font-size: 1.7em
-    
+
 
 // Responsive home mobile
 @media screen and (max-width: 480px)
@@ -196,3 +220,19 @@
                 font-family: "roboto-regular", sans-serif
         .oc-bg-yellow
             margin-top: 3em
+    .oc-dec-cont__01
+        height: 320px
+    .oc-dec-cont__02
+        height: 320px
+    .oc-dec-cont__03
+        height: 350px
+    .oc-dec-cont__04
+        height: 310px
+    .oc-dec-cont__05
+        height: 400px
+    .oc-dec-cont__06
+        height: 450px
+    .oc-dec-cont__07
+        height: 460px
+    
+

@@ -82,6 +82,42 @@ import "./img/flecha-sin-fondo.svg"
 import "./img/flecha-descarga.svg"
 import "./img/icon_deslizar-h-azul.svg"
 
+import "./img/2-fondo-01.png";
+import "./img/2-fondo-02.png";
+import "./img/2-personaje-01.png";
+import "./img/2-personaje-02.png";
+import "./img/2-personaje-03.png";
+import "./img/2-personaje-04.png";
+import "./img/2-personaje-05.png";
+
+import "./img/3-fondo-01.png";
+import "./img/3-personaje-01.png";
+import "./img/3-personaje-02.png";
+import "./img/3-personaje-03.png";
+import "./img/3-personaje-04.png";
+
+import "./img/4-fondo-01.png";
+import "./img/4-icono-01.png";
+import "./img/4-icono-02.png";
+import "./img/4-icono-03.png";
+import "./img/4-mano-01.png";
+
+import "./img/5-fondo-01.png";
+import "./img/5-fondo-02.png";
+import "./img/5-personaje-01.png";
+import "./img/5-personaje-02.png";
+
+import "./img/6-fondo-01.png";
+import "./img/6-personaje-01.png";
+import "./img/6-personaje-02.png";
+
+import "./img/7-fondo-01.png";
+import "./img/7-fondo-02.png";
+import "./img/7-personaje-01.png";
+
+import "./img/1-fondo-01.png";
+import "./img/1-fondo-02.png";
+import "./img/1-personaje-01.png";
 
 
 
