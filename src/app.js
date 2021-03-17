@@ -79,6 +79,7 @@ import "./img/grafica_ocensa_gobierno_corporativo_instancias_legales_movil.jpg";
 import "./img/icon_ocensa_gobierno_corporativo__agenda_anual.svg"
 import "./img/arrow-down-table.svg"
 import "./img/flecha-sin-fondo.svg"
+import "./img/flecha-descarga.svg"
 
 
 

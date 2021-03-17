@@ -227,11 +227,17 @@ strong
             font-family: "roboto-regular", sans-serif
 
 .oc-button-style-2
+    display: inline-flex
+    align-items: center
+    span
+        display: inline-block
+        margin-left: .5em
+        font-family: "roboto-regular", sans-serif
     &:hover
         text-decoration: none !important
     button
-        width: 50px
-        height: 50px
+        width: 45px
+        height: 45px
         border: 2px solid black
         background: transparent
         display: inline-flex
@@ -262,9 +268,24 @@ strong
         &.before-turq
             &::before
                 background-color: $turquoise-co
+        &.before-white
+            &::before
+                background-color: white
         &.before-yellow
             &::before
                 background-color: $yellow-co
+        &.before-up
+            &::before
+                top: -5px
+                left: calc( 50% - 12.5px )
+                width: 25px
+                height: 10px
+            img
+                width: 12px
+            &:hover
+                &::before
+                    width: 25px
+                    height: 0
         img
             width: 20px
 
@@ -272,7 +293,6 @@ strong
 
 @media (max-width: 480px)
     .oc-intro-hero
-        margin-top: 7em
         &__title
             font-size: 40px
             position: relative
@@ -297,8 +317,11 @@ strong
         margin-bottom: 1em
         &::before
             left: 0
-            top: 105%
+            top: 115%
             bottom: -15px !important    
 
     .oc-intro-hero
         height: 50vh
+
+    .oc-padding-title
+        padding: 1em

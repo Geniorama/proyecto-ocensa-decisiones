@@ -5,9 +5,6 @@
         top: 15%
     &.oc-intro-hero
         background-color: $secondary
-        .img-header
-            img
-                width: 550px
         h2
             font-size: 75px
             color: white
@@ -29,12 +26,48 @@
         color: #24A31A
         font-family: "cabin-bold", sans-serif
     .lineamientos-icon
-        img
-            width: 150px
+        &__fig
+            width: 180px
+            height: 180px
+            text-align: center
+            margin: auto
+            padding: 1em
+            margin-bottom: 1em
+            transition: $tr
+            border-radius: 50%
+            img
+                width: 100%
         p
             font-family: "roboto-regular", sans-serif
             color: $secondary
+            font-size: 1.2em
+            transition: $tr
 
+        a
+            position: relative
+            display: block
+            padding-bottom: .5em !important
+            &:hover
+                text-decoration: none
+                .lineamientos-icon__fig
+                    background-color: white
+                p
+                    color: $primary
+                    font-family: 'roboto-bold', sans-serif
+                &::before
+                    width: 100%
+            &::before
+                content: ''
+                position: absolute
+                width: 0
+                height: 5px
+                background-color: $primary
+                left: 0
+                bottom: 0
+                transition: $tr
+                
+
+        
 #oc-home-decisiones-4
     .info-decisiones
         img
@@ -103,12 +136,37 @@
         width: 40%
     h2
         font-family: "roboto-light", sans-serif
-  
 
+#oc-home-decisiones-9
+    .oc-button-style-2
+        span
+            color: white
+
+
+// Responsive home tablet
+@media (min-width: 480px) and ( max-width: 769px)
+    #oc-home-decisiones
+        &.oc-intro-hero
+            height: auto !important
+            padding-bottom: 2em
+            h2
+                font-size: 3em
+    
+    #oc-home-decisiones-7
+        .img-fluid
+            width: 30% !important
+    #oc-home-decisiones-8
+        .oc-circle-icon
+            width: 300px
+            height: 300px
+            .oc-subtitle
+                font-size: 1.7em
+    
+
+// Responsive home mobile
 @media screen and (max-width: 480px)
     #oc-home-decisiones
         position: relative
-        height: 450px
         .logo-home
             display: none
             position: relative
@@ -125,6 +183,9 @@
         h2
             width: 100%
             font-size: 1.5em
+        .lineamientos-icon
+            &__fig
+                margin-bottom: 0
 
     #oc-home-decisiones-8
         .oc-circle-icon
