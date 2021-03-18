@@ -119,6 +119,11 @@ import "./img/1-fondo-01.svg";
 import "./img/1-fondo-02.svg";
 import "./img/1-personaje-01.svg";
 
+// PDF
+import "./downloads/Codigo-de-Gobierno-Ocensa-2020.pdf"
+import "./downloads/Documento-EstatutosSociales.pdf"
+import "./downloads/matriz-delegacion-autoridad.pdf"
+
 
 
 /*===============FUNCTIONS===============*/

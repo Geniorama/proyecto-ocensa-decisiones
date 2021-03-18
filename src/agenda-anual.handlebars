@@ -1,5 +1,10 @@
 {{>partials/header title="Agenda anual" body-class="agenda-anual"}}
 
+{{!-- Bottom Header Mobile --}}
+<div class="d-block d-lg-none bottom-header-mobile">
+    {{>partials/bottom-header}}
+</div>
+
 <section class="oc-intro oc-bg-turq">
     <div class="container">
         <div class="d-flex justify-content-center py-5 align-items-center" data-aos="zoom-in" data-aos-duration="2000">
@@ -9,7 +14,10 @@
     </div>
 </section>
 
-{{>partials/bottom-header}}
+{{!-- Bottom Header Desktop --}}
+<div class="d-none d-lg-block">
+    {{>partials/bottom-header}}
+</div>
 
 
 <section class="padding-section" id="agenda-anual-tabla">

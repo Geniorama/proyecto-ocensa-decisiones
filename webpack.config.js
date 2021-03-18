@@ -119,6 +119,19 @@ module.exports = {
             },
 
             {
+                test: /\.(pdf)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'downloads'
+                        }
+                    }
+                ]
+            },
+
+            {
                 loader: 'image-webpack-loader',
                 options: {
                     mozjpeg: {

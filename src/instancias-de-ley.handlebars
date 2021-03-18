@@ -1,5 +1,11 @@
 {{>partials/header title="Instancias de ley, Segmento y otras" body-class="instancias-de-ley"}}
 
+{{!-- Bottom Header Mobile --}}
+<div class="d-block d-lg-none bottom-header-mobile">
+    {{>partials/bottom-header}}
+</div>
+
+
 <section id="instancias-1" class="oc-intro oc-bg-yellow">
     <div class="container">
         <div class="d-flex justify-content-center py-5 align-items-center" data-aos="zoom-in" data-aos-duration="2000">
@@ -10,7 +16,10 @@
     </div>
 </section>
 
-{{>partials/bottom-header}}
+{{!-- Bottom Header Desktop --}}
+<div class="d-none d-lg-block">
+    {{>partials/bottom-header}}
+</div>
 
 <section id="instancias-2" class="padding-section">
     <div class="container">
