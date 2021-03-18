@@ -81,6 +81,8 @@ import "./img/arrow-down-table.svg"
 import "./img/flecha-sin-fondo.svg"
 import "./img/flecha-descarga.svg"
 import "./img/icon_deslizar-h-azul.svg"
+import "./img/mapa-01.svg"
+import "./img/isotipo_ocensa_gobierno_corporativo.svg"
 
 import "./img/2-fondo-01.svg";
 import "./img/2-fondo-02.svg";
